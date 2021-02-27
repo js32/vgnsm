@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://youthful-jackson-e0622d.netlify.app"
 languageCode = "de"
 defaultContentLanguage = "de"
 title = "VGNSM"                         # site title  # 网站标题
