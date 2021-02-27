@@ -1,7 +1,7 @@
 ---
 title: "Motivation"
-date: 2018-12-29T20:24:28+08:00
-hidden: true
+date: 2021-02-27T20:24:28+08:00
+hidden: false
 draft: false
 ---
 Ich bin Jens, lebe und arbeite mit meiner Freundin in Mainz. Ex-Philosoph, technikaffin, Veganer.
