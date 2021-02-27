@@ -1,9 +1,9 @@
 baseURL = "https://xenodochial-dijkstra-5027a6.netlify.app"
 languageCode = "de"
 defaultContentLanguage = "de"
-title = "VGNSM"                         # site title  # 网站标题
+title = "VGNSMS"                         # site title  # 网站标题
 theme = "zozo"
-hasCJKLanguage = true                  # has chinese/japanese/korean ?  # 自动检测是否包含 中文\日文\韩文
+hasCJKLanguage = false                  # has chinese/japanese/korean ?  # 自动检测是否包含 中文\日文\韩文
 summaryLength = 100
 paginate = 4                           # shows the number of articles  # 首页显示文章数量
 enableEmoji = true
@@ -44,7 +44,7 @@ pygmentscodefencesguesssyntax = true
 [params]
   subTitle = "Veganismus, der | Substantiv maskulin"                                       # site's subTitle  # 网站二级标题
   footerSlogan = "Eine Seite für Betroffene"                                   # site's footer slogan  # 网站页脚标语
-  keywords = ["Veganismus","Ethik","Umweltschutz"]                                  # site's keywords  # 网站关键字
+  keywords = ["Veganismus","Ethik","Umweltschutz","Konsumkritik"]                                  # site's keywords  # 网站关键字
   description = "Ein persönlicher Blog über Veganismus."                        # site's description  # 网站描述
   enableMathJax = true                                                 # enable mathjax  # 是否使用mathjax（数学公式）
   enableSummary = true                                                 # display the article summary  # 是否显示文章摘要
