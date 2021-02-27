@@ -3,6 +3,8 @@ title: "Motivation"
 date: 2021-02-27T20:24:28+08:00
 hidden: false
 draft: false
+tags: ["Motivation"]
+slug: "English Preview"
 ---
 Ich bin Jens, lebe und arbeite mit meiner Freundin in Mainz. Ex-Philosoph, technikaffin, Veganer.
 
