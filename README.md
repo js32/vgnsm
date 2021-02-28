@@ -1,3 +1,4 @@
 # vgnsm-zozo
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ce4b68d3-6712-4281-9fd7-4ca626a4ee66/deploy-status)](https://app.netlify.com/sites/xenodochial-dijkstra-5027a6/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2a5c0725-1bdc-4f5e-8696-fefa7e6cd6d1/deploy-status)](https://app.netlify.com/sites/elegant-wiles-5ad52c/deploys)
+
