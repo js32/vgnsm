@@ -1,6 +1,6 @@
 baseURL = "https://elegant-wiles-5ad52c.netlify.app"                        
-languageCode = "de"
-defaultContentLanguage = "de"
+languageCode = "en"
+defaultContentLanguage = "en"
 title = "VGNSMS"                         # site title 
 theme = "zozo"
 hasCJKLanguage = false                  # has chinese/japanese/korean ?  
