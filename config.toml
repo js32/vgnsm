@@ -42,7 +42,7 @@ pygmentscodefencesguesssyntax = true
   url = "/about/"
 
 [params]
-  subTitle = "Veganismus, der | Substantiv maskulin"                                       # site's subTitle  
+  subTitle = ", der; Subst. mask."                                       # site's subTitle  
   footerSlogan = "Eine Seite für Betroffene"                                   # site's footer slogan  
   keywords = ["Veganismus","Ethik","Umweltschutz","Konsumkritik"]                                  # site's keywords  
   description = "Ein persönlicher Blog über Veganismus."                        # site's description 
@@ -62,11 +62,12 @@ pygmentscodefencesguesssyntax = true
 
 # Your socail's url
 [social]
- # github = " "
+ github = " "
  # twitter = " "
  # facebook = " "
  # weibo = " "
  # instagram = " "
+  mail = " "
 
 [markup]
 [markup.goldmark]
