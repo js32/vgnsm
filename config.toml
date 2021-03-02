@@ -62,12 +62,12 @@ pygmentscodefencesguesssyntax = true
 
 # Your socail's url
 [social]
- github = " "
+ github = "https://github.com/js32"
  # twitter = " "
  # facebook = " "
  # weibo = " "
  # instagram = " "
-  mail = " "
+  mail = "mailto:dieses.veganismus@posteo.jp"
 
 [markup]
 [markup.goldmark]
