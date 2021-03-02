@@ -42,7 +42,7 @@ pygmentscodefencesguesssyntax = true
   url = "/about/"
 
 [params]
-  subTitle = ", der; Subst. mask."                                       # site's subTitle  
+  subTitle = ": der; Subst. mask."                                       # site's subTitle  
   footerSlogan = "Eine Seite für Betroffene"                                   # site's footer slogan  
   keywords = ["Veganismus","Ethik","Umweltschutz","Konsumkritik"]                                  # site's keywords  
   description = "Ein persönlicher Blog über Veganismus."                        # site's description 
