@@ -7,7 +7,7 @@ hasCJKLanguage = false                  # has chinese/japanese/korean ?
 summaryLength = 100
 paginate = 4                           # shows the number of articles  
 enableEmoji = true
-googleAnalytics = ""                   # your google analytics id
+googleAnalytics = "UA-191242278-1"                   # your google analytics id
 disqusShortname = ""                   # your discuss shortname
 
 pygmentsUseClasses = true
@@ -25,7 +25,7 @@ pygmentscodefencesguesssyntax = true
  # weight = 10
  # identifier = "home"
  # url = "/"
-# [[menu.main]]
+# [[menu.main]]                       # wieder aktivieren, sobald Kontent auf der Seite ist
 #   name = "Archiv"
 #   weight = 30
 #   identifier = "archive"
