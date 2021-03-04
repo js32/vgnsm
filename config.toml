@@ -25,11 +25,11 @@ pygmentscodefencesguesssyntax = true
  # weight = 10
  # identifier = "home"
  # url = "/"
-[[menu.main]]
-  name = "Archiv"
-  weight = 30
-  identifier = "archive"
-  url = "/posts/"
+# [[menu.main]]
+#   name = "Archiv"
+#   weight = 30
+#   identifier = "archive"
+#   url = "/posts/"
 [[menu.main]]
   name = "Tags"
   weight = 40
