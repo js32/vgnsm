@@ -10,6 +10,9 @@ enableEmoji = true
 googleAnalytics = "UA-191242278-1"                   # your google analytics id
 disqusShortname = ""                   # your discuss shortname
 
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
 pygmentsUseClasses = true
 pygmentCodeFences = true
 pygmentscodefencesguesssyntax = true

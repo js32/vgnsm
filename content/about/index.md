@@ -20,3 +20,4 @@ Schließlich ist Verdrängung machtvoll und wer möchte schon freiwillig das „
 Daher freue ich mich, dass sie hier sind. Ich hoffe, sie können etwas interessantes zum Thema finden und vielleicht kann diese Seite etwas zu ihrem und unserem Wandel beitragen. Ihr Körper, ihr Geist, unsere Umwelt und damit nachfolgende Generationen und die Milliarden Tiere, die jährlich sinnlos abgeschlachtet werden, werden es ihnen danken. Ich danke ihnen.
 
 Diese Seite soll eine weitere Stimme sein für unsere ungehörten, nicht sprachlosen, Mitgeschöpfe. Ein kleiner Akt des Mitgefühls.
+
