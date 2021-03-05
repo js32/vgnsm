@@ -1,13 +1,13 @@
 baseURL = "/"                        
 languageCode = "de"
 defaultContentLanguage = "de"
-title = "VGNSMS"                         # site title 
+title = "VGNSMS"                       # site title 
 theme = "zozo"
-hasCJKLanguage = false                  # has chinese/japanese/korean ?  
-summaryLength = 100
+hasCJKLanguage = false                 # has chinese/japanese/korean ?  
+summaryLength = 30
 paginate = 4                           # shows the number of articles  
 enableEmoji = true
-googleAnalytics = "UA-191242278-1"                   # your google analytics id
+googleAnalytics = "UA-191242278-1"     # your google analytics id
 disqusShortname = ""                   # your discuss shortname
 
 [outputs]
@@ -28,13 +28,13 @@ pygmentscodefencesguesssyntax = true
  # weight = 10
  # identifier = "home"
  # url = "/"
-# [[menu.main]]                       # wieder aktivieren, sobald Kontent auf der Seite ist
-#   name = "Archiv"
-#   weight = 30
-#   identifier = "archive"
-#   url = "/posts/"
+[[menu.main]]                       # wieder aktivieren, sobald Kontent auf der Seite ist
+  name = "Alle Posts"
+  weight = 30
+  identifier = "archive"
+  url = "/posts/"
 [[menu.main]]
-  name = "Tags"
+  name = "Kategorien"
   weight = 40
   identifier = "tags"
   url = "/tags/"
@@ -46,11 +46,11 @@ pygmentscodefencesguesssyntax = true
 
 [params]
   subTitle = ": der; Subst. mask."                                       # site's subTitle  
-  footerSlogan = "Eine Seite für Betroffene"                                   # site's footer slogan  
-  keywords = ["Veganismus","Ethik","Umweltschutz","Konsumkritik"]                                  # site's keywords  
-  description = "Ein persönlicher Blog über Veganismus."                        # site's description 
-  enableMathJax = true                                                 # enable mathjax  
-  enableSummary = true                                                 # display the article summary  
+  footerSlogan = "Eine Seite für Betroffene"                             # site's footer slogan  
+  keywords = ["Veganismus","Ethik","Umweltschutz","Konsumkritik"]        # site's keywords  
+  description = "Ein persönlicher Blog über Veganismus."                 # site's description 
+  enableMathJax = true                                                   # enable mathjax  
+  enableSummary = true                                                   # display the article summary  
   mainSections = ["posts","post"]
   
 # Valine.
