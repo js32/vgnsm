@@ -38,7 +38,7 @@ Die Assoziationen haben ihre eigenen Unzulänglichkeiten – es leuchtet jedoch 
 
 Chemische Stoffe werden oft als „künstlich“, „schädlich“, „giftig“, „ungesund“, aber auch als „rein“ im Sinne von „konzentriert“, und „gefährlich“ wahrgenommen. Wollte man neutral bei der Sache bleiben, müsste man darunter „Naturwissenschaftliche Disziplin“ verstehen. „Chemie“ erleidet ein ganz anderes Schicksal als „Natur“ und „Gesundheit“, sie wird fast ausschließlich negativ konnotiert. Es wäre aus kulturanthropologischer Sicht sicherlich interessant, diesen begrifflichen Gegensatzpaaren nachzugehen.
 
-Es verwundert es nicht, warum der Supplementekonsum bei der veganen Mangelernährung als unnatürlich charakterisiert wird, zumal die vegane Ernährung ganz offensichtlich nicht in der Lage ist, den Menschen mit allen notwenigen Nährstoffen auf natürliche Weise zu versorgen. 
+Es verwundert es nicht, warum der Supplementekonsum bei der veganen *Mangelernährung* als unnatürlich charakterisiert wird, zumal die vegane Ernährung ganz offensichtlich nicht in der Lage ist, den Menschen mit allen notwenigen Nährstoffen auf natürliche Weise zu versorgen.
 
 
 

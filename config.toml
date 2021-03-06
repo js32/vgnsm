@@ -52,6 +52,7 @@ pygmentscodefencesguesssyntax = true
   enableMathJax = true                                                   # enable mathjax  
   enableSummary = true                                                   # display the article summary  
   mainSections = ["posts","post"]
+  customCSS = ["custom.css"]
   
 # Valine.
 # You can get your appid and appkey from https://leancloud.cn
