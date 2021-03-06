@@ -6,7 +6,8 @@
     {{ if .Site.Params.enableSummary }}
     <div class="list">
         <div class="post_content markdown">
-            <p>{{ .Summary }} (…)</p>
+            <p>{{ .Summary }}>
+                <a href='{{ .RelPermalink }}'>(…)</a></p>
         </div>
     </div>
     {{ end }}
