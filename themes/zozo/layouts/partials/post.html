@@ -1,5 +1,4 @@
-{{ $paginator := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) }}
-{{ range $paginator.Pages }}
+{{ $paginator := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) }} {{ range $paginator.Pages }}
 <div class="post animated fadeInDown">
     <div class="post_title">
         <h2><a href='{{ .RelPermalink }}'>{{ .Title }}</a></h2>
@@ -24,8 +23,7 @@
                     {{ range . }}
                     <a href="{{ "tags" | absURL }}/{{ . | urlize }}/">{{ . }}</a>
                     {{ end }}
-                </span>
-                {{ end }}
+                </span> {{ end }}
             </div>
         </div>
     </div>
@@ -33,16 +31,11 @@
 {{ end }}
 
 <div class="pagination">
-    {{ if or ($paginator.HasPrev) ($paginator.HasNext) }}
-    {{ if $paginator.HasPrev }}
+    {{ if or ($paginator.HasPrev) ($paginator.HasNext) }} {{ if $paginator.HasPrev }}
     <a href="{{$paginator.Prev.URL}}" class="pre">
         {{ i18n "prev_page" }}
-    </a>
-    {{ end }}
-    {{ if $paginator.HasNext }}
+    </a> {{ end }} {{ if $paginator.HasNext }}
     <a href="{{$paginator.Next.URL}}" class="next">
         {{ i18n "next_page" }}
-    </a>
-    {{ end }}
-    {{ end }}
+    </a> {{ end }} {{ end }}
 </div>
