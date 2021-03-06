@@ -1,14 +1,14 @@
 baseURL = "/"                        
 languageCode = "de"
 defaultContentLanguage = "de"
-title = "VGNSMS"                       # site title 
+title = "VGNSMS"                          # site title 
 theme = "zozo"
-hasCJKLanguage = false                 # has chinese/japanese/korean ?  
+hasCJKLanguage = false                    # has chinese/japanese/korean ?  
 summaryLength = 30
-paginate = 4                           # shows the number of articles  
+paginate = 4                              # shows the number of articles  
 enableEmoji = true
-googleAnalytics = "UA-191242278-1"     # your google analytics id
-disqusShortname = "@disqus_OlLLFboZ76"                   # your discuss shortname
+googleAnalytics = "UA-191242278-1"        # your google analytics id
+disqusShortname = "@disqus_OlLLFboZ76"    # your disquss shortname
 
 # [outputs]
 #  home = ["HTML", "RSS", "JSON"]
@@ -28,7 +28,7 @@ pygmentscodefencesguesssyntax = true
  # weight = 10
  # identifier = "home"
  # url = "/"
-[[menu.main]]                       # wieder aktivieren, sobald Kontent auf der Seite ist
+[[menu.main]]                          
   name = "Alle Posts"
   weight = 30
   identifier = "archive"
