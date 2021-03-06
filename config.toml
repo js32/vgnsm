@@ -10,8 +10,8 @@ enableEmoji = true
 googleAnalytics = "UA-191242278-1"     # your google analytics id
 disqusShortname = ""                   # your discuss shortname
 
-[outputs]
-  home = ["HTML", "RSS", "JSON"]
+# [outputs]
+#  home = ["HTML", "RSS", "JSON"]
 
 pygmentsUseClasses = true
 pygmentCodeFences = true
@@ -20,7 +20,7 @@ pygmentscodefencesguesssyntax = true
 [author]                               # essential                    
   name = "Jens"
 
-[blackfriday]
+[blackfriday]                          # markdown interpreter, see: https://github.com/russross/blackfriday
   smartypants = false
 
 [[menu.main]]                          # config your menu  

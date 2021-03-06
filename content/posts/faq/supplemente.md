@@ -5,7 +5,9 @@ date: 2021-02-27T20:24:28+08:00
 hidden: false
 draft: true
 tags: ["Ernährung", "Philosophie", "Ethik"]
-
+keywords: []
+description: ""
+slug: ""
 ---
 
 Ein Totschlagargument, das oft in Gesprächen vorgebracht wird, ist der Hinweis auf die Unnatürlichkeit der Einnahme von Nahrungsergänzungsmitteln. Es wird darauf verwiesen, dass wir uns möglichst „natürlich“ ernähren sollten, ohne auf „künstliche“, „chemische“ „Pillen“ angewiesen sein zu müssen.
