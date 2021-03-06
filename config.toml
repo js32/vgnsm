@@ -8,7 +8,7 @@ summaryLength = 30
 paginate = 4                           # shows the number of articles  
 enableEmoji = true
 googleAnalytics = "UA-191242278-1"     # your google analytics id
-disqusShortname = "disqus_OlLLFboZ76"                   # your discuss shortname
+disqusShortname = "@disqus_OlLLFboZ76"                   # your discuss shortname
 
 # [outputs]
 #  home = ["HTML", "RSS", "JSON"]
@@ -80,7 +80,7 @@ pygmentscodefencesguesssyntax = true
 
 [privacy]
   [privacy.disqus]
-    disable = false
+    disable = true
   [privacy.googleAnalytics]
     anonymizeIP = true
     respectDoNotTrack = true
