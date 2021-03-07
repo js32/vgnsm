@@ -3,7 +3,7 @@ title: "Ist Supplemente nehmen nicht unnatürlich?"
 date: 2021-02-27T20:24:28+08:00
 hidden: false
 draft: false
-tags: ["Ernährung", "Philosophie", "Ethik"]
+tags: ["Ernährung", "Philosophie"]
 keywords: []
 description: ""
 slug: ""
