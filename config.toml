@@ -52,7 +52,7 @@ pygmentscodefencesguesssyntax = true
   enableMathJax = true                                                   # enable mathjax  
   enableSummary = true                                                   # display the article summary  
   mainSections = ["posts","post"]
-  customCSS = ["custom.css"]
+  customCSS = ["custom.css"]                                             # adding my own css
   
 # Valine.
 # You can get your appid and appkey from https://leancloud.cn
@@ -94,3 +94,8 @@ pygmentscodefencesguesssyntax = true
     simple = true
   [privacy.youtube]
     privacyEnhanced = true
+
+  [sitemap]
+    changefreq = "monthly"
+    filename = "sitemap.xml"
+    priority = 0.5
