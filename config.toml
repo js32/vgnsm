@@ -8,7 +8,7 @@ summaryLength = 30
 paginate = 4                              # shows the number of articles  
 enableEmoji = true
 googleAnalytics = "UA-191242278-1"        # your google analytics id
-disqusShortname = "@disqus_OlLLFboZ76"    # your disquss shortname
+# disqusShortname = "@disqus_OlLLFboZ76"    # your disquss shortname
 
 # [outputs]
 #  home = ["HTML", "RSS", "JSON"]
@@ -82,17 +82,24 @@ pygmentscodefencesguesssyntax = true
   [privacy.disqus]
     disable = true
   [privacy.googleAnalytics]
+    disable = false
     anonymizeIP = true
     respectDoNotTrack = true
     useSessionStorage = true
   [privacy.instagram]
     disable = true
+    simple = true
   [privacy.twitter]
     disable = true
+    enableDNT = true
+    simple = true
+    disableInlineCSS = true
   [privacy.vimeo]
+    disable = false
     enableDNT = true
     simple = true
   [privacy.youtube]
+    disable = false
     privacyEnhanced = true
 
   [sitemap]
