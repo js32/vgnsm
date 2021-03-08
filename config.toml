@@ -1,7 +1,7 @@
 baseURL = "/"                        
 languageCode = "de"
 defaultContentLanguage = "de"
-title = "VGNSMS"                          # site title 
+title = "VGNSMS."                          # site title 
 theme = "zozo"
 hasCJKLanguage = false                    # has chinese/japanese/korean ?  
 summaryLength = 30
@@ -45,7 +45,7 @@ pygmentscodefencesguesssyntax = true
   url = "/about/"
 
 [params]
-  subTitle = ": der; Subst. mask."                                       # site's subTitle  
+  subTitle = "Der; Subst. mask."                                       # site's subTitle  
   footerSlogan = "Eine Seite für Betroffene"                             # site's footer slogan  
   keywords = ["Veganismus","Ethik","Umweltschutz","Konsumkritik"]        # site's keywords  
   description = "Ein persönlicher Blog über Veganismus."                 # site's description 
