@@ -3,7 +3,7 @@ title: "Motivation"
 date: 2021-02-27T20:24:28+08:00
 hidden: false
 draft: false
-tags: ["Motivation"]
+tags: ["Motivation", "Ethik"]
 keywords: []
 description: ""
 slug: ""
