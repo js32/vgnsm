@@ -6,7 +6,7 @@ draft: true
 tags: []
 keywords: []
 description: ""
-slug: "datenschutz"
+slug: "impressum-datenschutz"
 sitemap_exclude: false
 ---
 
@@ -17,7 +17,7 @@ Ich setze keine Cookies. Zum Tracking verwende ich Google-Analytics, dabei wird 
 
 Andere Dienste, wie z.B. Youtube oder Vimeo -Videos werden sofern möglich ohne Javascript, also statisch eingebunden und es werden mögliche Privatsphäre-Einstellungen gesetzt. 
 
-Die konkreten Einstellungen lauten:
+Die konkreten Einstellungen im Static Site Generator [hugo](https://gohugo.io/about/hugo-and-gdpr/) lauten:
 
 ``````
 [privacy]
