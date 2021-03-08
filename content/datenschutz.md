@@ -21,6 +21,7 @@ Josefsstraße 36
 
 Solltest du Wünsche, Anmerkungen oder Kritik loswerden wollen, so kannst du das per Mail an *dieses.veganismusATposteoPUNKTjp* tun.
 
+#### Tracking
 Ich setze keine Cookies. Zum Tracking verwende ich Google-Analytics, dabei wird deine Privatsphäre geschützt, indem IPs anonymisiert werden, DoNotTrack, sofern im Browser eingestellt, beachtet wird und keine Cookies gesetzt werden. Sobald ich eine andere Möglichkeit finden, kostenlos und ohne [EvilMegaCorp.Inc](https://analytics.google.com/) zu tracken, werde ich das entsprechend umbauen.
 
 Andere Dienste, wie z.B. Youtube oder Vimeo -Videos werden sofern möglich ohne Javascript, also statisch eingebunden und es werden mögliche Privatsphäre-Einstellungen gesetzt. 
