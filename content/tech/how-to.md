@@ -1,7 +1,7 @@
 ---
 title: "Womit ist diese Seite gebaut?"
 date: 2021-03-07T16:20:28+01:00
-hidden: truge
+hidden: true
 draft: true
 tags: ["tech", "hugo", "git"]
 keywords: ["github", "static site generator", "hugo", "continuous deployment", "netlify"]
