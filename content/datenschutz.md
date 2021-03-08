@@ -46,6 +46,8 @@ Die konkreten Einstellungen im Static Site Generator [hugo](https://gohugo.io/ab
 
 ``````
 
+Der Code meiner Webiste kann öffentlich auf [GitHub](https://github.com/js32/vgnsm-zozo) eingesehen werden.
+
 #### Hosting
 Mit jedem Zugriff auf diese Site werden durch den Hoster automatisch Informationen erfasst. Diese Informationen, auch als Server-Logfiles bezeichnet, sind allgemeiner Natur und erlauben keine persönlichen Rückschlüsse. Die Website wird mittels [Netlify Co.](https://www.netlify.com/gdpr-ccpa) gehostet, dabei werden IP-Adressen für weniger als 30 Tage geloggt. Es werden keine anderen personenbezogenen Daten erfasst.
 
