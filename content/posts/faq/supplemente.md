@@ -3,8 +3,8 @@ title: "Ist Supplemente nehmen nicht unnatürlich?"
 date: 2021-02-27T20:24:28+08:00
 hidden: false
 draft: false
-tags: ["Ernährung", "Philosophie"]
-keywords: ["Veganimsus", "Ernährung", "Nahrungsergänzungsmittel", "Supplemente"]
+tags: ["Ernährung", "Philosophie", "Supplemente", "FAQ"]
+keywords: ["Veganimsus", "Ernährung", "Nahrungsergänzungsmittel", "Supplemente", "FAQ"]
 description: "Artikel über die FAQ/das Totschlagargument: aber was ist mit … Supplementen?"
 slug: ""
 
