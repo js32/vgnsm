@@ -11,7 +11,7 @@ sitemap_exclude: false
 ---
 
 #### Datenschutz ist ein Menschenrecht – diese Seite respektiert deine Privatsphäre. 
-Da die Seite nicht kommerziell betrieben wird, nehme ich von meinem Recht gebrauch, kein Impressum zu hinterlegen ud hornoriere damit auch mein Recht auf Privatsphäre. Solltest du dennoch Wünsche, Anmerkungen oder Kritik loswerden wollen, so kannst du das per Mail an *dieses.veganismus AT posteo PUNKT jp* tun.
+Da die Seite nicht kommerziell betrieben wird, nehme ich von meinem Recht gebrauch, kein Impressum zu hinterlegen ud hornoriere damit auch mein Recht auf Privatsphäre. Solltest du dennoch Wünsche, Anmerkungen oder Kritik loswerden wollen, so kannst du das per Mail an *dieses.veganismusATposteoPUNKTjp* tun.
 
 Ich setze keine Cookies. Zum Tracking verwende ich Google-Analytics, dabei wird deine Privatsphäre geschützt, indem IPs anonymisiert werden, DoNotTrack, sofern im Browser eingestellt, beachtet wird und keine Cookies gesetzt werden. Sobald ich eine andere Möglichkeit finden, kostenlos und ohne [EvilMegaCorp.Inc](https://analytics.google.com/) zu tracken, werde ich das entsprechend umbauen.
 
@@ -47,8 +47,7 @@ Die konkreten Einstellungen lauten:
 ``````
 
 #### Hosting
-
-
+Mit jedem Zugriff auf diese Site werden durch den Hoster automatisch Informationen erfasst. Diese Informationen, auch als Server-Logfiles bezeichnet, sind allgemeiner Natur und erlauben keine persönlichen Rückschlüsse. Die Website wird mittels [Netlify Co.](https://www.netlify.com/gdpr-ccpa) gehostet, dabei werden IP-Adressen für weniger als 30 Tage geloggt. Es werden keine anderen personenbezogenen Daten erfasst.
 
 
 #### Die obligatorischen rechtlichen Hinweise:
@@ -56,8 +55,5 @@ Alle Texte, Bilder und weiter hier veröffentlichten Informationen unterliegen d
 
 Für verlinkte Inhalte übernehme ich keine verantwortung, da es sich nicht um meine Inhalte handelt – natürlich habe ich die Links zum Zeitpunkt des Schreibens der Artikel auf illegeale und sonstige faschistoiden und menschenverachtenden Inhalte geprüft, spätere Änderungen kann ich jedoch nicht ausschließen. Sollte es dir oder mir auffalen, dass Rechtsverletzungen bestehen, werde ich die Links umgehend entfernen.
 
-
-
-Die Seite ist mit hugo gebaut – einem sog. „Static Site Generator".
 
 
