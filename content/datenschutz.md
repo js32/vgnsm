@@ -24,7 +24,7 @@ Solltest du Wünsche, Anmerkungen oder Kritik loswerden wollen, so kannst du das
 #### Tracking
 Ich setze keine Cookies. Zum Tracking verwende ich Google-Analytics, dabei wird deine Privatsphäre geschützt, indem IPs anonymisiert werden, DoNotTrack, sofern im Browser eingestellt, beachtet wird und keine Cookies gesetzt werden. Sobald ich eine andere Möglichkeit finden, kostenlos und ohne [EvilMegaCorp.Inc](https://analytics.google.com/) zu tracken, werde ich das entsprechend umbauen.
 
-Andere Dienste, wie z.B. Youtube oder Vimeo -Videos werden sofern möglich ohne Javascript, also statisch eingebunden und es werden mögliche Privatsphäre-Einstellungen gesetzt. 
+Andere Dienste, wie z.B. Youtube- oder Vimeo-Videos werden sofern möglich ohne Javascript, also statisch, eingebunden und es werden mögliche Privatsphäre-Einstellungen gesetzt. 
 
 Die konkreten Einstellungen im Static Site Generator [hugo](https://gohugo.io/about/hugo-and-gdpr/) lauten:
 
@@ -64,4 +64,4 @@ Mit jedem Zugriff auf diese Site werden durch den Hoster automatisch Information
 #### Die obligatorischen rechtlichen Hinweise:
 Alle Texte, Bilder und weitere hier veröffentlichten Informationen unterliegen meinem Urheberrecht, soweit nicht Urheberrechte Dritter bestehen. Meine Inhalte können gern vervielfältigt werden, du benötigst dafür keine Zustimmung von mir, sofern das Urheberrecht anderer nicht tangiert wird.
 
-Für verlinkte Inhalte übernehme ich keine verantwortung, da es sich nicht um meine Inhalte handelt – natürlich habe ich die Links zum Zeitpunkt des Schreibens der Artikel auf illegeale und sonstige faschistoiden und menschenverachtenden Inhalte geprüft, spätere Änderungen kann ich jedoch nicht ausschließen. Sollte es dir oder mir auffalen, dass Rechtsverletzungen bestehen, werde ich die Links umgehend entfernen.
+Für verlinkte Inhalte übernehme ich keine verantwortung, da es sich nicht um meine Inhalte handelt – natürlich habe ich die Links zum Zeitpunkt des Schreibens der Artikel auf illegeale und sonstige faschistoiden und menschenverachtenden Inhalte geprüft, spätere Änderungen kann ich jedoch nicht ausschließen. Sollte es dir oder mir auffalen, dass Rechtsverletzungen bestehen oder Links anstößig sind, werde ich die Links umgehend entfernen.
