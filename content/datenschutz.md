@@ -13,8 +13,8 @@ sitemap_exclude: false
 #### Datenschutz ist ein Menschenrecht – diese Seite respektiert deine Privatsphäre. 
 Da die Seite nicht kommerziell betrieben wird, würde ich gern auch mein Recht auf Privatsphäre hornorieren. Leider können die Posts nach § 5 TMG und § 55 RStV als redaktioneller Inhalt im Sinne des Rundfunkstaatsvertrages gesehen werden, daher folgt eine ladungsfähige Adresse:
 
-Jens Steger
-c/o Gloria Kison / 
+> Jens Steger
+c/o Gloria Kison /
 TipTop Express
 Josefsstraße 36
 55118 Mainz
