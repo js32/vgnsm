@@ -52,7 +52,6 @@ Die konkreten Einstellungen im Static Site Generator [hugo](https://gohugo.io/ab
   [privacy.youtube]
     disable = false
     privacyEnhanced = true
-
 ``````
 
 Der Code meiner Webiste kann öffentlich auf [GitHub](https://github.com/js32/vgnsm-zozo) eingesehen werden.
