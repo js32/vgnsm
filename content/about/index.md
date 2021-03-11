@@ -7,6 +7,7 @@ tags: []
 keywords: ["Veganimsus", "Ethik", "Ernährung", "Konsumkritik"]
 description: "Ein persönlicher Blog über Veganismus, Ethik, Umweltschutz und Konsumkritik. Etwas Tech findet sich vielleicht auch."
 slug: ""
+noindex: true
 ---
 Ich bin Jens, lebe und arbeite mit meiner Freundin in Mainz. Ex-Philosoph, technikaffin, Veganer.
 
