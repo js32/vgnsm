@@ -10,23 +10,19 @@
     {{ else }}
     <title>{{ $title }} ｜ {{ $siteTitle }}</title>
     {{ end }}
-
     <!-- description & keywords -->
     {{ if .Description }}
     <meta name="description" content="{{ .Description | safeHTML }}" /> {{ else if .IsPage }}
     <meta name="description" content="{{ .Summary | plainify }}" /> {{ else if .Site.Params.description }}
     <meta name="description" content="{{ .Site.Params.description | safeHTML }}" /> {{ end }} {{ if .Keywords }} {{ $length := len .Keywords | add -1 }}
     <meta name="keywords" content="{{ range $index, $element := .Keywords }}{{ $element | safeHTML }}{{ if ne $index $length }}, {{ end }}{{ end }}" /> {{ else if .Site.Params.keywords }} {{ $length := len .Site.Params.keywords | add -1 }}
-    <meta name="keywords" content="{{ range $index, $element := .Site.Params.keywords }}{{ $element | safeHTML }}{{ if ne $index $length }}, {{ end }}{{ end }}" /> {{ end }}
+    <meta name="keywords" content="{{ range $index, $element := .Site.Params.keywords }}{{ $element | safeHTML }}{{ if ne $index $length }}, {{ end }}{{ end }}" /> {{ end }} {{ with .OutputFormats.Get "rss" }} {{ printf `
+    <link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }} {{ end }}
 
     <!---  JS  -->
     {{ if .Params.noindex }}
     <meta name="robots" content="noindex" /> {{ else }}
     <meta name="robots" content="noarchive"> {{ end }}
-    <!---  JS  -->
-
-    {{ with .OutputFormats.Get "rss" }} {{ printf `
-    <link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }} {{ end }}
 
     <link rel="shortcut icon" href="{{ " images/favicon.ico " | absURL }}" />
 
@@ -39,8 +35,4 @@
     <!-- custom css -->
     {{ range .Site.Params.customCSS }}
     <link rel="stylesheet" href="{{ " css/ " | absURL }}{{ . }}" /> {{ end }}
-
-    <!--Plausible Tracking-->
-    <script async defer data-domain="dieses-veganismus.de" src="https://plausible.io/js/plausible.js"></script>
-
 </head>
