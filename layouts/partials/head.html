@@ -47,5 +47,10 @@
     {{ end }}
     
     <!-- Plausible Tracking -->
-    <script async defer data-domain="dieses-veganismus.de" src="https://plausible.io/js/plausible.js"></script>    
+    <script async defer data-domain="dieses-veganismus.de" src="https://plausible.io/js/plausible.js"></script>
+
+    <!---  talk to robots  -->
+    {{ if .Params.noindex }}
+    <meta name="robots" content="noindex" /> {{ else }}
+    <meta name="robots" content="noarchive"> {{ end }}
 </head>
