@@ -7,5 +7,8 @@ tags: ["tech", "hugo", "git"]
 keywords: ["github", "static site generator", "hugo", "continuous deployment", "netlify"]
 description: "Ein Tutorial, wie dieser Blog mittels hugo, netflify und github gebaut wurde."
 slug: "how-its-built"
+sitemap_exclude: false
+noindex: false
 ---
-    
+
+Dieser Blog liegt in einem öffentlichen Repository auf GitHub.
