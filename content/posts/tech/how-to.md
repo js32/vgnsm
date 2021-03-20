@@ -152,7 +152,7 @@ installieren wir den hier verwendeten Theme im Ordner `themes/zozo`. Es gibt noc
 
 ### Beispiel-Website verwenden {id="demo"}
 
-Im Ordner `~/src/demo/themes/zozo/exampleSite` befindet sich Beispiel-Inhalt einer Website. Wir können den gesamten Inhalt dieses Ordners im Finder in den Ordner `demo` kopieren und dabei die bestehenden Dateien und Ordner überschreiben.
+Im Ordner `~/src/demo/themes/zozo/exampleSite` befindet sich ein Beispiel-Inhalt einer Website. Wir können den gesamten Inhalt dieses Ordners im Finder in den Ordner `demo` kopieren und dabei die bestehenden Dateien und Ordner überschreiben.
 
 {{< img src="/static/images/finder_1.png" >}}
 
