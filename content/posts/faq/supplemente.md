@@ -12,7 +12,7 @@ sitemap_exclude: false
 
 Ein Totschlagargument, das oft in Gesprächen vorgebracht wird, ist der Hinweis auf die Unnatürlichkeit der Einnahme von Nahrungsergänzungsmitteln. Es wird darauf verwiesen, dass wir uns möglichst „natürlich“ ernähren sollten, ohne auf „künstliche“, „chemische“ „Pillen“ angewiesen sein zu müssen.
 
-Man kann bei diesem Argument zwei getrennte Stränge herauslösen: 
+Man kann bei diesem Argument zwei getrennte Stränge herauslösen:
 
 + (p1) Eine natürliche Ernährung ist eine gesunde Ernährung
 + (p2) Chemie ist unnatürlich
@@ -24,7 +24,7 @@ Logisch lässt sich an diesem Argument wenig aussetzen, die Grundvoraussetzungen
 
 ### Natur und Schönheit
 
-Zu (p1): Zunächst wollen wir uns ansehen, was mit „natürlich“ gemeint sein kann. „Natürlich“ ist fast ausschließlich positiv konnotiert, meint im normalen Sprachgebrauch oft „unbehandelt“, „biologisch“ und wird mit Frische, Sauberkeit und Reinheit in Beziehung gesetzt. Und „natürlich“ meint vor allem auch: der Natur gemäß – was der Natur gemäß ist, was ihr entspricht, ist ihr zuträglich und daher auch „gesund“. 
+Zu (p1): Zunächst wollen wir uns ansehen, was mit „natürlich“ gemeint sein kann. „Natürlich“ ist fast ausschließlich positiv konnotiert, meint im normalen Sprachgebrauch oft „unbehandelt“, „biologisch“ und wird mit Frische, Sauberkeit und Reinheit in Beziehung gesetzt. Und „natürlich“ meint vor allem auch: der Natur gemäß – was der Natur gemäß ist, was ihr entspricht, ist ihr zuträglich und daher auch „gesund“.
 
 Es verwundert nicht, dass Gesundheit ebenfalls durchweg positiv konnotiert ist. Gesundheit ist „schön“, „rein“, „jung“, „leistungsfähig“ uVm. Es mag zutreffen, dass gesunde Menschen, Tiere und Pflanzen – denn „Gesundheit“ wird richtig nur auf Biologisches angewendet – leistungsfähig sind. Leistungsfähig meint hier, die Fähigkeiten, das, was in der Biologie angelegt ist, voll auszuführen, also voll aus den eigenen biologischen Ressourcen schöpfen zu können.
 
@@ -49,12 +49,11 @@ Dennoch kann eine Ernährung nicht nur aus Vitaminpräparaten bestehen – die i
 Zu den potentiell [kritischen Nährstoffen](https://www.ernaehrungs-umschau.de/fileadmin/Ernaehrungs-Umschau/pdfs/pdf_2016/04_16/EU04_2016_M220-M230_korr.pdf) bei der veganen Ernährung zählen: Vitamin B12 und B2, Vitamin D, Omega-3-Fettsäuren, Jod, Selen, Zink, Eisen, Calcium und Protein.
 
 Doch der einzige dieser Stoffe, der tatsächlich zugeführt werden muss, ist B12 – ich gehe darauf später genauer ein.
-Die andere Nährstoffe können problemlos über die Nahrung gedeckt werden, wenn man weiß, [wo](https://www.peta.de/wp-content/uploads/2020/12/Vegane-Ernaehrung-Infografik-297x840mm-2020_Druck.pdf) sie zu finden sind. Hier muss aber angemerkt werden, dass viele der oben genannten Stoffe auch bei Mischköstlern kritisch sein können. Wie ließen sich anders die endlosen Regalmeter von Vitaminpillen in der Drogerie erklären, die es ja nicht erst seit den[ ~1-2% Veganern in Deutschland](https://de.statista.com/statistik/daten/studie/445155/umfrage/umfrage-in-deutschland-zur-anzahl-der-veganer/) gibt.
+Die andere Nährstoffe können problemlos über die Nahrung gedeckt werden, wenn man weiß, [wo](https://www.peta.de/wp-content/uploads/2020/12/Vegane-Ernaehrung-Infografik-297x840mm-2020_Druck.pdf) sie zu finden sind. Hier muss aber angemerkt werden, dass viele der oben genannten Stoffe auch bei Mischköstlern kritisch sein können. Wie ließen sich anders die endlosen Regalmeter von Vitaminpillen in der Drogerie erklären, die es ja nicht erst seit den [~1-2% Veganern in Deutschland](https://de.statista.com/statistik/daten/studie/445155/umfrage/umfrage-in-deutschland-zur-anzahl-der-veganer/) gibt.
 
 So zählen laut [DGE](https://www.dge.de/presse/pm/vegan-vegetarisch-mischkost-nur-geringe-unterschiede-in-der-naehrstoffversorgung-bei-kindern-und-jugendlichen/) z.B. Vitamin B2, Vitamin D, Jod und Calcium bei jugendlichen Veganern, Vegetariern und Mischköstlern gleichermaßen zu den kritischen Nährstoffen, [Selen](https://www.dge.de/wissenschaft/weitere-publikationen/faqs/selen/?L=0) kann man getrost dazu zählen.
 
 Ich gehe auf einige der Nährstoffe in späteren Artikel in der Kategorie [Ernährung](https://dieses-veganismus.de/tags/ernährung/) genauer ein, daher sei hier nur festgehalten: Die Art der Ernährung ist per se keine Garantie dafür, keine Mängel an Nährstoffen zu entwickeln. Oft wird jedoch der unfaire Vergleich gemachte zwischen mischköstlichen „Health-Nuts“ und „Puddingveganern“. Dabei müsste man eher gesundheitsbewusste Menschen untereinander und nicht-gesundheitsbewusste Menschen (egal ob Mischköstler oder Veganer) vergleichen. Man kann sich in allen Ernährungsformen extrem gut und auch extrem schlecht ernähren, eine gute Ernährung braucht *immer* ein gewissen Maß an Planung und auch Auseinandersetzung mit der Nahrung.
-
 
 <!-- Was dabei völlig außer Acht gelassen wird, ist dass der Mensch als Kulturwesen in vielen Aspekten weit weg ist von jeder Form von Natürlichkeit: 
 

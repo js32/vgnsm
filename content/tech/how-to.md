@@ -8,5 +8,4 @@ keywords: ["github", "static site generator", "hugo", "continuous deployment", "
 description: "Ein Tutorial, wie dieser Blog mittels hugo, netflify und github gebaut wurde."
 slug: "how-its-built"
 ---
-
-sdddsa
+    
