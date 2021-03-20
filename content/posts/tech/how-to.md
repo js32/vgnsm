@@ -71,7 +71,7 @@ Wir loggen uns auf GitHub ein und generieren ein neues Repository, indem wir lin
 Jetzt geben wir dem neuen Repository einen sinnvollen Namen, setzen noch den Haken bei README und klicken dann unten auf den Button „Create repository“:
 {{< img src="/static/images/git_2.png" >}}
 
-Im nächsten Screen können wir mit Klick auf den grünen Code-Button die URL für HTTPS sehen. Wir kopieren und diese `https://github.com/js32/demo.git`:
+Im nächsten Screen können wir mit Klick auf den grünen Code-Button die URL für HTTPS sehen. Wir kopieren uns diese `https://github.com/js32/demo.git`:
 
 {{< img src="/static/images/git_3.png" >}}
 
@@ -113,7 +113,7 @@ $ cd ~/src/demo
 
 ```bash
 $ hugo new site --force .
-
+```
 
 Ein erneutes 
 
