@@ -116,7 +116,7 @@ $ cd ~/src/demo
 $ hugo new site --force .
 ```
 
-Ein erneutes 
+Ein erneutes
 
 ```bash
 $ ls -alh
