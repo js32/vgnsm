@@ -5,7 +5,7 @@ hidden: false
 draft: false
 tags: ["Motivation", "Ethik"]
 keywords: []
-slug: ""
+slug:   
 noindex: false
 sitemap_exclude: false
 ---

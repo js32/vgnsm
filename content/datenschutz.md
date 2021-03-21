@@ -1,7 +1,7 @@
 ---
 title: "Impressum & Datenschutz"
 date: 2021-03-08T10:19:29+01:00
-hidden: false
+hidden: true
 draft: false
 tags: []
 keywords: []

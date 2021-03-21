@@ -1,12 +1,12 @@
 ---
 title: "Motivation"
 date: 2021-02-27T20:24:28+08:00
-hidden: false
+hidden: true
 draft: false
 tags: []
 keywords: ["Veganimsus", "Ethik", "Ernährung", "Konsumkritik"]
 description: "Ein persönlicher Blog über Veganismus, Ethik, Umweltschutz und Konsumkritik. Etwas Tech findet sich vielleicht auch."
-slug: ""
+slug:
 noindex: true
 sitemap_exclude: true
 ---
