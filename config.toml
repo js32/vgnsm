@@ -19,6 +19,7 @@ pygmentscodefencesguesssyntax = true
 
 [author]                               # essential                    
   name = "Jens"
+  email = "dieses.veganismus@posteo.jp"
 
 [blackfriday]                          # markdown interpreter, see: https://github.com/russross/blackfriday
   smartypants = false
