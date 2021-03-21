@@ -9,4 +9,5 @@ description: ""
 slug: ""
 sitemap_exclude: false
 noindex: false
+rss_ignore: false
 ---

@@ -7,6 +7,7 @@ tags: ["Motivation", "Ethik"]
 keywords: []
 slug: ""
 noindex: true
+rss_ignore: true
 ---
 Ich bin Jens, lebe und arbeite mit meiner Freundin in Mainz. Ex-Philosoph, technikaffin, Veganer.
 

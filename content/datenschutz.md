@@ -8,6 +8,7 @@ keywords: []
 description: ""
 slug: "impressum-datenschutz"
 sitemap_exclude: false
+rss_ignore: true
 ---
 #### Datenschutz ist ein Menschenrecht – diese Seite respektiert deine Privatsphäre
 
@@ -65,4 +66,4 @@ Mit jedem Zugriff auf diese Site werden durch den Hoster automatisch Information
 
 Alle Texte, Bilder und weitere hier veröffentlichten Informationen unterliegen meinem Urheberrecht, soweit nicht Urheberrechte Dritter bestehen. Meine Inhalte können gern vervielfältigt werden, du benötigst dafür keine Zustimmung von mir, sofern das Urheberrecht anderer nicht tangiert wird.
 
-Für verlinkte Inhalte übernehme ich keine verantwortung, da es sich nicht um meine Inhalte handelt – natürlich habe ich die Links zum Zeitpunkt des Schreibens der Artikel auf illegeale und sonstige faschistoiden und menschenverachtenden Inhalte geprüft, spätere Änderungen kann ich jedoch nicht ausschließen. Sollte es dir oder mir auffalen, dass Rechtsverletzungen bestehen oder Links anstößig sind, werde ich die Links umgehend entfernen.
+Für verlinkte Inhalte übernehme ich keine Verantwortung, da es sich nicht um meine Inhalte handelt – natürlich habe ich die Links zum Zeitpunkt des Schreibens der Artikel auf illegeale und sonstige faschistoiden und menschenverachtenden Inhalte geprüft, spätere Änderungen kann ich jedoch nicht ausschließen. Sollte es dir oder mir auffalen, dass Rechtsverletzungen bestehen oder Links anstößig sind, werde ich die Links umgehend entfernen.
