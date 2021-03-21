@@ -20,3 +20,17 @@
 .header .site_title_container .site_title a:hover {
     color: #e42b2b;
 }
+
+.header .site_title_container .site_title a {
+    font-size: 45px;
+    width: 65px;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    color: #000000;
+  }
+
+reddot::after {
+    content: attr(data-end) ;
+    color: red ;
+}
+
