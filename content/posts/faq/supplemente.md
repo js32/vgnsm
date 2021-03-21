@@ -8,6 +8,8 @@ keywords: ["Veganimsus", "Ernährung", "Nahrungsergänzungsmittel", "Supplemente
 description: "Artikel über die FAQ/das Totschlagargument: aber was ist mit … Supplementen?"
 slug: ""
 sitemap_exclude: false
+rss_unlisted:                // set to "true" to ignore, else leave blank.
+noindex: false
 ---
 
 Ein Totschlagargument, das oft in Gesprächen vorgebracht wird, ist der Hinweis auf die Unnatürlichkeit der Einnahme von Nahrungsergänzungsmitteln. Es wird darauf verwiesen, dass wir uns möglichst „natürlich“ ernähren sollten, ohne auf „künstliche“, „chemische“ „Pillen“ angewiesen sein zu müssen.

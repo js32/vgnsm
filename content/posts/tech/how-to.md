@@ -9,6 +9,7 @@ description: "Ein Tutorial, wie dieser Blog mittels hugo, netflify und github ge
 slug: "how-its-built"
 sitemap_exclude: false
 noindex: false
+rss_unlisted:
 ---
 
 Dieser Blog liegt in einem [öffentlichen Repository auf GitHub](https://github.com/js32/vgnsm) – warum nicht den ganzen Code zugänglich machen, wenn die Website sowieso öffentlich ist.
