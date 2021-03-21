@@ -1,7 +1,7 @@
 ---
 title: "Impressum & Datenschutz"
 date: 2021-03-08T10:19:29+01:00
-hidden: true
+hidden: false
 draft: false
 tags: []
 keywords: []
@@ -9,6 +9,7 @@ description: ""
 slug: "impressum-datenschutz"
 noindex: false
 sitemap_exclude: false
+rss_unlisted: true
 ---
 #### Datenschutz ist ein Menschenrecht – diese Seite respektiert deine Privatsphäre
 

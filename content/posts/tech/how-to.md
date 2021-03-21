@@ -1,7 +1,7 @@
 ---
 title: "Womit ist diese Seite gebaut?"
 date: 2021-03-07T16:20:28+01:00
-hidden: true
+hidden:
 draft: false
 tags: ["tech", "hugo", "git"]
 keywords: ["github", "static site generator", "hugo", "continuous deployment", "netlify"]
@@ -9,6 +9,7 @@ description: "Ein Tutorial, wie dieser Blog mittels hugo, netflify und github ge
 slug: "how-its-built"
 sitemap_exclude: false  
 noindex: false
+rss_unlisted: 
 ---
 
 Dieser Blog liegt in einem [öffentlichen Repository auf GitHub](https://github.com/js32/vgnsm) – warum nicht den ganzen Code zugänglich machen, wenn die Website sowieso öffentlich ist.

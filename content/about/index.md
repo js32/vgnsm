@@ -1,14 +1,15 @@
 ---
 title: "Motivation"
 date: 2021-02-27T20:24:28+08:00
-hidden: true
-draft: false
+hidden:
+draft: true
 tags: []
 keywords: ["Veganimsus", "Ethik", "Ernährung", "Konsumkritik"]
 description: "Ein persönlicher Blog über Veganismus, Ethik, Umweltschutz und Konsumkritik. Etwas Tech findet sich vielleicht auch."
 slug:
 noindex: true
 sitemap_exclude: true
+rss_unlisted: true
 ---
 
 Ich bin Jens, lebe und arbeite mit meiner Freundin in Mainz. Ex-Philosoph, technikaffin, Veganer.
