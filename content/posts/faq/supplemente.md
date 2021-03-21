@@ -8,7 +8,6 @@ keywords: ["Veganimsus", "Ernährung", "Nahrungsergänzungsmittel", "Supplemente
 description: "Artikel über die FAQ/das Totschlagargument: aber was ist mit … Supplementen?"
 slug: ""
 sitemap_exclude: false
-rss_unlisted:                // set to "true" to ignore, else leave blank.
 noindex: false
 ---
 

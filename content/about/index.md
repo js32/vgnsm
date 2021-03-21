@@ -9,7 +9,6 @@ description: "Ein persönlicher Blog über Veganismus, Ethik, Umweltschutz und K
 slug: ""
 noindex: true
 sitemap_exclude: true
-rss_unlisted: true
 ---
 Ich bin Jens, lebe und arbeite mit meiner Freundin in Mainz. Ex-Philosoph, technikaffin, Veganer.
 
