@@ -10,6 +10,7 @@ slug: ""
 noindex: true
 sitemap_exclude: true
 ---
+
 Ich bin Jens, lebe und arbeite mit meiner Freundin in Mainz. Ex-Philosoph, technikaffin, Veganer.
 
 Zum ersten Mal in Kontakt mit dem Problem der Massentierhaltung kam ich vor 22 Jahren in der Schule durch eine Dokumentation, die ein Lehrer in einer Vertretungsstunde abspielte. Wie damals üblich verschwand das Thema wieder aus meinem Bewusstsein, von flüchtigen Bestürzungen abgesehen, die einen bei Bildern von zahllosen getöteten Robben, verendeten Delfinen und von Schlachttransporten überkommen. Eine Ausbildung, ein nachgeholtes Abi, ein abgebrochenes Studium mit einhergehender miserabler Ernährung später kam ein YouTube-Video von [Gary Yourofsky](https://m.youtube.com/channel/UCLW0TEV3YEt-J56pYZm-TgA) dazu. Das war der Auslöser praktisch von heute auf morgen keine tierischen Produkte mehr zu konsumieren.
