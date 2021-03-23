@@ -1,5 +1,5 @@
 ---
-title: "FAQ: Woher Bekommt Ihr Euer Calcium?"
+title: "FAQ: Woher Bekommt ihr euer Calcium?"
 date: 2021-03-23T11:46:49+01:00
 hidden: false
 draft: false
@@ -28,7 +28,7 @@ Richtig: im Boden.
 
 Richtig: über die Kuh.
 
-– Aber Küher fressen doch gar keine Erde?
+– Aber Kühe fressen doch gar keine Erde?
 
 Korrekt, Kühe fressen Pflanzen.
 
@@ -36,7 +36,7 @@ Korrekt, Kühe fressen Pflanzen.
 
 Bingo!
 
-Wir brauchen keine Kuhmilch, um Calcium aufzunehmen, wir können auch einfach direkt die Pflanzen essen. 100ml Kuhmilch liefern etwa[120mg Calcium]([Quelle](https://www.deutsche-apotheker-zeitung.de/daz-az/2008/daz-3-2008/knochenstarke-ernaehrung)), dasselbe liefern uns z.B. 50g Mandeln.
+Wir brauchen keine Kuhmilch, um Calcium aufzunehmen, wir können auch einfach direkt die Pflanzen essen. 100ml Kuhmilch liefern etwa[120mg Calcium](https://www.deutsche-apotheker-zeitung.de/daz-az/2008/daz-3-2008/knochenstarke-ernaehrung), dasselbe liefern uns z.B. 50g Mandeln.
 
 #### Ad 2
 
