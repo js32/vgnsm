@@ -1,5 +1,5 @@
 ---
-title: "Woher Bekommt Ihr Euer Calcium?"
+title: "FAQ: Woher Bekommt Ihr Euer Calcium?"
 date: 2021-03-23T11:46:49+01:00
 hidden: false
 draft: false
@@ -27,10 +27,6 @@ Richtig: im Boden.
 – Wie kommt Calcium nun aus dem Boden in die Milch?
 
 Richtig: über die Kuh.
-
-– Aber woher nimmt die Kuh das Calcium? 
-
-Richtig: aus dem Boden.
 
 – Aber Küher fressen doch gar keine Erde?
 

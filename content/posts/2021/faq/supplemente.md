@@ -1,5 +1,5 @@
 ---
-title: "Ist Supplemente nehmen nicht unnatürlich?"
+title: "FAQ: Ist Supplemente nehmen nicht unnatürlich?"
 date: 2021-03-07T20:24:28+08:00
 draft: false
 tags: ["Ernährung", "Philosophie", "Supplemente", "FAQ"]
