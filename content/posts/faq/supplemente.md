@@ -1,7 +1,7 @@
 ---
 title: "Ist Supplemente nehmen nicht unnatürlich?"
 date: 2021-03-07T20:24:28+08:00
-hidden:
+hidden: true
 draft: false
 tags: ["Ernährung", "Philosophie", "Supplemente", "FAQ"]
 keywords: ["Veganimsus", "Ernährung", "Nahrungsergänzungsmittel", "Supplemente", "FAQ"]
@@ -9,7 +9,7 @@ description: "Artikel über die FAQ/das Totschlagargument: aber was ist mit … 
 slug:
 sitemap_exclude: false
 noindex: false
-rss_unlisted:
+rss_unlisted: 
 ---
 
 Ein Totschlagargument, das oft in Gesprächen vorgebracht wird, ist der Hinweis auf die Unnatürlichkeit der Einnahme von Nahrungsergänzungsmitteln. Es wird darauf verwiesen, dass wir uns möglichst „natürlich“ ernähren sollten, ohne auf „künstliche“, „chemische“ „Pillen“ angewiesen sein zu müssen.
