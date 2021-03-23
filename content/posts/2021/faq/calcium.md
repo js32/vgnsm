@@ -1,5 +1,5 @@
 ---
-title: "FAQ: Woher Bekommt ihr euer Calcium?"
+title: "FAQ: Woher bekommt ihr euer Calcium?"
 date: 2021-03-23T11:46:49+01:00
 hidden: false
 draft: false
