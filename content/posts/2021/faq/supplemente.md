@@ -5,7 +5,7 @@ draft: false
 tags: ["Ernährung", "Philosophie", "Supplemente", "FAQ"]
 keywords: ["Veganimsus", "Ernährung", "Nahrungsergänzungsmittel", "Supplemente", "FAQ"]
 description: "Artikel über die FAQ/das Totschlagargument: aber was ist mit … Supplementen?"
-slug:
+slug: "supplemente-nehmen-unnatürlich"
 sitemap_exclude: false
 noindex: false
 rss_unlisted: 
