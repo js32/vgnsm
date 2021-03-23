@@ -12,7 +12,7 @@ noindex: false
 rss_unlisted:
 ---
 
-# TL;DR
+# TL; DR
 
 Grundsätzlich lohnen sich hier zwei Fragen:
 
@@ -36,7 +36,7 @@ Korrekt, Kühe fressen Pflanzen.
 
 Bingo!
 
-Wir brauchen keine Kuhmilch, um Calcium aufzunehmen, wir könenn auch einfach direkt die Pflanzen essen. 100ml Kuhmilch liefern etwa[120mg Calcium]([Quelle](https://www.deutsche-apotheker-zeitung.de/daz-az/2008/daz-3-2008/knochenstarke-ernaehrung)), dasselbe liefern uns z.B. 50g Mandeln.
+Wir brauchen keine Kuhmilch, um Calcium aufzunehmen, wir können auch einfach direkt die Pflanzen essen. 100ml Kuhmilch liefern etwa[120mg Calcium]([Quelle](https://www.deutsche-apotheker-zeitung.de/daz-az/2008/daz-3-2008/knochenstarke-ernaehrung)), dasselbe liefern uns z.B. 50g Mandeln.
 
 #### Ad 2
 
