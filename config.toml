@@ -24,7 +24,7 @@ pygmentscodefencesguesssyntax = true
 [blackfriday]                          # markdown interpreter, see: https://github.com/russross/blackfriday
   smartypants = false
 
-[[menu.main]]                          # config your menu  
+# [[menu.main]]                          # config your menu  
  # name = "Home"
  # weight = 10
  # identifier = "home"
