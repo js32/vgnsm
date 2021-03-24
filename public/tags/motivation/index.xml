@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Motivation on VGNSMS</title>
+    <link>/tags/motivation/</link>
+    <description>Recent content in Motivation on VGNSMS</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    <managingEditor>dieses.veganismus@posteo.jp (Jens)</managingEditor>
+    <webMaster>dieses.veganismus@posteo.jp (Jens)</webMaster>
+    <lastBuildDate>Sat, 27 Feb 2021 20:24:28 +0800</lastBuildDate><atom:link href="/tags/motivation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Motivation</title>
+      <link>/posts/2021/motivation/</link>
+      <pubDate>Sat, 27 Feb 2021 20:24:28 +0800</pubDate>
+      <author>dieses.veganismus@posteo.jp (Jens)</author>
+      <guid>/posts/2021/motivation/</guid>
+      <description>Ich bin Jens, lebe und arbeite mit meiner Freundin in Mainz. Ex-Philosoph, technikaffin, Veganer.
+Zum ersten Mal in Kontakt mit dem Problem der Massentierhaltung kam ich vor 22 Jahren in der Schule durch eine Dokumentation, die ein Lehrer in einer Vertretungsstunde abspielte.</description>
+    </item>
+    
+  </channel>
+</rss>
