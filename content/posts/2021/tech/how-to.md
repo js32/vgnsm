@@ -154,7 +154,7 @@ installieren wir den hier verwendeten Theme im Ordner `themes/zozo`. Es gibt noc
 
 Im Ordner `~/src/demo/themes/zozo/exampleSite` befindet sich ein Beispiel-Inhalt einer Website. Wir können den gesamten Inhalt dieses Ordners im Finder in den Ordner `demo` kopieren und dabei die bestehenden Dateien und Ordner überschreiben.
 
-{{< img src="/static/images/finder_1.png" >}}
+{{< img src="/static/images/finder_1.png" width="720" width="auto" alt="" >}}
 
 **Wichtig:** Wir müssen noch in der `config.toml` Datei in der ersten Zeile die Variable `baseURL` von `baseURL = "http://localhost:1313/"` auf `baseURL = "/"` ändern. Wenn diese URL falsch gesetzt ist, wird die Seite später nicht richtig gebaut.
 
