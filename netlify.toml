@@ -34,15 +34,43 @@ HUGO_ENABLEGITINFO = "true"
 	to = "/404/"
 	status = 404
 
+# netlify.toml
+
 [[headers]]
-  for = "/img/*"
-  [headers.values]
-    Cache-Control = "public, s-max-age=604800"
+  # Set the default header to the one we want for documents
+  for = "/*"
+    [headers.values]
+    cache-control = "public,max-age=60"
+    Referrer-Policy = "no-referrer-when-downgrade"
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Feature-Policy = "camera 'none'; geolocation 'none'; microphone 'none'"
+    Strict-Transport-Security = "max-age=2592000; includeSubDomains"
+    Accept-CH = "Downlink,RTT,Device-Memory,Save-Data,DPR,Width"
+    Report-To = '''{
+      "group":"report-uri",
+      "max_age":31536000,
+      "endpoints":[
+        {"url":"https://simonhearne.report-uri.com/a/d/g"}
+      ],"include_subdomains":true}'''
+    NEL = '''{
+      "report_to":"report-uri",
+      "max_age":31536000,
+      "include_subdomains":true
+    }'''
+    Content-Security-Policy = '''
+    default-src 'self';
+    script-src 'self' 'sha256-i+rYvjE2MLQRpsO7Qygbp0RqJCgJE9pO2xyOIhf5LZE=' www.google-analytics.com ...;
+    img-src 'self' data: simonhearne.com *.google-analytics.com ...;
+    connect-src 'self';
+    style-src 'self' 'unsafe-inline' platform.twitter.com;
+    child-src 'self' *.twitter.com noti.st;
+    worker-src 'self';
+    report-uri https://simonhearne.report-uri.com/a/d/g;
+    report-to report-uri;'''
+
 [[headers]]
-  for = "/*.css"
-  [headers.values]
-    Cache-Control = "public, s-max-age=604800"
-[[headers]]
-  for = "/*.js"
-  [headers.values]
-    Cache-Control = "public, s-max-age=604800"
+  # Override cache duration for assets with periods in the filename (i.e. static assets)
+  for = "/*.*"
+    [headers.values]
+    cache-control = "public,max-age=360000"
