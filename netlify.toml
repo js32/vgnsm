@@ -41,7 +41,10 @@ HUGO_ENABLEGITINFO = "true"
   for = "/images/*"
   [headers.values]
     Cache-Control = "public, max-age=604800"
-
+[[headers]]
+  for = "/img/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
 [[headers]]
   for = "/static/images/*"
   [headers.values]
