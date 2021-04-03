@@ -42,11 +42,11 @@ HUGO_ENABLEGITINFO = "true"
   [headers.values]
     Cache-Control = "public, max-age=604800, immutable"
 [[headers]]
-  for = "/*.css"
+  for = "/css/*.css"
   [headers.values]
     Cache-Control = "public, max-age=604800, immutable"
 [[headers]]
-  for = "/*.js"
+  for = "/js/*.js"
   [headers.values]
     Cache-Control = "public, max-age=604800, immutable"
 
