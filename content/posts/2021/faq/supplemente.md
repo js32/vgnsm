@@ -31,7 +31,7 @@ Es verwundert nicht, dass Gesundheit ebenfalls durchweg positiv konnotiert ist. 
 
 Die anderen Assoziationen aber sind schwerer nachzuvollziehen. „Schönheit“ liegt bekanntlich im Auge des Betrachters und von „Reinheit“ kann bei Lebewesen auch schlecht die Rede sein – unsere Körper gleichen eher Chemiefabriken, denn reinem Quellwasser. Gesunde Menschen können durchaus auch alt, hässlich und ungewaschen sein. Beliebige andere Verknüpfungen sind denkbar: leistungsfähig mit hässlich, jung mit ungesund, schön mit unrein etc. pp.
 
-Es ist also leicht zu sehen, dass die gedanklichen Verknüpfungen, die wir mit Natur und Gesundheit haben, nicht notwendig auseinander folgen und nicht „in der Natur der Sache“ zu finden sind.
+Es ist also leicht zu sehen, dass die gedanklichen Verknüpfungen, die wir mit Natur und Gesundheit haben, nicht notwendig aus einander folgen und nicht „in der Natur der Sache“ zu finden sind.
 
 Die Assoziationen haben ihre eigenen Unzulänglichkeiten – es leuchtet jedoch ein, warum sich die Werbung so darauf stürzt und diese beiden Begriffe „Natur“ und „Gesundheit“ oft parallelisiert, wie z.B. hier: [„An meine Haut lasse ich nur Wasser und CD“](https://lebensmittelpraxis.de/marken-kosmetik-gesichtspflege-koerperpflege/13245-cd-an-meine-haut-lasse-wasser-und-cd.html).
 
