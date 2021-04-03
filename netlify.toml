@@ -38,7 +38,7 @@ HUGO_ENABLEGITINFO = "true"
 # Caching:
 
 [[headers]]
-  for = "/img/*"
+  for = "/static/images/*"
   [headers.values]
     Cache-Control = "public, max-age=604800, immutable"
 [[headers]]
