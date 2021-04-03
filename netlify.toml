@@ -34,20 +34,22 @@ HUGO_ENABLEGITINFO = "true"
 	to = "/404/"
 	status = 404
 
-# netlify.toml
-
 
 # Caching:
 
 [[headers]]
-  for = "/img/*"
+  for = "/images/*"
   [headers.values]
     Cache-Control = "public, s-max-age=604800"
 [[headers]]
-  for = "/*.css"
+  for = "/static/images/*"
   [headers.values]
     Cache-Control = "public, s-max-age=604800"
 [[headers]]
-  for = "/*.js"
+  for = "/css/*.css"
+  [headers.values]
+    Cache-Control = "public, s-max-age=604800"
+[[headers]]
+  for = "/js/*.js"
   [headers.values]
     Cache-Control = "public, s-max-age=604800"
