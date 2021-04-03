@@ -45,12 +45,13 @@
     {{ range .Site.Params.customCSS }}
     <link rel="stylesheet" href="{{ "css/" | absURL }}{{ . }}" />
     {{ end }}
-    
-    <!-- Plausible Tracking -->
-    <script async defer data-domain="dieses-veganismus.de" src="https://plausible.io/js/plausible.js"></script>
 
     <!---  talk to robots  -->
     {{ if .Params.noindex }}
     <meta name="robots" content="noindex" /> {{ else }}
     <meta name="robots" content="noarchive"> {{ end }}
+
+    <!-- Plausible Tracking 
+    <script async defer data-domain="dieses-veganismus.de" src="https://plausible.io/js/plausible.js"></script>
+    -->
 </head>
