@@ -12,4 +12,4 @@ sitemap_exclude: true
 type: "success"
 ---
 
-# Vielen Dank :) 
+# <p style="text-align: center;"> Vielen Dank :) </p>
