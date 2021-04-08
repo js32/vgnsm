@@ -36,7 +36,7 @@ Korrekt, Kühe fressen Pflanzen.
 
 Bingo!
 
-Wir brauchen keine Kuhmilch, um Calcium aufzunehmen, wir können auch einfach direkt die Pflanzen essen. 100ml Kuhmilch liefern etwa[120mg Calcium](https://www.deutsche-apotheker-zeitung.de/daz-az/2008/daz-3-2008/knochenstarke-ernaehrung), dasselbe liefern uns z.B. 50g Mandeln.
+Wir brauchen keine Kuhmilch, um Calcium aufzunehmen, wir können auch einfach direkt die Pflanzen essen. 100ml Kuhmilch liefern etwa [120mg Calcium](https://www.deutsche-apotheker-zeitung.de/daz-az/2008/daz-3-2008/knochenstarke-ernaehrung), dasselbe liefern uns z.B. 50g Mandeln.
 
 #### Ad 2
 
@@ -44,7 +44,7 @@ Die kurze Antwort: Brainwashing.
 
 Ich bin immer sehr verwundert, dass es aus irgendwelchen Gründen zwei, drei Nährstoffe zu geben scheint, von denen alle Welt weiß, wo sie besonders gut zu finden sind: Calcium in der Milch und Vitamin C in der Zitrone. Beide Informationen sind falsch.
 
-Wie ist das zu erklären? Vielleicht über[Die Milch machts](https://www.youtube.com/watch?v=kuXbIGbnNWo)? Seit den 70ern werden wir mit den Vorzügen von Kuhmilch beschallt, kein Wunder also, dass Erwachsene das Ihrern Kindern weitergeben.
+Wie ist das zu erklären? Vielleicht über [Die Milch machts](https://www.youtube.com/watch?v=kuXbIGbnNWo)? Seit den 70ern werden wir mit den Vorzügen von Kuhmilch beschallt, kein Wunder also, dass Erwachsene das Ihrern Kindern weitergeben.
 
 Warum weiß niemand, dass in 100g Mohn im Vergleich zu Kuhmilch gut das Zehnfache an Calcium zu finden ist? Oder dass Paprika und Kohl mehr Vitamin C liefern, als Zitronen.
 
