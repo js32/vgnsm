@@ -10,6 +10,7 @@ slug:
 noindex: true
 sitemap_exclude: true
 type: "success"
+rss_unlisted: true
 ---
 
 # <p style="text-align: center;"> Vielen Dank :) </p>

@@ -9,6 +9,7 @@ slug:
 noindex: true
 sitemap_exclude: true
 type: "kontakt"
+rss_unlisted: true
 ---
 
 #### <p style="text-align: center;">Anregungen, Kritik, Wünsche? Schreib' mir!</p>
