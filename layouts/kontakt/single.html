@@ -1,5 +1,5 @@
-{{ partial "head.html" . }}
 
+{{ partial "head.html" . }}
 <body>
     <div class="main animate__animated animate__fadeInDown">
         {{ partial "nav.html" . }} {{ partial "header.html" . }}
@@ -8,10 +8,9 @@
                 <div class="post animate__animated animate__fadeInDown">
                     <div class="post_title post_detail_title">
                         <h2><a href='{{ .RelPermalink }}'>{{ .Title }}</a></h2>
-                        <span class="date">{{ .Date.Format "02.01.2006" }}</span>
                     </div>
-
                     <div class="post_content markdown">{{ .Content }}</div>
+                    {{ partial "form.html" .}}
                     <div class="post_footer">
                         {{ with .Params.tags }}
                         <div class="meta">
@@ -27,11 +26,8 @@
                         {{ end }}
                     </div>
                 </div>
-                <!-- 评论系统 -->
-                {{ if .Site.Params.valine.enable }} {{ partial "comments.html" . }} {{ else }}
-                <div class="doc_comments">{{ template "_internal/disqus.html" . }}</div>
-                {{ end }}
             </div>
+          
         </div>
     </div>
     <a id="back_to_top" href="#" class="back_to_top"><i class="ri-arrow-up-s-line"></i></a> {{ partial "footer.html" . }} {{ partial "js.html" . }}

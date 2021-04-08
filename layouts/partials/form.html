@@ -1,11 +1,11 @@
 <div class="container">
-  <form action="/action_page.php">
+  <form name="Kontakt" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/success/">
     <div class="row">
       <div class="col-25">
         <label for="name">Name</label>
       </div>
       <div class="col-75">
-        <input type="text" id="name" name="Name" placeholder="Dein Name..">
+        <input type="text" id="name" name="name" placeholder="Dein Name.." required>
       </div>
     </div>
     <div class="row">
@@ -13,7 +13,7 @@
         <label for="mail">E-Mail-Adresse</label>
       </div>
       <div class="col-75">
-        <input type="text" id="mail" name="Mail-Adresse" placeholder="Deine E-Mail-Adresse..">
+        <input type="text" id="mail" name="mail" placeholder="Deine E-Mail-Adresse.." required>
       </div>
     </div>
     <div class="row">
@@ -21,7 +21,7 @@
         <label for="betreff">Betreff</label>
       </div>
       <div class="col-75">
-        <input type="text" id="betreff" name="betreff" placeholder="Betrifft..">
+        <input type="text" id="betreff" name="betreff" placeholder="Betrifft.." >
       </div>
     </div>
     <div class="row">
@@ -29,7 +29,7 @@
         <label for="subject">Text</label>
       </div>
       <div class="col-75">
-        <textarea id="subject" name="text" placeholder="Schreibe etwas.." style="height:200px"></textarea>
+        <textarea id="subject" name="text" placeholder="Schreibe etwas.." style="height:200px" required></textarea>
       </div>
     </div>
     <div class="row">
