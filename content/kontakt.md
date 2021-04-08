@@ -1,6 +1,5 @@
 
 ---
-title: "Kontakt"
 date: 2021-02-27T20:24:28+08:00
 hidden:
 draft: false
@@ -12,4 +11,4 @@ sitemap_exclude: true
 type: "kontakt"
 ---
 
-Anregungen, Kritik, Wünsche? Schreib' mir!
+## <p style="text-align: center;">Anregungen, Kritik, Wünsche? Schreib' mir!</p>
