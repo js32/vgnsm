@@ -11,4 +11,4 @@ sitemap_exclude: true
 type: "kontakt"
 ---
 
-## <p style="text-align: center;">Anregungen, Kritik, Wünsche? Schreib' mir!</p>
+#### <p style="text-align: center;">Anregungen, Kritik, Wünsche? Schreib' mir!</p>
