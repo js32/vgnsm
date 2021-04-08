@@ -70,7 +70,6 @@ reddot::after {
   }
 
   input[type=submit]:hover  {
-    color: #e42b2b;
     background-color: #1f1f1f;
   }
     
