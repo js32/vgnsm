@@ -73,7 +73,7 @@ reddot::after {
     padding: 20px;
   }
   
-  /* Floating column for labels: 25% width */
+  /* Floating column for labels: 35% width */
   .col-25 {
     float: left;
     width: 35%;
@@ -85,6 +85,7 @@ reddot::after {
     float: left;
     width: 75%;
     margin-top: 6px;
+    
   }
   
   /* Clear floats after the columns */

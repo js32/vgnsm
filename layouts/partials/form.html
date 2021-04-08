@@ -1,11 +1,11 @@
 <div class="container">
-  <form name="kontaktformular" method="POST" data-netlify="true" action="/success/">
+  <form name="kontaktformular" method="POST" data-netlify="true" action="/success/" >
     <div class="row">
       <div class="col-25">
         <label for="name">Name</label>
       </div>
       <div class="col-75">
-        <input type="text" id="name" name="name" placeholder="Dein Name.." required>
+        <input type="text" id="name"  placeholder="Dein Name.." required name="name">
       </div>
     </div>
     <div class="row">
@@ -13,7 +13,7 @@
         <label for="mail">E-Mail-Adresse</label>
       </div>
       <div class="col-75">
-        <input type="text" id="mail" name="mail" placeholder="Deine E-Mail-Adresse.." required>
+        <input type="text" id="mail"  placeholder="Deine E-Mail-Adresse.." required name="mail">
       </div>
     </div>
     <div class="row">
@@ -21,7 +21,7 @@
         <label for="betreff">Betreff</label>
       </div>
       <div class="col-75">
-        <input type="text" id="betreff" name="betreff" placeholder="Betrifft.." >
+        <input type="text" id="betreff" placeholder="Betrifft.." name="betreff">
       </div>
     </div>
     <div class="row">
@@ -29,7 +29,7 @@
         <label for="subject">Text</label>
       </div>
       <div class="col-75">
-        <textarea id="subject" name="text" placeholder="Schreibe etwas.." style="height:200px" required></textarea>
+        <textarea id="subject" placeholder="Schreibe etwas.." style="height:200px" required name="text"></textarea>
       </div>
     </div>
     <div class="row">
