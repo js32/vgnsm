@@ -41,14 +41,22 @@ reddot::after {
  /* Style inputs, select elements and textareas */
  input[type=text], select, textarea{
     width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
     box-sizing: border-box;
     resize: vertical;
+    background: transparent;
+    border-radius: 1px;
+    margin-bottom: 30px;
+    padding: 0 0 10px;
+    border-width: 0 0 1px;
+    border-color: #e42b2b;
+    font-weight: 300;
+    letter-spacing: 1px;
+    -webkit-appearance: none;
+    height: 42px;
   }
   
   /* Style the label to display next to the inputs */
+
   label {
     padding: 12px 12px 12px 0;
     display: inline-block;
@@ -73,9 +81,9 @@ reddot::after {
     background-color: #1f1f1f;
   }
     
-  
+   
   /* Style the container */
-  .container {
+  .formcontainer {
     border-radius: 5px;
     /*background-color: #f2f2f2;*/
     padding: 20px;
@@ -106,8 +114,13 @@ reddot::after {
   
   /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
-    .col-25, .col-75, input[type=submit] {
+    .col-25, .col-75 {
       width: 100%;
       margin-top: 15px;
     }
-  } 
+    input[type=submit] {
+      width: 40%;
+      margin-top: 15px;
+      font-size: 1.4rem;
+    }
+  }
