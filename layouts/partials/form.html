@@ -1,7 +1,15 @@
 <div class="formcontainer">
-  <form name="kontaktformular" method="POST"  action="/success/" netlify>
+  <form name="kontaktformular" method="POST" action="/success/" netlify>
     <div class="row">
-      
+      <div hidden aria-hidden="true">
+        <label>
+          Don’t fill this out if you're human: 
+          <input name="bot-field" />
+        </label>
+      </div>
+    </div>
+    <div class="row">
+   
       <div class="col-75">
         <input type="text" id="name"  placeholder="Dein Name.." required name="name">
       </div>
