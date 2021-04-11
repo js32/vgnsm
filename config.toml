@@ -73,7 +73,7 @@ pygmentscodefencesguesssyntax = true
  # facebook = " "
  # weibo = " "
  # instagram = " "
-  mail = "mailto:dieses.veganismus@posteo.jp"
+  mail = "/kontakt"
 
 [markup]
 [markup.goldmark]
