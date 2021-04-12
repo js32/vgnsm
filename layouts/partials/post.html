@@ -2,7 +2,7 @@
 <div class="post animated fadeInDown">
         <div class="post_title">
         <h2><a href='{{ .RelPermalink }}'>{{ .Title }}</a></h2>
-        <span class="date" >Lesezeit: ~{{ math.Round (div (countwords .Content) 300.0) }} min ({{ .Content | countwords }} Wörter) </span>
+        <span class="date" >Lesezeit: ~{{ math.Round (div (countwords .Content) 220.0) }} min ({{ .Content | countwords }} Wörter) </span>
         </div>
     {{ if .Site.Params.enableSummary }}
     <div class="list">
