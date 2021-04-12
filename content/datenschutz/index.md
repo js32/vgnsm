@@ -1,6 +1,6 @@
 ---
-title: "Impressum & Datenschutz"
 date: 2021-03-08T10:19:29+01:00
+title: "Impressum & Datenschutz"
 hidden: false
 draft: false
 tags: []
@@ -10,7 +10,10 @@ slug: "impressum-datenschutz"
 noindex: false
 sitemap_exclude: false
 rss_unlisted: true
+type: "datenschutz"
 ---
+
+
 #### Datenschutz ist ein Menschenrecht – diese Seite respektiert deine Privatsphäre
 
 Da die Seite nicht kommerziell betrieben wird, würde ich gern auch mein Recht auf Privatsphäre hornorieren. Leider können die Posts nach § 5 TMG und § 55 RStV als redaktioneller Inhalt im Sinne des Rundfunkstaatsvertrages gesehen werden, daher folgt eine ladungsfähige Adresse:
