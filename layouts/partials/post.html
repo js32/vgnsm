@@ -2,7 +2,8 @@
 <div class="post animated fadeInDown">
         <div class="post_title">
         <h2><a href='{{ .RelPermalink }}'>{{ .Title }}</a></h2>
-    </div>
+        <span class="date" >Lesezeit: ~{{ math.Round (div (countwords .Content) 300.0) }} min ({{ .Content | countwords }} Wörter) </span>
+        </div>
     {{ if .Site.Params.enableSummary }}
     <div class="list">
         <div class="post_content markdown">
@@ -23,7 +24,7 @@
                     <i class="ri-stack-line"></i>
                     {{ range . }}
                     <a href="{{ "tags" | absURL }}/{{ . | urlize }}/">{{ . }}</a>
-                    {{ end }}
+                    {{ end }} 
                 </span> {{ end }}
             </div>
         </div>

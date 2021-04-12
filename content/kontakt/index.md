@@ -11,4 +11,4 @@ rss_unlisted: true
 type: "kontakt"
 ---
 
-#### <p style="text-align: center;">Anregungen, Kritik, Wünsche? Schreib' mir!</p>
+#### <p style="text-align: center;">Anregungen, Kritik, Wünsche, Spitzfindigkeiten? </br> Schreib' mir!</p>
