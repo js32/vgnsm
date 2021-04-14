@@ -28,7 +28,11 @@ Solltest du Wünsche, Anmerkungen oder Kritik loswerden wollen, so kannst du das
 
 #### Tracking
 
-Ich setze keine Cookies. Zum Tracking verwende ich Google-Analytics, dabei wird deine Privatsphäre geschützt, indem IPs anonymisiert werden, DoNotTrack, sofern im Browser eingestellt, beachtet wird und keine Cookies gesetzt werden. Sobald ich eine andere Möglichkeit finde, kostenlos und ohne [EvilMegaCorp.Inc](https://analytics.google.com/) zu tracken, werde ich das entsprechend umbauen.
+Ich setze keine Cookies. ~~Zum Tracking verwende ich Google-Analytics, dabei wird deine Privatsphäre geschützt, indem IPs anonymisiert werden, DoNotTrack, sofern im Browser eingestellt, beachtet wird und keine Cookies gesetzt werden. Sobald ich eine andere Möglichkeit finde, kostenlos und ohne [EvilMegaCorp.Inc](https://analytics.google.com/) zu tracken, werde ich das entsprechend umbauen.~~
+
+Ich tracke neuerdings mit [Plausible Analytics](https://plausible.io/privacy-focused-web-analytics):
+
+>By using Plausible Analytics, all the site measurement is carried out absolutely anonymously. Cookies are not set and no personal data is collected. All data is in aggregate only. The website owner gets some actionable data to help them learn and improve, while the visitor keeps having a nice and enjoyable experience.
 
 Andere Dienste, wie z.B. Youtube- oder Vimeo-Videos werden sofern möglich ohne Javascript, also statisch, eingebunden und es werden mögliche Privatsphäre-Einstellungen gesetzt.
 

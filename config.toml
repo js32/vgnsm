@@ -7,7 +7,7 @@ hasCJKLanguage = false                    # has chinese/japanese/korean ?
 summaryLength = 30
 paginate = 4                              # shows the number of articles  
 enableEmoji = true
-googleAnalytics = "UA-191242278-1"        # your google analytics id
+googleAnalytics = ""        # your google analytics id
 # disqusShortname = "@disqus_OlLLFboZ76"    # your disquss shortname
 
 # [outputs]
