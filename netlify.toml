@@ -37,16 +37,16 @@ HUGO_ENABLEGITINFO = "true"
 
 # Caching:
 
-[[headers]]
-  for = "/static/images/*"
-  [headers.values]
-    Cache-Control = "public, max-age=604800, immutable"
-[[headers]]
-  for = "/css/*.css"
-  [headers.values]
-    Cache-Control = "public, max-age=604800, immutable"
-[[headers]]
-  for = "/js/*.js"
-  [headers.values]
-    Cache-Control = "public, max-age=604800, immutable"
+#[[headers]]
+#  for = "/static/images/*"
+#  [headers.values]
+#    Cache-Control = "public, max-age=604800, immutable"
+#[[headers]]
+#  for = "/css/*.css"
+#  [headers.values]
+#    Cache-Control = "public, max-age=604800, immutable"
+#[[headers]]
+#  for = "/js/*.js"
+#  [headers.values]
+#    Cache-Control = "public, max-age=604800, immutable"
 
