@@ -1,3 +1,9 @@
+::selection{
+  background-color: #e42b2b;;
+  color: white;
+}
+
+
 .markdown strong,
 .markdown b,
 .markdown em {
