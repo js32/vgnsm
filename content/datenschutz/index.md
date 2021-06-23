@@ -68,7 +68,27 @@ Der Code meiner Webiste kann öffentlich auf [GitHub](https://github.com/js32/vg
 
 #### Hosting
 
-Mit jedem Zugriff auf diese Site werden durch den Hoster automatisch Informationen erfasst. Diese Informationen, auch als Server-Logfiles bezeichnet, sind allgemeiner Natur und erlauben keine persönlichen Rückschlüsse. Die Website wird mittels [Netlify Co.](https://www.netlify.com/gdpr-ccpa) gehostet, dabei werden IP-Adressen für weniger als 30 Tage geloggt. Es werden keine anderen personenbezogenen Daten erfasst.
+Mit jedem Zugriff auf diese Site werden durch den Hoster automatisch Informationen erfasst. Diese Informationen, auch als Server-Logfiles bezeichnet, sind allgemeiner Natur und erlauben keine persönlichen Rückschlüsse.
+
+Die Website wird mittels [Netlify Co.](https://www.netlify.com/gdpr-ccpa) gehostet:
+
+> Netlify, Inc.
+>
+>San Francisco (HQ)
+>
+>2325 3rd St #215
+>
+>San Francisco
+>
+>CA, United States
+
+IP-Adressen werden für weniger als 30 Tage geloggt. Es werden keine anderen personenbezogenen Daten erfasst.
+
+#### Kontaktformular
+
+Wenn du das  Kontaktformular benutzt, werden deine Angaben gespeichert. Diese Daten werden nicht ohne deine Einwilligung weitergegeben.
+
+Die von Ihnen im Kontaktformular eingegebenen Daten verbleiben bei mir, du kannst jederzeit um Löschung bitten.
 
 #### Die obligatorischen rechtlichen Hinweise
 
