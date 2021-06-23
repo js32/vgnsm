@@ -2,14 +2,14 @@
 title: "FAQ: Woher bekommt ihr denn eure Proteine (whadabout protons?!)"
 date: 2021-04-17
 hidden: false
-draft: true
+draft: false
 tags: ["Ernährung", "FAQ", "Propaganda"]
 keywords: ["Veganimsus", "Ernährung", "Propaganda", "Proteine"]
 description: "Artikel über die FAQ: aber was ist mit … Proteinen?"
 slug: "woher-bekommt-ihr-euere-proteine"
-sitemap_exclude: true
+sitemap_exclude: false
 noindex: false
-rss_unlisted: true
+rss_unlisted: false
 ---
 
 
