@@ -18,7 +18,7 @@ type: "datenschutz"
 
 Da die Seite nicht kommerziell betrieben wird, würde ich gern auch mein Recht auf Privatsphäre hornorieren. Leider können die Posts nach § 5 TMG und § 55 RStV als redaktioneller Inhalt im Sinne des Rundfunkstaatsvertrages gesehen werden, daher folgt eine ladungsfähige Adresse:
 
-> Jens Steger
+>Jens Steger
 c/o Gloria Kison /
 TipTop Express
 Josefsstraße 36
@@ -73,14 +73,10 @@ Mit jedem Zugriff auf diese Site werden durch den Hoster automatisch Information
 Die Website wird mittels [Netlify Co.](https://www.netlify.com/gdpr-ccpa) gehostet:
 
 > Netlify, Inc.
->
->San Francisco (HQ)
->
->2325 3rd St #215
->
->San Francisco
->
->CA, United States
+San Francisco (HQ)
+2325 3rd St #215
+San Francisco
+CA, United States
 
 IP-Adressen werden für weniger als 30 Tage geloggt. Es werden keine anderen personenbezogenen Daten erfasst.
 
