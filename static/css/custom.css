@@ -69,7 +69,7 @@ reddot::after {
   }
   
   /* Style the submit button */
-  input[type=submit] {
+  #abschicken {
     background-color: #e42b2b;
     color: white;
     padding: 12px 20px;
@@ -124,8 +124,8 @@ reddot::after {
       width: 100%;
       margin-top: 15px;
     }
-    input[type=submit] {
-      width: 40%;
+    #abschicken {
+      width: 45%;
       margin-top: 15px;
       font-size: 1.4rem;
     }
