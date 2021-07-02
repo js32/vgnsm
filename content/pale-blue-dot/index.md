@@ -21,7 +21,7 @@ type: "pale_blue_dot"
 
 <h1 style="padding-top:100px;">Pale Blue Dot</h1>
 
-### von Carl Sagan, 1994
+### von Carl Sagan, 1994 <p style="font-size:12px;">( aus <a href="https://www.goodreads.com/book/show/61663.Pale_Blue_Dot" target="_blank" style="color: black">Pale Blue Dot: A Vision of the Human Future in Space</a>)</p>
 
 {{< img src="https://d2pn8kiwq2w21t.cloudfront.net/original_images/jpegPIA23645.jpg" class="img-49r"  alt="Ein Bild der Erde, aufgenommen von der Voyager I Raumsonde am 14. Februar 1990 im Abstand von 6 Milliarden Kilometern. Die Erde erscheint winzig als blassblauber Punkt inmitten von Sonnenstrahlen, die in der Kameralinse reflektiert werden." title="Pale Blue Dot (revisited), Voyager I, 14.02.1990. Quelle: NASA">}}
 
