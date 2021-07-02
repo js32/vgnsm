@@ -12,15 +12,15 @@ noindex: false
 rss_unlisted:
 ---
 
-# TL; DR
-
+## TL; DR
 Grundsätzlich lohnen sich hier zwei Fragen:
 
 1. Wie kommt das Calcium in die Milch?
 2. Woher weiß jedes Kind, dass Milch so ein wichtiger Calcium-Lieferant ist?
 
-#### Ad 1
-– Calcium ist ein Mineral. Wo kommen Minerale vor? 
+### Ad 1
+
+– Calcium ist ein Mineral. Wo kommen Minerale vor?
 
 Richtig: im Boden.
 

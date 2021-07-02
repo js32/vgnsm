@@ -1,3 +1,9 @@
+::selection{
+  background-color: #e42b2b;;
+  color: white;
+}
+
+
 .markdown strong,
 .markdown b,
 .markdown em {
@@ -64,7 +70,7 @@ reddot::after {
   }
   
   /* Style the submit button */
-  input[type=submit] {
+  #abschicken {
     background-color: #e42b2b;
     color: white;
     padding: 12px 20px;
@@ -123,5 +129,4 @@ reddot::after {
       max-width: 60%;
       margin-top: 15px;
       font-size: 1.2rem;
-    }
   }
