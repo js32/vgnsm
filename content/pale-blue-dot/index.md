@@ -15,7 +15,7 @@ type: "pale_blue_dot"
 
 <h2 style="text-align: center;">Error 404?!</h2>
 
-<h3 style="text-align: center;">Die Seite wurde nicht gefunden.</h3>
+<h4 style="text-align: center;">Die Seite wurde nicht gefunden.</h4>
 
 <p style="text-align: center;">Zurück auf <a href="/">Los</a>.</p>
 
