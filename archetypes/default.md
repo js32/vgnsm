@@ -1,7 +1,6 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-hidden: true                                   # seems to do nothing...
 draft: true                                    # hides post from home
 tags: []
 keywords: []

@@ -12,8 +12,8 @@ rss_unlisted: true
 type: "404"
 ---
 
-# <h1 style="text-align: center;">Error 404?!</h1>
+<h1 style="text-align: center;">Error 404?!</h1>
 
-### <p style="text-align: center;">Die Seite wurde nicht gefunden.</p>
+<h3 style="text-align: center;">Die Seite wurde nicht gefunden.</h3>
 
 <p style="text-align: center;"> Hier geht's zurück zum <a href="/">Start</a>.</p>

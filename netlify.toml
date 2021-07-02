@@ -31,7 +31,7 @@ HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
 	from = "/*"
-	to = "/404/"
+	to = "/n2ckvspvxvg5fhss9hyxuj5sdoqhx8g7spmj7yn7m95htyjdpy9o7bzjay5ip6r3upmxbn44mf4935wwvw6ruq7eprprovdepitohavvwmfyw9v2c64uxbmcrrw34nu3/"
 	status = 404
 
 

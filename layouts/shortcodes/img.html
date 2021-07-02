@@ -1,7 +1,12 @@
 {{ $path := .Get "src" }}
 {{ $caption := .Get "title" }}
+{{ $alt := .Get "alt" }}
+{{ $width := .Get "width" }}
+{{ $class := .Get "class" }}
+
 <div class="fancybox">
-    <a data-fancybox="gallery" href="{{ $path | absURL }}" data-caption="{{ $caption }}">
-        <img src="{{ $path | absURL }}"  width="" width="auto" alt="" loading="lazy"/>
+    <a data-fancybox="gallery" href="{{ $path | absURL }}" class="{{ $class }}"  data-caption="{{ $caption }}"  >
+        <img src="{{ $path | absURL }}"  alt="{{ $alt }}" width="{{ $width }}" loading="lazy"/>
     </a>
 </div>
+

@@ -9,7 +9,7 @@
 .markdown em {
     padding: 1px 2px;
     background-color: #FFFFFF;
-    font-weight: normal;
+    font-weight: 600;
 }
 
 .header .my_socials a:hover {
@@ -119,7 +119,7 @@ reddot::after {
   }
   
   /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .col-25, .col-75 {
       width: 100%;
       margin-top: 15px;
@@ -129,4 +129,47 @@ reddot::after {
       margin-top: 15px;
       font-size: 1.3rem;
     }
-  }
+}
+
+/* Pix */
+.img-33l {
+  display: block;
+  margin-right: auto;
+  max-width: 33%;
+  padding-right: 5px;
+  padding-top: 10px;
+  float: left;
+}
+
+.img-49l {
+  display: block;
+  margin-right: auto;
+  max-width: 49%;
+  clear: right;
+  float: left;
+  padding: 10px;
+
+}
+
+.img-49r {
+  display: block;
+  margin-right: auto;
+  max-width: 49%;
+  padding: 10px;
+  float: right;
+}
+
+.img-33c {
+  display: block;
+  margin-right: auto;
+  max-width: 33%;
+  padding: 5px;
+  float: center;
+}
+.img-33r {
+  display: block;
+  margin-right: auto;
+  max-width: 33%;
+  padding: 5px;
+  float: right;
+}
