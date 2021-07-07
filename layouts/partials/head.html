@@ -52,6 +52,9 @@
     <meta name="robots" content="noindex" /> {{ else }}
     <meta name="robots" content="noarchive"> {{ end }}
 
+    <!--  prevent cross-site scripting (XSS), clickjacking and other code injection attacks -->
+     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src https://*; child-src 'none';">
+
     <!-- Plausible Tracking  -->
     <script async defer data-domain="dieses-veganismus.de" src="https://plausible.io/js/plausible.js"></script>
 
