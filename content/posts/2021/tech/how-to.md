@@ -3,12 +3,19 @@ title: "Womit ist diese Seite gebaut?"
 date: 2021-03-07T16:20:28+01:00
 draft: false
 tags: ["tech", "hugo", "git"]
-keywords: ["github", "static site generator", "hugo", "continuous deployment", "netlify"]
+keywords:
+  [
+    "github",
+    "static site generator",
+    "hugo",
+    "continuous deployment",
+    "netlify",
+  ]
 description: "Ein Tutorial, wie dieser Blog mittels hugo, netflify und github gebaut wurde."
 slug: "how-its-built"
-sitemap_exclude: false  
+sitemap_exclude: false
 noindex: false
-rss_unlisted: 
+rss_unlisted:
 ---
 
 Dieser Blog liegt in einem [öffentlichen Repository auf GitHub](https://github.com/js32/vgnsm) – warum nicht den ganzen Code zugänglich machen, wenn die Website sowieso öffentlich ist.
@@ -66,14 +73,14 @@ Jetzt installieren wir uns noch git für die Kommandozeile – das geht am einf
 Jetzt müssen wir noch die Voraussetzungen schaffen, dass netlify unsere Seite hosten kann. netlify unterstützt zwar auch das manuelle Hochladen von Seiten, der Workflow über GitHub ist aber deutlich eleganter.
 
 Wir loggen uns auf GitHub ein und generieren ein neues Repository, indem wir links auf den grünen Button „New“ klicken:
-{{< img src="/static/images/git_1.png" >}}
+{{< img src="/static/images/git_1.png" width="738px">}}
 
 Jetzt geben wir dem neuen Repository einen sinnvollen Namen, setzen noch den Haken bei README und klicken dann unten auf den Button „Create repository“:
-{{< img src="/static/images/git_2.png" >}}
+{{< img src="/static/images/git_2.png" width="738px">}}
 
 Im nächsten Screen können wir mit Klick auf den grünen Code-Button die URL für HTTPS sehen. Wir kopieren uns diese `https://github.com/js32/demo.git`:
 
-{{< img src="/static/images/git_3.png" >}}
+{{< img src="/static/images/git_3.png" width="738px" title="">}}
 
 Nun können wir wieder ins Terminal zurückwechseln und uns mittels folgendem Befehl einen neuen Ordner in unserem Benutzerverzeichnis erstellen – ich nennen ihn `src` für source/Quelle:
 
@@ -96,7 +103,7 @@ $ git clone https://github.com/js32/demo.git
 Nun muss noch Benutzername und Passwort eingegeben werden und dann lädt das Repository runter. Wir prüfen, ob das Repo ordentlich runtergeladen wurde:
 
 ```bash
-$ ls -alh                                                  
+$ ls -alh
 total 0
 drwxr-xr-x   3 play  staff    96B 20 Mär 17:05 .
 drwxr-xr-x@ 70 play  staff   2,2K 20 Mär 17:05 ..
@@ -154,7 +161,7 @@ installieren wir den hier verwendeten Theme im Ordner `themes/zozo`. Es gibt noc
 
 Im Ordner `~/src/demo/themes/zozo/exampleSite` befindet sich ein Beispiel-Inhalt einer Website. Wir können den gesamten Inhalt dieses Ordners im Finder in den Ordner `demo` kopieren und dabei die bestehenden Dateien und Ordner überschreiben.
 
-{{< img src="/static/images/finder_1.png" width="720" width="auto" alt="" >}}
+{{< img src="/static/images/finder_1.png" width="738"  alt="" >}}
 
 **Wichtig:** Wir müssen noch in der `config.toml` Datei in der ersten Zeile die Variable `baseURL` von `baseURL = "http://localhost:1313/"` auf `baseURL = "/"` ändern. Wenn diese URL falsch gesetzt ist, wird die Seite später nicht richtig gebaut.
 
@@ -189,7 +196,7 @@ command = "hugo --gc --minify"
 [context.production.environment]
 HUGO_VERSION = "0.81.0"
 HUGO_ENV = "production"
-HUGO_ENABLEGITINFO = "true" 
+HUGO_ENABLEGITINFO = "true"
 
 [context.split1]
 command = "hugo --gc --minify --enableGitInfo"
