@@ -73,14 +73,14 @@ Jetzt installieren wir uns noch git für die Kommandozeile – das geht am einf
 Jetzt müssen wir noch die Voraussetzungen schaffen, dass netlify unsere Seite hosten kann. netlify unterstützt zwar auch das manuelle Hochladen von Seiten, der Workflow über GitHub ist aber deutlich eleganter.
 
 Wir loggen uns auf GitHub ein und generieren ein neues Repository, indem wir links auf den grünen Button „New“ klicken:
-{{< img src="/static/images/git_1.png" width="738px">}}
+{{< img src="/static/images/git_1.png" >}}
 
 Jetzt geben wir dem neuen Repository einen sinnvollen Namen, setzen noch den Haken bei README und klicken dann unten auf den Button „Create repository“:
-{{< img src="/static/images/git_2.png" width="738px">}}
+{{< img src="/static/images/git_2.png" >}}
 
 Im nächsten Screen können wir mit Klick auf den grünen Code-Button die URL für HTTPS sehen. Wir kopieren uns diese `https://github.com/js32/demo.git`:
 
-{{< img src="/static/images/git_3.png" width="738px" title="">}}
+{{< img src="/static/images/git_3.png" title="">}}
 
 Nun können wir wieder ins Terminal zurückwechseln und uns mittels folgendem Befehl einen neuen Ordner in unserem Benutzerverzeichnis erstellen – ich nennen ihn `src` für source/Quelle:
 
@@ -161,7 +161,7 @@ installieren wir den hier verwendeten Theme im Ordner `themes/zozo`. Es gibt noc
 
 Im Ordner `~/src/demo/themes/zozo/exampleSite` befindet sich ein Beispiel-Inhalt einer Website. Wir können den gesamten Inhalt dieses Ordners im Finder in den Ordner `demo` kopieren und dabei die bestehenden Dateien und Ordner überschreiben.
 
-{{< img src="/static/images/finder_1.png" width="738"  alt="" >}}
+{{< img src="/static/images/finder_1.png" alt="" >}}
 
 **Wichtig:** Wir müssen noch in der `config.toml` Datei in der ersten Zeile die Variable `baseURL` von `baseURL = "http://localhost:1313/"` auf `baseURL = "/"` ändern. Wenn diese URL falsch gesetzt ist, wird die Seite später nicht richtig gebaut.
 
