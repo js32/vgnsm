@@ -44,7 +44,7 @@ Die kurze Antwort: Brainwashing.
 
 Ich bin immer sehr verwundert, dass es aus irgendwelchen Gründen zwei, drei Nährstoffe zu geben scheint, von denen alle Welt weiß, wo sie besonders gut zu finden sind: Calcium in der Milch und Vitamin C in der Zitrone. Beide Informationen sind falsch.
 
-Wie ist das zu erklären? Vielleicht über [Die Milch machts](https://www.youtube.com/watch?v=kuXbIGbnNWo)? Seit den 70ern werden wir mit den Vorzügen von Kuhmilch beschallt, kein Wunder also, dass Erwachsene das Ihrern Kindern weitergeben.
+Wie ist das zu erklären? Vielleicht über [Die Milch machts](https://www.youtube.com/watch?v=kuXbIGbnNWo)? Seit den 70ern werden wir mit den Vorzügen von Kuhmilch beschallt, kein Wunder also, dass Erwachsene das ihren Kindern weitergeben.
 
 Warum weiß niemand, dass in 100g Mohn im Vergleich zu Kuhmilch gut das Zehnfache an Calcium zu finden ist? Oder dass Paprika und Kohl mehr Vitamin C liefern, als Zitronen.
 
