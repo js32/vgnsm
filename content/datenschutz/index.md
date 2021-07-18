@@ -82,9 +82,9 @@ IP-Adressen werden für weniger als 30 Tage geloggt. Es werden keine anderen per
 
 #### Kontaktformular
 
-Wenn du das  Kontaktformular benutzt, werden deine Angaben gespeichert. Diese Daten werden nicht ohne deine Einwilligung weitergegeben.
+Wenn du das Kontaktformular benutzt, werden deine Angaben gespeichert. Diese Daten werden nicht ohne deine Einwilligung weitergegeben.
 
-Die von Ihnen im Kontaktformular eingegebenen Daten verbleiben bei mir, du kannst jederzeit um Löschung bitten.
+Die von dir im Kontaktformular eingegebenen Daten verbleiben bei mir, du kannst jederzeit um Löschung bitten.
 
 #### Die obligatorischen rechtlichen Hinweise
 
