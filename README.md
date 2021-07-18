@@ -1,4 +1,4 @@
-# A german website about veganism built with git, hugo and netlify.
+# A german website about veganism built with hugo, hosted on netlify.
 
 Visit the Website <a href="https://dieses-veganismus.de" target="_blank">here</a>.
 
