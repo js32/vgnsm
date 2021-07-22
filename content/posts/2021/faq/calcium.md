@@ -12,7 +12,8 @@ noindex: false
 rss_unlisted:
 ---
 
-## TL; DR
+## TL; DR:
+
 Grundsätzlich lohnen sich hier zwei Fragen:
 
 1. Wie kommt das Calcium in die Milch?
@@ -30,7 +31,7 @@ Richtig: über die Kuh.
 
 – Aber Kühe fressen doch gar keine Erde?
 
-Korrekt, Kühe fressen Pflanzen.
+<p id="erde">Korrekt, Kühe fressen Pflanzen.</p>
 
 – Also kommt das Calcium aus den Pflanzen?
 

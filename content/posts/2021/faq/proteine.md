@@ -12,7 +12,6 @@ noindex: false
 rss_unlisted: false
 ---
 
-
 Für viele scheint es unvorstellbar zu sein, dass es auch ohne Eier und Steak möglich ist, seinen Eiweiß-Bedarf zu decken.
 
 Dass das mit einer pflanzlichen Ernährung problemlos möglich ist, soll folgender Gedanke zeigen:
@@ -31,6 +30,6 @@ Der Stickstoff gelangt entweder durch Gewitteraktivität aus der Luft in den Bod
 
 [Mikroorganismen](https://de.wikipedia.org/wiki/Stickstoff#Nat%C3%BCrliches_Vorkommen_und_Kreislauf_des_Stickstoffs) gehören zu den einzigen Lebewesen, die in der Lage sind, Stickstoff und andere chemische Elemente direkt zu Aminosäuren umzuwandeln. Pflanzen wiederum nehmen diesen im Boden befindlichen Stickstoff auf und verwenden ihn zum Aufbau ihres Gewebes.
 
-Das bedeutet im Umkehrschluss, dass jedes biologisch notwendige Protein auf diesem Planeten den Weg über den Boden und die Pflanzen geht. Also bekommt auch jedes Tier seine Proteine direkt als Pflanzenfresser oder indirekt als Fleischfresser von den Pflanzen.
+Das bedeutet im Umkehrschluss, dass jedes biologisch notwendige Protein auf diesem Planeten den Weg über den Boden und die Pflanzen geht, denn, wie wir schon bemerkt haben, [fressen Kühe keine Erde](https://dieses-veganismus.de/posts/2021/faq/woher-bekommt-ihr-euer-calcium/#erde). Also bekommt auch jedes Tier seine Proteine direkt als Pflanzenfresser oder indirekt als Fleischfresser von den Pflanzen.
 
 Die Frage also, woher wir unsere Proteine bekommen, ist leicht zu beantworten: aus den Pflanzen, wie jedes andere höhere Lebewesen ebenfalls. Vor diesem Hintergrund erscheint die Sorge, als Veganer zu wenig Eiweiß zu bekommen, geradewegs als absurd.
