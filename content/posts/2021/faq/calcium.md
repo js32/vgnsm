@@ -47,6 +47,6 @@ Ich bin immer sehr verwundert, dass es aus irgendwelchen Gründen zwei, drei Nä
 
 Wie ist das zu erklären? Vielleicht über [Die Milch machts](https://www.youtube.com/watch?v=kuXbIGbnNWo)? Seit den 70ern werden wir mit den Vorzügen von Kuhmilch beschallt, kein Wunder also, dass Erwachsene das ihren Kindern weitergeben.
 
-Warum weiß niemand, dass in 100g Mohn im Vergleich zu Kuhmilch gut das Zehnfache an Calcium zu finden ist? Oder dass Paprika und Kohl mehr Vitamin C liefern, als Zitronen.
+Warum weiß niemand, dass in 100g Mohn im Vergleich zu Kuhmilch gut das Zehnfache an Calcium zu finden ist? Oder dass Paprika und Kohl mehr Vitamin C liefern, als Zitronen?
 
 Vielleicht sollten wir echte Informationen zu Lebensmitteln und Ihren Nährstoffen erhalten, am besten schon in einem eigenen Schulfach vermittelt, und nicht unkritisch Werbebotschaften rezipieren.

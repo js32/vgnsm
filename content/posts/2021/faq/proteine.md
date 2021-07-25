@@ -22,7 +22,7 @@ Wie kommt das, dass alle lebensnotwendigen Aminosäuren in Pflanzen vorkommen?
 
 Nun, da hilft ein Blick in die Chemie:
 
-Das Wort „Aminosäure“ leitet sich von Ammoniak (NH<sub>3</sub>), bzw. der Aminogruppe (-NH<sub>2</sub>) ab, der als zentrales Element den Stickstoff hat. Stickstoff ist ein sog. „Inertgas“, also extrem reaktionsträge und kaum an chemischen Reaktionen beteiligt.
+Das Wort „Aminosäure“ leitet sich von Ammoniak (NH<sub>3</sub>), bzw. der Aminogruppe (-NH<sub>2</sub>) ab, beide Verbindungen haben Stickstoff als zentrales Element. Stickstoff ist ein sog. „Inertgas“, also extrem reaktionsträge und kaum an chemischen Reaktionen beteiligt.
 
 Wie also wird der Stickstoff für Lebewesen verfügbar?
 
