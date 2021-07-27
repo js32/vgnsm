@@ -446,22 +446,22 @@ hr {
 }
 
 .pre::before {
-	content: "❮";
+	content: "❮ ";
 	color: #e42b2b;
 }
 
 .pre:hover::before {
-	content: "❮";
+	content: "❮ ";
 	color: #000000;
 }
 
 .next::after {
-	content: "❯";
+	content: " ❯";
 	color: #e42b2b;
 }
 
 .next:hover::after {
-	content: "❯";
+	content: " ❯";
 	color: #000000;
 }
 .markdown {
