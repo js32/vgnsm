@@ -445,6 +445,25 @@ hr {
 	float: right;
 }
 
+.pre::before {
+	content: "❮";
+	color: #e42b2b;
+}
+
+.pre:hover::before {
+	content: "❮";
+	color: #000000;
+}
+
+.next::after {
+	content: "❯";
+	color: #e42b2b;
+}
+
+.next:hover::after {
+	content: "❯";
+	color: #000000;
+}
 .markdown {
 	line-height: 1.8em;
 	word-wrap: break-word;
