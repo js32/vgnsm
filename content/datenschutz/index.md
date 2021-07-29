@@ -69,7 +69,7 @@ Der Code meiner Website kann öffentlich auf [GitHub](https://github.com/js32/vg
 
 Mit jedem Zugriff auf diese Site werden durch den Hoster automatisch Informationen erfasst. Diese Informationen, auch als Server-Logfiles bezeichnet, sind allgemeiner Natur und erlauben keine persönlichen Rückschlüsse.
 
-Die Website wird mittels [Netlify Co.](https://www.netlify.com/gdpr-ccpa) gehostet:
+Die Website wird mittels [Netlify Inc.](https://www.netlify.com/gdpr-ccpa) gehostet:
 
 > Netlify, Inc.
 > San Francisco (HQ)
