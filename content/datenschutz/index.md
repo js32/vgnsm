@@ -13,18 +13,17 @@ rss_unlisted: true
 type: "datenschutz"
 ---
 
-
 #### Datenschutz ist ein Menschenrecht – diese Seite respektiert deine Privatsphäre
 
 Da die Seite nicht kommerziell betrieben wird, würde ich gern auch mein Recht auf Privatsphäre hornorieren. Leider können die Posts nach § 5 TMG und § 55 RStV als redaktioneller Inhalt im Sinne des Rundfunkstaatsvertrages gesehen werden, daher folgt eine ladungsfähige Adresse:
 
->Jens Steger
-c/o Gloria Kison /
-TipTop Express
-Josefsstraße 36
-55118 Mainz
+> Jens Steger
+> c/o Gloria Kison /
+> TipTop Express
+> Josefsstraße 36
+> 55118 Mainz
 
-Solltest du Wünsche, Anmerkungen oder Kritik loswerden wollen, so kannst du das per Mail an *dieses.veganismusATposteoPUNKTjp* tun.
+Solltest du Wünsche, Anmerkungen oder Kritik loswerden wollen, so kannst du das per Mail an _dieses.veganismusATposteoPUNKTjp_ tun.
 
 #### Cookies & Tracking
 
@@ -32,7 +31,7 @@ Ich setze keine Cookies. ~~Zum Tracking verwende ich Google-Analytics, dabei wir
 
 Neuerdings werte ich die Website statistisch mit [Plausible Analytics](https://plausible.io/privacy-focused-web-analytics) aus:
 
->By using Plausible Analytics, all the site measurement is carried out absolutely anonymously. Cookies are not set and no personal data is collected. All data is in aggregate only. The website owner gets some actionable data to help them learn and improve, while the visitor keeps having a nice and enjoyable experience.
+> By using Plausible Analytics, all the site measurement is carried out absolutely anonymously. Cookies are not set and no personal data is collected. All data is in aggregate only. The website owner gets some actionable data to help them learn and improve, while the visitor keeps having a nice and enjoyable experience.
 
 Andere Dienste, wie z.B. Youtube- oder Vimeo-Videos werden sofern möglich ohne Javascript, also statisch, eingebunden und es werden mögliche Privatsphäre-Einstellungen gesetzt.
 
@@ -64,7 +63,7 @@ Die konkreten Einstellungen im Static Site Generator [hugo](https://gohugo.io/ab
     privacyEnhanced = true
 ```
 
-Der Code meiner Webiste kann öffentlich auf [GitHub](https://github.com/js32/vgnsm-zozo) eingesehen werden.
+Der Code meiner Website kann öffentlich auf [GitHub](https://github.com/js32/vgnsm-zozo) eingesehen werden.
 
 #### Hosting
 
@@ -73,10 +72,10 @@ Mit jedem Zugriff auf diese Site werden durch den Hoster automatisch Information
 Die Website wird mittels [Netlify Co.](https://www.netlify.com/gdpr-ccpa) gehostet:
 
 > Netlify, Inc.
-San Francisco (HQ)
-2325 3rd St #215
-San Francisco
-CA, United States
+> San Francisco (HQ)
+> 2325 3rd St #215
+> San Francisco
+> CA, United States
 
 IP-Adressen werden für weniger als 30 Tage geloggt. Es werden keine anderen personenbezogenen Daten erfasst.
 
