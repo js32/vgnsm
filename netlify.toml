@@ -35,7 +35,7 @@ HUGO_ENABLEGITINFO = "true"
 	status = 404
 
 [[redirects]]
-	from = "/js/script.js"
+	from = "https://dieses-veganismus.de/js/script.js"
 	to = "https://plausible.io/js/plausible.js"
 	status = 200
 [[redirects]]
