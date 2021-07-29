@@ -34,14 +34,14 @@ HUGO_ENABLEGITINFO = "true"
 	to = "/n2ckvspvxvg5fhss9hyxuj5sdoqhx8g7spmj7yn7m95htyjdpy9o7bzjay5ip6r3upmxbn44mf4935wwvw6ruq7eprprovdepitohavvwmfyw9v2c64uxbmcrrw34nu3/"
 	status = 404
 
-#[[redirects]]
-#	from = "/js/script.js"
-#	to = "https://plausible.io/js/plausible.js"
-#	status = 200
-#[[redirects]]
-#	from = "/api/event"
-#	to = "https://plausible.io/api/event"
-#	status = 202
+[[redirects]]
+	from = "/js/script.js"
+	to = "https://plausible.io/js/plausible.js"
+	status = 200
+[[redirects]]
+	from = "/api/event"
+	to = "https://plausible.io/api/event"
+	status = 202
 
 
 # Caching:
