@@ -6,10 +6,12 @@ draft: false
 tags: ["Ernährung", "FAQ", "Propaganda"]
 keywords: ["Veganismus", "Ernährung", "Propaganda", "Proteine"]
 description: "Artikel über die FAQ: aber was ist mit … Proteinen?"
-slug: "woher-bekommt-ihr-euere-proteine"
+slug: "woher-bekommt-ihr-eure-proteine"
 sitemap_exclude: false
 noindex: false
 rss_unlisted: false
+aliases:
+  - /woher-bekommt-ihr-euere-proteine
 ---
 
 Für viele scheint es unvorstellbar zu sein, dass es auch ohne Eier und Steak möglich ist, seinen Eiweiß-Bedarf zu decken.
