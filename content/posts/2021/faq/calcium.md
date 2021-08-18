@@ -3,7 +3,7 @@ title: "FAQ: Woher bekommt ihr euer Calcium?"
 date: 2021-03-23T11:46:49+01:00
 hidden: false
 draft: false
-tags: ["Ernährung", "FAQ", "Propaganda"]
+tags: ["Ernährung", "FAQ", "Propaganda", "basic biology"]
 keywords: ["Veganimsus", "Ernährung", "Propaganda", "Milch"]
 description: "Artikel über die FAQ: aber was ist mit … Calcium?"
 slug: "woher-bekommt-ihr-euer-calcium"
