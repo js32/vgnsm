@@ -241,5 +241,5 @@ Jetzt pushen wir das Commit zu GitHub:
 $ git push
 ```
 
-netlify sollte nun anfangen, die Seit zu bauen und sie unter der zufällig generierten URL veröffentlichen.
+netlify sollte nun anfangen, die Seite zu bauen und sie unter der zufällig generierten URL veröffentlichen.
 Jetzt kann der Inhalt der hugo-Seite beliebig angepasst werden, netlify wird nach jedem Commit eine neue Variante bauen und veröffentlichen. Ich rate dennoch, die Website lokal im Browser zu testen, denn netlify bietet im kostenlosen Plan nur begrenzte Anzahl an Build-Minuten.
