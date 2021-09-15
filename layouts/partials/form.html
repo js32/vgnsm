@@ -1,5 +1,5 @@
 <div class="formcontainer">
-  <form name="kontaktformular" method="POST" action="/success/" netlify>
+  <form name="kontaktformular" data-netlify-recaptcha="true" netlify-honeypot="bot-field" method="POST" action="/success/" netlify>
     <div class="row">
       <div hidden aria-hidden="true">
         <label>
@@ -35,5 +35,6 @@
     <div class="row">
       <input id="abschicken" type="submit" value="Abschicken">
     </div>
+    <p><div data-netlify-recaptcha="true"></div></p>
   </form>
 </div>
