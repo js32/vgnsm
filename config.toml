@@ -1,4 +1,4 @@
-baseURL = "/"                        
+baseURL = "https://dieses-veganismus.de"                        
 languageCode = "de"
 defaultContentLanguage = "de"
 title = "VGNSMS"                          # site title 
