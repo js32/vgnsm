@@ -172,3 +172,19 @@ input[type="submit"]:hover {
 	padding: 5px;
 	float: right;
 }
+ /* for screenreaders: Navigation überspringen */
+.skip-nav-link{
+	position: absolute;
+	transform: translateY(-220%);
+	padding: 1rem;
+	background: #F7F7F7;
+	border-radius: 0 0 5px 5px;
+	left: 25%;
+	z-index: 10;
+}
+
+.skip-nav-link:focus{
+	transform: translateY(0);
+	transition: transform 350ms ease-in;
+	color: #e42b2b;
+}

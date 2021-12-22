@@ -1,10 +1,12 @@
 {{ partial "head.html" . }}
 
 <body>
+    <a class="skip-nav-link" href="#articles">Zu den Artikeln springen</a>
     <div class="main animate__animated animate__fadeInDown">
+    
         {{ partial "nav.html" . }}
         {{ partial "header.html" . }}
-        <div class="content">
+        <div class="content" id="articles">
             {{ if ne .Params.hidden true }}
             {{ partial "post.html" .}}{{ end }}
         </div>
