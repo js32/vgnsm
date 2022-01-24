@@ -188,3 +188,9 @@ input[type="submit"]:hover {
 	transition: transform 350ms ease-in;
 	color: #e42b2b;
 }
+
+h3:target{
+	text-decoration: underline wavy #e42b2b;
+;;
+	
+}
