@@ -17,18 +17,17 @@
 		{{ else }}
 		<title>{{ $title }} ｜ {{ $siteTitle }}</title>
 		{{ end }}
-<link rel="canonical" href="{{ .Permalink }}" />
-			<!---  talk to robots  -->
-	{{ if .Params.noindex }}
-	<meta name="robots" content="noindex" />
-	{{ else if .Data.Singular }}
-	<meta name="robots" content="noindex" />
+		<link rel="canonical" href="{{ .Permalink }}" />
+		<!---  talk to robots  -->
+		{{ if .Params.noindex }}
+		<meta name="robots" content="noindex" />
+		{{ else if .Data.Singular }}
+		<meta name="robots" content="noindex" />
 
-	{{ else }}
-	<meta name="robots" content="all,follow" />
-	<meta name="googlebot" content="index,follow,snippet,archive" />
-	{{ end }}
-		{{ if .Description }}
+		{{ else }}
+		<meta name="robots" content="all,follow" />
+		<meta name="googlebot" content="index,follow,snippet,archive" />
+		{{ end }} {{ if .Description }}
 		<meta name="description" content="{{ .Description | safeHTML }}" />
 		{{ else if .IsPage }}
 		<meta name="description" content="{{ .Summary | plainify }}" />
@@ -81,13 +80,7 @@
 		{{ range .Site.Params.customCSS }} <link rel="stylesheet" href="{{ "css/" |
 		absURL }}{{ . }}" /> {{ end }}
 
-		<!-- Plausible Tracking  
-		<script
-			defer
-			data-domain="dieses-veganismus.de"
-			src="https://plausible.io/js/plausible.js"
-		></script>
-		-->
+		<!-- Plausible Tracking -->
 
 		<script
 			defer
