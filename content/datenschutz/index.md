@@ -23,7 +23,7 @@ Da die Seite nicht kommerziell betrieben wird, würde ich gern auch mein Recht a
 > Josefsstraße 36
 > 55118 Mainz
 
-Solltest du Wünsche, Anmerkungen oder Kritik loswerden wollen, so kannst du das per Mail an _dieses.veganismusATposteoPUNKTjp_ oder über das [Kontaktformular](/kontakt) tun.
+Solltest du Wünsche, Anmerkungen oder Kritik loswerden wollen, so kannst du das per Mail an _infoATdieses-veganimusPUNKTde_ oder über das [Kontaktformular](/kontakt) tun.
 
 #### Cookies & Tracking
 
