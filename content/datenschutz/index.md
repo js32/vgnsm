@@ -94,3 +94,6 @@ Für verlinkte Inhalte übernehme ich keine Verantwortung, da es sich nicht um m
 #### Und übrigens:
 
 {{< img src="https://ptrace.gafam.info/unofficial/img/color/lqdn-gafam-poster-en-color-5x1-2560x.png" class="img-100c" alt="The GAFAM poster campaign toolkit" title="Quelle: https://ptrace.gafam.info/">}}
+
+<p style="color: white">Wenn ihr euch für verwandte Themen, wie z.B. Agroforst, Gewaltfreie Kommunikation, Gemeinschafts- und Selbstentwicklung oder Ökologie allgemein interessiert, schaut mal auf der <a style="text-decoration: none; color: white;" href="https://webinarwelt.siebenlinden.org" target=_blank>Webinarwelt Sieben Linden</a> vorbei. Dort gibt es Online-Kurse von sehr qulifizierten und erfahrenen Referent:innen zu allen möglichen Themen.
+</p>
