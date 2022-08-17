@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ethik on VGNSMS</title>
+    <link>http://localhost:1313/tags/ethik/</link>
+    <description>Recent content in Ethik on VGNSMS</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    <managingEditor>info@dieses-veganimus.de (Jens)</managingEditor>
+    <webMaster>info@dieses-veganimus.de (Jens)</webMaster>
+    <lastBuildDate>Sat, 27 Feb 2021 20:24:28 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/ethik/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Motivation</title>
+      <link>http://localhost:1313/posts/2021/motivation/</link>
+      <pubDate>Sat, 27 Feb 2021 20:24:28 +0800</pubDate>
+      <author>info@dieses-veganimus.de (Jens)</author>
+      <guid>http://localhost:1313/posts/2021/motivation/</guid>
+      <description>Ich bin Jens, lebe und arbeite mit meiner Freundin in Mainz. Ex-Philosoph, technikaffin, Psychonaut, Veganer.
+Zum ersten Mal in Kontakt mit dem Problem der Massentierhaltung kam ich vor 26 Jahren in der Schule durch eine Dokumentation, die ein Lehrer in einer Vertretungsstunde abspielte.</description>
+    </item>
+    
+  </channel>
+</rss>

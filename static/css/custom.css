@@ -6,21 +6,20 @@
 *,
 *::before,
 *::after {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 /*
   2. Remove default margin
 */
 * {
-	margin: 0;
+  margin: 0;
 }
 /*
   3. Allow percentage-based heights in the application
 */
 html,
 body {
-
-	overflow-x: hidden;
+  overflow-x: hidden;
 }
 /*
   Typographic tweaks!
@@ -28,8 +27,7 @@ body {
   5. Improve text rendering
 */
 body {
-
-	-webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
 }
 /*
   6. Improve media defaults
@@ -39,8 +37,8 @@ picture,
 video,
 canvas,
 svg {
-	display: block;
-	max-width: 100%;
+  display: block;
+  max-width: 100%;
 }
 /*
   7. Remove built-in form typography styles
@@ -49,7 +47,7 @@ input,
 button,
 textarea,
 select {
-	font: inherit;
+  font: inherit;
 }
 /*
   8. Avoid text overflows
@@ -68,68 +66,67 @@ h6 {
 */
 #root,
 #__next {
-	isolation: isolate;
+  isolation: isolate;
 }
 
 html {
-	scroll-behavior: smooth;
-		scroll-padding-top: 5rem;
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
 }
 
-// Accessability 
+// Accessability
 
 @media (prefers-reduced-motion: reduce) {
-	*,
-	*::before,
-	*::after {
-		animation-duration: 0.01ms !important;
-		animation-iteration-count: 1 !important;
-		transition-duration: 0.01ms !important;
-		scroll-behavior: auto !important;
-	}
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
 
-
 ::selection {
-	background-color: #e42b2b;
-	color: white;
+  background-color: #e42b2b;
+  color: white;
 }
 
 .markdown strong,
 .markdown b,
 .markdown em {
-	padding: 1px 2px;
-	background-color: #ffffff;
-	font-weight: 600;
+  padding: 1px 2px;
+  background-color: #ffffff;
+  font-weight: 600;
 }
 
 .header .my_socials a:hover {
-	color: #e42b2b;
+  color: #e42b2b;
 }
 
 .header .my_socials a {
-	color: #5f5f5f;
-	font-size: 12px;
-	float: none;
-	cursor: pointer;
+  color: #5f5f5f;
+  font-size: 12px;
+  float: none;
+  cursor: pointer;
 }
 
 .header .site_title_container .site_title a:hover {
-	color: #e42b2b;
+  color: #e42b2b;
 }
 
 .header .site_title_container .site_title a {
-	font-size: 35px;
-	width: 65px;
-	letter-spacing: 2px;
-	line-height: 1.2;
-	color: #000000;
-	font-weight: 400;
+  font-size: 35px;
+  width: 65px;
+  letter-spacing: 2px;
+  line-height: 1.2;
+  color: #000000;
+  font-weight: 400;
 }
 
 reddot::after {
-	content: attr(data-end);
-	color: #e42b2b;
+  content: attr(data-end);
+  color: #e42b2b;
 }
 
 /* #### Kontaktformular ### */
@@ -138,156 +135,173 @@ reddot::after {
 input[type="text"],
 select,
 textarea {
-	width: 100%;
-	box-sizing: border-box;
-	resize: vertical;
-	background: transparent;
-	border-radius: 1px;
-	margin-bottom: 30px;
-	padding: 0 0 10px;
-	border-width: 0 0 1px;
-	border-color: #e42b2b;
-	font-weight: 300;
-	letter-spacing: 1px;
-	-webkit-appearance: none;
-	height: 42px;
+  width: 100%;
+  box-sizing: border-box;
+  resize: vertical;
+  background: transparent;
+  border-radius: 1px;
+  margin-bottom: 30px;
+  padding: 0 0 10px;
+  border-width: 0 0 1px;
+  border-color: #e42b2b;
+  font-weight: 300;
+  letter-spacing: 1px;
+  -webkit-appearance: none;
+  height: 42px;
 }
 
 /* Style the label to display next to the inputs */
 
 label {
-	padding: 12px 12px 12px 0;
-	display: inline-block;
+  padding: 12px 12px 12px 0;
+  display: inline-block;
 }
 
 /* Style the submit button */
 #abschicken {
-	background-color: #e42b2b;
-	color: white;
-	padding: 12px 20px;
-	border: none;
-	border-radius: 4px;
-	cursor: pointer;
-	margin-top: 25px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	transition-duration: 500ms;
+  background-color: #e42b2b;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition-duration: 500ms;
 }
 
 input[type="submit"]:hover {
-	background-color: #1f1f1f;
+  background-color: #1f1f1f;
 }
 
 /* Style the container */
 .formcontainer {
-	border-radius: 5px;
-	/*background-color: #f2f2f2;*/
-	padding: 20px;
+  border-radius: 5px;
+  /*background-color: #f2f2f2;*/
+  padding: 20px;
 }
 
 /* Floating column for labels: 35% width */
 .col-25 {
-	float: left;
-	width: 35%;
-	margin-top: 6px;
+  float: left;
+  width: 35%;
+  margin-top: 6px;
 }
 
 /* Floating column for inputs: 75% width */
 .col-75 {
-	width: 75%;
-	margin-top: 8px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+  width: 75%;
+  margin-top: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Clear floats after the columns */
 .row:after {
-	content: "";
-	display: table;
-	clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-	.col-25,
-	.col-75 {
-		width: 100%;
-		margin-top: 15px;
-	}
-	#abschicken {
-		max-width: 60%;
-		margin-top: 15px;
-		font-size: 1.3rem;
-	}
+  .col-25,
+  .col-75 {
+    width: 100%;
+    margin-top: 15px;
+  }
+  #abschicken {
+    max-width: 60%;
+    margin-top: 15px;
+    font-size: 1.3rem;
+  }
 }
 
 /* Pix */
 .img-33l {
-	display: block;
-	margin-right: auto;
-	max-width: 33%;
-	padding-right: 5px;
-	padding-top: 10px;
-	float: left;
+  display: block;
+  margin-right: auto;
+  max-width: 33%;
+  padding-right: 5px;
+  padding-top: 10px;
+  float: left;
 }
 
 .img-49l {
-	display: block;
-	margin-right: auto;
-	max-width: 49%;
-	clear: right;
-	float: left;
-	padding: 10px;
+  display: block;
+  margin-right: auto;
+  max-width: 49%;
+  clear: right;
+  float: left;
+  padding: 10px;
 }
 
 .img-49r {
-	display: block;
-	margin-right: auto;
-	margin-top: 20px;
-	max-width: 49%;
-	float: right;
+  display: block;
+  margin-right: auto;
+  margin-top: 20px;
+  max-width: 49%;
+  float: right;
 }
 
 .img-33c {
-	display: block;
-	margin-right: auto;
-	max-width: 33%;
-	padding: 5px;
-	float: center;
+  display: block;
+  margin-right: auto;
+  max-width: 33%;
+  padding: 5px;
+  float: center;
 }
 .img-100c {
-	display: block;
-	margin-right: auto;
-	max-width: 100%;
-	padding: 5px;
-	float: center;
+  display: block;
+  margin-right: auto;
+  max-width: 100%;
+  padding: 5px;
+  float: center;
 }
 .img-33r {
-	display: block;
-	margin-right: auto;
-	max-width: 33%;
-	padding: 5px;
-	float: right;
+  display: block;
+  margin-right: auto;
+  max-width: 33%;
+  padding: 5px;
+  float: right;
 }
- /* for screenreaders: Navigation überspringen */
-.skip-nav-link{
-	position: absolute;
-	transform: translateY(-220%);
-	padding: 1rem;
-	background: #F7F7F7;
-	border-radius: 0 0 5px 5px;
-	left: 25%;
-	z-index: 10;
-}
-
-.skip-nav-link:focus{
-	transform: translateY(0);
-	transition: transform 350ms ease-in;
-	color: #e42b2b;
+/* for screenreaders: Navigation überspringen */
+.skip-nav-link {
+  position: absolute;
+  transform: translateY(-220%);
+  padding: 1rem;
+  background: #f7f7f7;
+  border-radius: 0 0 5px 5px;
+  left: 25%;
+  z-index: 10;
 }
 
-h3:target{
-	text-decoration: underline wavy #e42b2b;
+.skip-nav-link:focus {
+  transform: translateY(0);
+  transition: transform 350ms ease-in;
+  color: #e42b2b;
+}
+
+h3:target {
+  text-decoration: underline wavy #e42b2b;
+}
+
+#custom-search {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#custom-search-results {
+  text-align: center;
+}
+#custom-search-results ul {
+  text-align: initial;
+}
+
+#custom-search-title {
+  text-align: center;
+  margin-bottom: 50px;
 }

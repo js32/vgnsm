@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="de" >
+	<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta
+			name="author"
+			content="Jens"
+		/>
+		  
+		<title>Womit ist diese Seite gebaut? ｜ VGNSMS</title>
+		
+		<link rel="canonical" href="http://localhost:1313/posts/2021/tech/how-its-built/" />
+		
+		
+		<meta name="robots" content="all,follow" />
+		<meta name="googlebot" content="index,follow,snippet,archive" />
+		 
+		<meta name="description" content="Ein Tutorial, wie dieser Blog mittels hugo, netflify und github gebaut wurde." />
+		  
+		<meta
+			name="keywords"
+			content="github, static site generator, hugo, continuous deployment, netlify"
+		/>
+		  <link
+		rel="shortcut icon" href="http://localhost:1313/images/favicon.ico" />
+
+		<link
+			rel="stylesheet"
+			type="text/css"
+			media="screen"
+			href="http://localhost:1313/css/normalize.css"
+		/>
+		
+		<link
+			rel="stylesheet"
+			type="text/css"
+			media="screen"
+			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+		/>
+		<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:1313/css/zozo.css" />
+		<link
+			rel="stylesheet"
+			type="text/css"
+			media="screen"
+			href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+		/>
+		<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:1313/css/highlight.css" />
+
+		
+		 <link rel="stylesheet" href="http://localhost:1313/css/custom.css" /> 
+
+		
+
+		<script
+			defer
+			data-domain="dieses-veganismus.de"
+			src="/js/script.js"
+		></script>
+	</head>
+</html>
+
+
+<body>
+    <div class="main animate__animated animate__fadeInDown">
+        <div class="nav_container animated fadeInDown">
+    <div class="site_nav" id="site_nav">
+        <ul>
+            
+            <li>
+                <a href="/about/">Über</a>
+            </li>
+            
+            <li>
+                <a href="/posts/">Alle Posts</a>
+            </li>
+            
+            <li>
+                <a href="/tags/">Kategorien</a>
+            </li>
+            
+        </ul>
+    </div>
+    <div class="menu_icon">
+        <a id="menu_icon"><i class="ri-menu-line"></i></a>
+    </div>
+</div> <div class="header animated fadeInDown">
+	<div class="site_title_container">
+		<div class="site_title">
+			<h1>
+				<a href="http://localhost:1313/">
+					<reddot data-end=".">VGNSMS</reddot>
+				</a>
+			</h1>
+		</div>
+		<div class="description">
+			<p class="sub_title">
+				Der; Subst. mask.
+			</p>
+			<div class="my_socials">
+				 
+				<a href="https://github.com/js32" title="github" target="_blank"
+					><i class="ri-github-fill"></i
+				></a>
+				  
+				<a href="/kontakt" title="mail" target="_blank"
+					><i class="ri-mail-fill"></i
+				></a>
+				 
+				<a
+					href="http://localhost:1313/index.xml"
+					type="application/rss+xml"
+					title="rss"
+					target="_blank"
+					><i class="ri-rss-fill"></i
+				></a>
+			</div>
+		</div>
+	</div>
+</div>
+
+        <div class="content">
+            <div class="post_page">
+                <div class="post animate__animated animate__fadeInDown">
+                    <div class="post_title post_detail_title">
+                        <h2><a href='/posts/2021/tech/how-its-built/'>Womit ist diese Seite gebaut?</a></h2>
+                        <span class="date">07.03.2021 </br>Lesezeit: ~5 Minuten (1001 Wörter)</span>
+                    </div>
+                    <div class="post_content markdown"><p>Dieser Blog liegt in einem <a href="https://github.com/js32/vgnsm"  target="_blank" >öffentlichen Repository auf GitHub</a> – warum nicht den ganzen Code zugänglich machen, wenn die Website sowieso öffentlich ist.</p>
+<p>Als Static Site Generator benutze ich <a href="https://gohugo.io"  target="_blank" >hugo</a> und als Theme kommt <a href="https://github.com/varkai/hugo-theme-zozo"  target="_blank" >varkais „Zozo“ Theme</a> zum Einsatz. Hugo ist auf allen großen Plattformen verfügbar, ich nutze selbst einen Mac.</p>
+<p>Wer mehr über die Vorzüge von Websites ohne Wordpress und Co. (also ohne Sicherheitslücken, ohne aufgeblähte Codebase und unüberschaubar viele Plugins) erfahren möchte, dem sei dieses <a href="https://www.youtube.com/watch?v=YyRwMy59d4M&amp;t=195s"  target="_blank" >Youtube-Video</a> vom Gründer von netlify ans Herz gelegt.</p>
+<p><a href="https://www.netlify.com"  target="_blank" >netlify</a> kommt als Hoster zum Einsatz, dort wird auch SSL und DNS gemanagt.</p>
+<p>Es folgt ein Tutorial für absolute Neulinge, wie ich es auch noch bin.</p>
+<h2 id="inhaltsverzeichnis">Inhaltsverzeichnis</h2>
+<ul>
+<li><a href="http://localhost:1313/posts/2021/tech/how-its-built/#voraussetzungen" >Voraussetzungen</a></li>
+<li><a href="http://localhost:1313/posts/2021/tech/how-its-built/#installation" >Installation</a></li>
+<li><a href="http://localhost:1313/posts/2021/tech/how-its-built/#git" >GitHub</a></li>
+<li><a href="http://localhost:1313/posts/2021/tech/how-its-built/#hugo-starten" >Neue hugo-Seite erstellen</a></li>
+<li><a href="http://localhost:1313/posts/2021/tech/how-its-built/#theme" >Ein Theme installieren</a></li>
+<li><a href="http://localhost:1313/posts/2021/tech/how-its-built/#demo" >Eine Beispiel-Website verwenden</a></li>
+<li><a href="http://localhost:1313/posts/2021/tech/how-its-built/#init0" >hugo-Server starten</a></li>
+<li><a href="http://localhost:1313/posts/2021/tech/how-its-built/#netlify" >netlify mit git verbinden</a></li>
+<li><a href="http://localhost:1313/posts/2021/tech/how-its-built/#GitHub" >Repository updaten</a></li>
+</ul>
+<h3 id="voraussetzungen">Wir benötigen</h3>
+<ul>
+<li>ein Git-Repository (hier GitHub, es funktioniert aber auch mit GitLab oder Bitbucket)</li>
+<li>git-CLI</li>
+<li>einen netlify-Account</li>
+<li>einen Code-Editor, wie <a href="https://github.com/atom/atom/releases/tag/v1.55.0"  target="_blank" >Atom</a> oder <a href="https://code.visualstudio.com/Download"  target="_blank" >VSCode</a></li>
+<li><a href="https://gohugo.io/getting-started/installing/"  target="_blank" >hugo</a></li>
+<li>auf dem Mac zusätzlich <a href="https://brew.sh/index_de"  target="_blank" >Homebrew</a></li>
+<li>eine Domain – ich besorge diese über <a href="https://www.inwx.com/en"  target="_blank" >INWX</a></li>
+</ul>
+<h3 id="installation">Installation</h3>
+<p>Zunächst laden wir uns den Code-Editor (für das tutorial hier Atom) runter und installieren hugo, das geht auf dem Mac am besten mittels Homebrew.</p>
+<p>Also zunächste Homebrew - wir wechseln ins Terminal und geben folgende Zeile ohne das vorangestellte <code>$</code>-Symbol ein – das <code>$</code> signalisiert nur, dass die Kommandos mit normalen Benutzerrechten ausgeführt werden:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>$ /bin/bash -c <span style="color:#e6db74">&#34;</span><span style="color:#66d9ef">$(</span>curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh<span style="color:#66d9ef">)</span><span style="color:#e6db74">&#34;</span>
+</span></span></code></pre></div><p>Über folgende Zeile installieren wir hugo – hugo steht danach in unserem <code>$PATH</code> zur Verfügung.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>$ brew install hugo
+</span></span></code></pre></div><p>Jetzt installieren wir uns noch git für die Kommandozeile – das geht am einfachsten, indem wir uns die Installationsdatei für den Mac einfach <a href="https://git-scm.com/download/mac"  target="_blank" >runterladen</a> und installieren.</p>
+<h3 id="git">Git-Repository</h3>
+<p>Jetzt müssen wir noch die Voraussetzungen schaffen, dass netlify unsere Seite hosten kann. netlify unterstützt zwar auch das manuelle Hochladen von Seiten, der Workflow über GitHub ist aber deutlich eleganter.</p>
+<p>Wir loggen uns auf GitHub ein und generieren ein neues Repository, indem wir links auf den grünen Button „New“ klicken:
+     
+
+<div class="fancybox">
+	<a
+		data-fancybox="gallery"
+		href="http://localhost:1313/static/images/git_1.png"
+		class=""
+		data-caption=""
+	>
+		<img
+			src="http://localhost:1313/static/images/git_1.png"
+			alt=""
+			width=""
+			height=""
+			loading="lazy"
+		/>
+	</a>
+</div>
+</p>
+<p>Jetzt geben wir dem neuen Repository einen sinnvollen Namen, setzen noch den Haken bei README und klicken dann unten auf den Button „Create repository“:
+     
+
+<div class="fancybox">
+	<a
+		data-fancybox="gallery"
+		href="http://localhost:1313/static/images/git_2.png"
+		class=""
+		data-caption=""
+	>
+		<img
+			src="http://localhost:1313/static/images/git_2.png"
+			alt=""
+			width=""
+			height=""
+			loading="lazy"
+		/>
+	</a>
+</div>
+</p>
+<p>Im nächsten Screen können wir mit Klick auf den grünen Code-Button die URL für HTTPS sehen. Wir kopieren uns diese <code>https://github.com/js32/demo.git</code>:</p>
+     
+
+<div class="fancybox">
+	<a
+		data-fancybox="gallery"
+		href="http://localhost:1313/static/images/git_3.png"
+		class=""
+		data-caption=""
+	>
+		<img
+			src="http://localhost:1313/static/images/git_3.png"
+			alt=""
+			width=""
+			height=""
+			loading="lazy"
+		/>
+	</a>
+</div>
+
+<p>Nun können wir wieder ins Terminal zurückwechseln und uns mittels folgendem Befehl einen neuen Ordner in unserem Benutzerverzeichnis erstellen – ich nennen ihn <code>src</code> für source/Quelle:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>$ mkdir ~/src
+</span></span></code></pre></div><p>Jetzt wechseln wir in den neu erstellten Ordner mittels</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ cd ~/src
+</span></span></code></pre></div><p>und clonen das Repository, das wir vorher auf GitHub erstellt haben mit der kopierten URL (ihr setzt hier natürlich eure URL ein):</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ git clone https://github.com/js32/demo.git
+</span></span></code></pre></div><p>Nun muss noch Benutzername und Passwort eingegeben werden und dann lädt das Repository runter. Wir prüfen, ob das Repo ordentlich runtergeladen wurde:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ ls -alh
+</span></span><span style="display:flex;"><span>total <span style="color:#ae81ff">0</span>
+</span></span><span style="display:flex;"><span>drwxr-xr-x   <span style="color:#ae81ff">3</span> play  staff    96B <span style="color:#ae81ff">20</span> Mär 17:05 .
+</span></span><span style="display:flex;"><span>drwxr-xr-x@ <span style="color:#ae81ff">70</span> play  staff   2,2K <span style="color:#ae81ff">20</span> Mär 17:05 ..
+</span></span><span style="display:flex;"><span>drwxr-xr-x   <span style="color:#ae81ff">4</span> play  staff   128B <span style="color:#ae81ff">20</span> Mär 17:05 demo
+</span></span></code></pre></div><h3 id="hugo-starten">Eine neue hugo-Seite erstellen</h3>
+<p>Nun können wir ins Verzeichnis <code>demo</code> wechseln und eine neue Hugo-Seite erstellen:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ cd ~/src/demo
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ hugo new site --force .
+</span></span></code></pre></div><p>Ein erneutes</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ ls -alh
+</span></span></code></pre></div><p>sollte uns folgendes zeigen:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>total <span style="color:#ae81ff">16</span>
+</span></span><span style="display:flex;"><span>drwxr-xr-x  <span style="color:#ae81ff">11</span> play  staff   352B <span style="color:#ae81ff">20</span> Mär 17:08 .
+</span></span><span style="display:flex;"><span>drwxr-xr-x   <span style="color:#ae81ff">3</span> play  staff    96B <span style="color:#ae81ff">20</span> Mär 17:05 ..
+</span></span><span style="display:flex;"><span>drwxr-xr-x  <span style="color:#ae81ff">12</span> play  staff   384B <span style="color:#ae81ff">20</span> Mär 17:08 .git
+</span></span><span style="display:flex;"><span>-rw-r--r--   <span style="color:#ae81ff">1</span> play  staff     6B <span style="color:#ae81ff">20</span> Mär 17:05 README.md
+</span></span><span style="display:flex;"><span>drwxr-xr-x   <span style="color:#ae81ff">3</span> play  staff    96B <span style="color:#ae81ff">20</span> Mär 17:08 archetypes
+</span></span><span style="display:flex;"><span>-rw-r--r--   <span style="color:#ae81ff">1</span> play  staff    82B <span style="color:#ae81ff">20</span> Mär 17:08 config.toml
+</span></span><span style="display:flex;"><span>drwxr-xr-x   <span style="color:#ae81ff">2</span> play  staff    64B <span style="color:#ae81ff">20</span> Mär 17:08 content
+</span></span><span style="display:flex;"><span>drwxr-xr-x   <span style="color:#ae81ff">2</span> play  staff    64B <span style="color:#ae81ff">20</span> Mär 17:08 data
+</span></span><span style="display:flex;"><span>drwxr-xr-x   <span style="color:#ae81ff">2</span> play  staff    64B <span style="color:#ae81ff">20</span> Mär 17:08 layouts
+</span></span><span style="display:flex;"><span>drwxr-xr-x   <span style="color:#ae81ff">2</span> play  staff    64B <span style="color:#ae81ff">20</span> Mär 17:08 static
+</span></span><span style="display:flex;"><span>drwxr-xr-x   <span style="color:#ae81ff">2</span> play  staff    64B <span style="color:#ae81ff">20</span> Mär 17:08 themes
+</span></span></code></pre></div><p>Gratulation – hugo ist installiert und unsere erste Seite kann konfiguriert und mit einem Theme ausgestattet werden!</p>
+<h3 id="theme">Ein Theme installieren</h3>
+<p>Mittels</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ git clone https://github.com/varkai/hugo-theme-zozo themes/zozo
+</span></span></code></pre></div><p>installieren wir den hier verwendeten Theme im Ordner <code>themes/zozo</code>. Es gibt noch viele anderen <a href="https://themes.gohugo.io"  target="_blank" >interessante Themes</a>, diese werden analog installiert.</p>
+<h3 id="demo">Beispiel-Website verwenden</h3>
+<p>Im Ordner <code>~/src/demo/themes/zozo/exampleSite</code> befindet sich ein Beispiel-Inhalt einer Website. Wir können den gesamten Inhalt dieses Ordners im Finder in den Ordner <code>demo</code> kopieren und dabei die bestehenden Dateien und Ordner überschreiben.</p>
+     
+
+<div class="fancybox">
+	<a
+		data-fancybox="gallery"
+		href="http://localhost:1313/static/images/finder_1.png"
+		class=""
+		data-caption=""
+	>
+		<img
+			src="http://localhost:1313/static/images/finder_1.png"
+			alt=""
+			width=""
+			height=""
+			loading="lazy"
+		/>
+	</a>
+</div>
+
+<p><strong>Wichtig:</strong> Wir müssen noch in der <code>config.toml</code> Datei in der ersten Zeile die Variable <code>baseURL</code> von <code>baseURL = &quot;http://localhost:1313/&quot;</code> auf <code>baseURL = &quot;/&quot;</code> ändern. Wenn diese URL falsch gesetzt ist, wird die Seite später nicht richtig gebaut.</p>
+<h3 id="init0">hugo server starten</h3>
+<p>Wir können jetzt den Hugo-Server starten und uns unsere Website im Browser unter <code>localhost:1313</code> ansehen:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ hugo server -D
+</span></span></code></pre></div><h3 id="netlify">netlify mit git verbinden</h3>
+<p>Sofern noch nicht geschehen, machen wir uns einen <a href="https://app.netlify.com/signup"  target="_blank" >Account bei netlify</a>, am einfachsten ist es, wenn wir uns mit unserem GitHub-Account einloggen.</p>
+<p>Über „New site from Git“ können wir netlify Zugriff auf unsere Repository gewähren.
+Sobald er eingerichtet ist, lauscht netlify auf Veränderungen im Ordner und wird die Seite bauen, wenn wir Commits in das repository pushen.</p>
+<p>Wir müssen noch eine weitere Datei im Ordner <code>demo</code> erzeugen:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ touch netlify.toml
+</span></span></code></pre></div><p>und fügen folgenden Inhalt ein:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>[build]
+</span></span><span style="display:flex;"><span>publish <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;public&#34;</span>
+</span></span><span style="display:flex;"><span>command <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;hugo --gc --minify&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[context<span style="color:#f92672">.</span>production<span style="color:#f92672">.</span>environment]
+</span></span><span style="display:flex;"><span>HUGO_VERSION <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;0.81.0&#34;</span>
+</span></span><span style="display:flex;"><span>HUGO_ENV <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;production&#34;</span>
+</span></span><span style="display:flex;"><span>HUGO_ENABLEGITINFO <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;true&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[context<span style="color:#f92672">.</span>split1]
+</span></span><span style="display:flex;"><span>command <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;hugo --gc --minify --enableGitInfo&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[context<span style="color:#f92672">.</span>split1<span style="color:#f92672">.</span>environment]
+</span></span><span style="display:flex;"><span>HUGO_VERSION <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;0.80.0&#34;</span>
+</span></span><span style="display:flex;"><span>HUGO_ENV <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;production&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[context<span style="color:#f92672">.</span>deploy<span style="color:#f92672">-</span>preview]
+</span></span><span style="display:flex;"><span>command <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[context<span style="color:#f92672">.</span>deploy<span style="color:#f92672">-</span>preview<span style="color:#f92672">.</span>environment]
+</span></span><span style="display:flex;"><span>HUGO_VERSION <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;0.80.0&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[context<span style="color:#f92672">.</span>branch<span style="color:#f92672">-</span>deploy]
+</span></span><span style="display:flex;"><span>command <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;hugo --gc --minify -b $DEPLOY_PRIME_URL&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[context<span style="color:#f92672">.</span>branch<span style="color:#f92672">-</span>deploy<span style="color:#f92672">.</span>environment]
+</span></span><span style="display:flex;"><span>HUGO_VERSION <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;0.80.0&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[context<span style="color:#f92672">.</span>next<span style="color:#f92672">.</span>environment]
+</span></span><span style="display:flex;"><span>HUGO_ENABLEGITINFO <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;true&#34;</span>
+</span></span></code></pre></div><h3 id="GitHub">Repository updaten</h3>
+<p>Zunächst fügen wir alle neuen Dateien zum Index hinzu:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>$ git add *
+</span></span></code></pre></div><p>Anschließend machen wir unser erstes Commit:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ git commit -a -m <span style="color:#e6db74">&#34;adding theme&#34;</span>
+</span></span></code></pre></div><p>Jetzt pushen wir das Commit zu GitHub:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ git push
+</span></span></code></pre></div><p>netlify sollte nun anfangen, die Seite zu bauen und sie unter der zufällig generierten URL veröffentlichen.
+Jetzt kann der Inhalt der hugo-Seite beliebig angepasst werden, netlify wird nach jedem Commit eine neue Variante bauen und veröffentlichen. Ich rate dennoch, die Website lokal im Browser zu testen, denn netlify bietet im kostenlosen Plan nur begrenzte Anzahl an Build-Minuten.</p>
+</div>
+                    <div class="post_footer">
+                        
+                        <div class="meta">
+                            <div class="info">
+                                <span class="field tags">
+                                    <i class="ri-stack-line"></i>
+                                    
+                                    <a href="http://localhost:1313/tags/tech/">tech</a>
+                                    
+                                    <a href="http://localhost:1313/tags/hugo/">hugo</a>
+                                    
+                                    <a href="http://localhost:1313/tags/git/">git</a>
+                                    
+                                </span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                
+                <div class="doc_comments"></div>
+                
+            </div>
+        </div>
+    </div>
+    <a id="back_to_top"  href="#" class="back_to_top"><i class="ri-arrow-up-s-line"></i></a> 
+    <footer class="footer">
+    <div class="footer_slogan">
+        <span>Eine Seite für Betroffene</span>
+    </div>
+    <div class="powered_by">
+        <a href="/posts/2021/tech/how-its-built/">Womit ist diese Seite gebaut?</a> </br> 
+        <a href="/impressum-datenschutz/">Impressum & Datenschutz</a>
+        <p style="color: #F7F7F7">Wenn ihr euch für verwandte Themen, wie z.B. Agroforst, Gewaltfreie Kommunikation, Gemeinschafts- und Selbstentwicklung oder Ökologie allgemein interessiert, schaut mal auf der <a style="text-decoration: none; color: #F7F7F7;" href="https://webinarwelt.siebenlinden.org" target=_blank>Webinarwelt Sieben Linden</a> vorbei. Dort gibt es Online-Kurse von sehr qulifizierten und erfahrenen Referent:innen zu allen möglichen Themen.
+</p>
+    </div>
+</footer>
+
+    
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="http://localhost:1313/js/zozo.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+
+
+</body>
+</html>

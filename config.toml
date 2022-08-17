@@ -10,8 +10,8 @@ enableEmoji = true
 googleAnalytics = ""        # your google analytics id
 # disqusShortname = "@disqus_OlLLFboZ76"    # your disquss shortname
 
-# [outputs]
-#  home = ["HTML", "RSS", "JSON"]
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
 
 pygmentsUseClasses = true
 pygmentCodeFences = true

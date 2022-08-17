@@ -1,16 +1,16 @@
-{{ partial "head.html" . }}
 
+{{ partial "head.html" . }}
 <body>
     <div class="main animate__animated animate__fadeInDown">
         {{ partial "nav.html" . }} {{ partial "header.html" . }}
         <div class="content">
             <div class="post_page">
                 <div class="post animate__animated animate__fadeInDown">
-                    <div class="post_title post_detail_title">
-                        <h2><a href='{{ .RelPermalink }}'>{{ .Title }} sdds</a></h2>
-                        <span class="date">{{ .Date.Format "02.01.2006" }} </br>Lesezeit: ~{{ math.Round (div (countwords .Content) 220.0) }} Minuten ({{ .Content | countwords }} Wörter)</span>
+                    <div class="post_title post_detail_title" id="custom-search-title">
+                        <h2><a href='{{ .RelPermalink }}'>{{ .Title }}</a></h2>
                     </div>
                     <div class="post_content markdown">{{ .Content }}</div>
+                    
                     <div class="post_footer">
                         {{ with .Params.tags }}
                         <div class="meta">
@@ -26,15 +26,11 @@
                         {{ end }}
                     </div>
                 </div>
-                <!-- 评论系统 -->
-                {{ if .Site.Params.valine.enable }} {{ partial "comments.html" . }} {{ else }}
-                <div class="doc_comments">{{ template "_internal/disqus.html" . }}</div>
-                {{ end }}
             </div>
+          
         </div>
     </div>
-    <a id="back_to_top"  href="#" class="back_to_top"><i class="ri-arrow-up-s-line"></i></a> 
-    {{ partial "footer.html" . }}
-    {{ partial "js.html" . }}
+    <a id="back_to_top"  href="#" class="back_to_top"><i class="ri-arrow-up-s-line"></i></a> {{ partial "footer.html" . }} {{ partial "js.html" . }}
 </body>
+
 </html>
