@@ -305,3 +305,11 @@ h3:target {
   text-align: center;
   margin-bottom: 50px;
 }
+
+.svg-icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+  margin-left: 5px;
+}

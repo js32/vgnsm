@@ -69,12 +69,13 @@ pygmentscodefencesguesssyntax = true
 # Your socail's url
 [social]
   github = "https://github.com/js32"
+  mail = "/kontakt"
+  search-2 = "/suche"
  # twitter = " "
  # facebook = " "
  # weibo = " "
  # instagram = " "
-  mail = "/kontakt"
-  search-2 = "/suche"
+
 [markup]
 [markup.goldmark]
 [markup.goldmark.renderer]
