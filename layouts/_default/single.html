@@ -7,7 +7,7 @@
             <div class="post_page">
                 <div class="post animate__animated animate__fadeInDown">
                     <div class="post_title post_detail_title">
-                        <h2><a href='{{ .RelPermalink }}'>{{ .Title }} sdds</a></h2>
+                        <h2><a href='{{ .RelPermalink }}'>{{ .Title }}</a></h2>
                         <span class="date">{{ .Date.Format "02.01.2006" }} </br>Lesezeit: ~{{ math.Round (div (countwords .Content) 220.0) }} Minuten ({{ .Content | countwords }} Wörter)</span>
                     </div>
                     <div class="post_content markdown">{{ .Content }}</div>
