@@ -1,10 +1,12 @@
 <div class="formcontainer">
-  <form method="POST" name="kontaktformular" data-netlify="true" netlify-honeypot="bot-field"  action="/success" netlify>
+  <!-- <form method="POST" name="kontaktformular" data-netlify="true" netlify-honeypot="bot-field"  action="/success" netlify> -->
+    <form action="https://form.taxi/s/ijepfla5" method="POST"> 
     <div class="row">
       <div hidden aria-hidden="true">
         <label>
           Don’t fill this out if you're human: 
-          <input name="bot-field" />
+          <!-- <input name="bot-field" /> -->
+          <input type="text" name="_gotchadassadsasdsad" value="" style="display:none;">
         </label>
       </div>
     </div>
@@ -30,6 +32,12 @@
     
       <div class="col-75">
         <textarea id="subject" placeholder="Schreibe etwas.." style="height:200px" required name="text"></textarea>
+      </div>
+      <div  class="col-75  post_content">
+        <label>
+          <input type="checkbox" name="Datenverarbeitung bestätigt" value="Ja" required>
+          Ich bestätige, dass ich mit der Verarbeitung meiner Eingaben einverstanden bin und akzeptiere die <a class="" href="/impressum-datenschutz/">Datenschutzbestimmungen</a>.
+        </label>
       </div>
     </div>
       <input id="abschicken" type="submit" value="Abschicken">

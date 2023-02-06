@@ -81,9 +81,7 @@ IP-Adressen werden für weniger als 30 Tage geloggt. Es werden keine anderen per
 
 #### Kontaktformular
 
-Wenn du das Kontaktformular benutzt, werden deine Angaben gespeichert. Diese Daten werden nicht ohne deine Einwilligung weitergegeben.
-
-Die von dir im Kontaktformular eingegebenen Daten verbleiben bei mir, du kannst jederzeit um Löschung bitten.
+Diese Internetseite nutzt form.taxi, einen Webdienst der Webseite https://form.taxi (nachfolgend "form.taxi"). Um die Funktionalität des Formulars zur Verfügung zu stellen, sende ich die angegebenen Daten an form.taxi. Diese Daten werden dort verarbeitet und gespeichert. Außerdem werden von form.taxi unter anderem weitere Daten wie Ihre IP-Adresse,  Typ des Browsers, die Domain der Webseite, das Datum und die Zeit des Zugriffs erhoben, um die gewünschte Funktionalität des Formulars bereitzustellen. Rechtsgrundlage für die Nutzung von form.taxi ist Art. 6 Abs. 1 S. 1 lit. f DS-GVO (berechtigtes Interesse). Die Datenverarbeitung und Speicherung erfolgt innerhalb der Europäischen Union. Weitere Informationen findest du in der Datenschutzerklärung von form.taxi: https://form.taxi/de/privacy.
 
 #### Die obligatorischen rechtlichen Hinweise
 
@@ -91,6 +89,6 @@ Alle Texte, Bilder und weitere hier veröffentlichte Informationen unterliegen m
 
 Für verlinkte Inhalte übernehme ich keine Verantwortung, da es sich nicht um meine Inhalte handelt – natürlich habe ich die Links zum Zeitpunkt des Schreibens der Artikel auf illegeale und sonstige faschistoiden und menschenverachtenden Inhalte geprüft, spätere Änderungen kann ich jedoch nicht ausschließen. Sollte es dir oder mir auffallen, dass Rechtsverletzungen bestehen oder Links anstößig sind, werde ich die Links umgehend entfernen.
 
-#### Und übrigens:
+#### Und übrigens
 
 {{< img src="https://ptrace.gafam.info/unofficial/img/color/lqdn-gafam-poster-en-color-5x1-2560x.png" class="img-100c" alt="The GAFAM poster campaign toolkit" title="Quelle: https://ptrace.gafam.info/">}}
