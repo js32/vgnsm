@@ -77,7 +77,7 @@ Die Website wird mittels [Netlify Inc.](https://www.netlify.com/gdpr-ccpa) gehos
 > San Francisco
 > CA, United States
 
-IP-Adressen werden für weniger als 30 Tage geloggt. Es werden keine anderen personenbezogenen Daten erfasst. Deren AV-Vertrag / Data Processing Agreement gibt es [hier](https://www.netlify.com/v3/static/pdf/netlify-dpa.pdf).
+IP-Adressen werden für weniger als 30 Tage geloggt. Es werden keine anderen personenbezogenen Daten erfasst. Den entsprechenden AV-Vertrag / Data Processing Agreement gibt es [hier](https://dieses-veganismus.de/static/docs/netlify-dpa.pdf).
 
 #### Kontaktformular
 
