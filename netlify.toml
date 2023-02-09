@@ -6,11 +6,11 @@ command = "hugo --gc --minify"
 
 [[redirects]]
 	from = "/js/script.js"
-	to = "https://plausible.io/js/plausible.js"
+	to = "https://analytics.kiste.limo/js/plausible.js"
 	status = 200
 [[redirects]]
 	from = "/api/event"
-	to = "https://plausible.io/api/event"
+	to = "https://analytics.kiste.limo/api/event"
 	status = 202
 
 [[redirects]]
