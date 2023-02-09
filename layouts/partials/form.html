@@ -1,35 +1,70 @@
-<div class="formcontainer">
-  <!-- <form method="POST" name="kontaktformular" data-netlify="true" netlify-honeypot="bot-field"  action="/success" netlify> -->
+<!-- <div class="formcontainer">
     <form action="https://form.taxi/s/ijepfla5" method="POST"> 
     <div class="row">
       <div hidden aria-hidden="true">
         <label>
           Don’t fill this out if you're human: 
-          <!-- <input name="bot-field" /> -->
           <input type="text" name="_gotchadassadsasdsad" value="" style="display:none;">
         </label>
       </div>
     </div>
     <div class="row">
-   
       <div class="col-75">
         <input type="text" id="name"  placeholder="Dein Name.." required name="name">
       </div>
     </div>
     <div class="row">
-      
       <div class="col-75">
         <input type="text" id="mail"  placeholder="Deine E-Mail-Adresse.." required name="mail" pattern="[a-zA-Z0-9._+-]+@[a-zA-Z0-9-]+\.[a-zA-Z]{2,6}" title="das scheint keine korrekt E-Mail-Adresse zu sein">
       </div>
     </div>
     <div class="row">
-      
       <div class="col-75">
         <input type="text" id="betreff" placeholder="Betrifft.." name="betreff">
       </div>
     </div>
     <div class="row">
-    
+      <div class="col-75">
+        <textarea id="subject" placeholder="Schreibe etwas.." style="height:200px" required name="text"></textarea>
+      </div>
+      <div  class="col-75  post_content">
+        <label>
+          <input type="checkbox" name="Datenverarbeitung bestätigt" value="Ja" required>
+          Ich bestätige, dass ich mit der Verarbeitung meiner Eingaben einverstanden bin und akzeptiere die <a class="" href="/impressum-datenschutz/">Datenschutzbestimmungen</a>.
+        </label>
+      </div>
+    </div>
+      <input id="abschicken" type="submit" value="Abschicken">
+    </div>
+  </form>
+</div> -->
+
+<div class="formcontainer">
+  <form action="//167.86.87.7:8001" method="post">
+    <input type="hidden" name="_to" value="asjdskjhd@js32.de">
+    <input type="hidden" name="_formName" value="Kontaktformular: dieses-veganismus.de">
+    <input type="hidden" name="_redirectTo" value="https://dieses-veganismus.de/success">
+    <input type="hidden" name="_token" value="^Qub%S9yUX">
+    <!-- Don’t fill this out if you're human:  -->
+    <label for="TEmail" style="display: none;">Gotcha</label>
+    <input id="TEmail" type="email" name="_t_email" style="display: none;">
+
+    <div class="row">
+      <div class="col-75">
+        <input type="text" id="name"  placeholder="Dein Name.." required name="_name">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-75">
+        <input type="text" id="mail"  placeholder="Deine E-Mail-Adresse.." required name="_replyTo" pattern="[a-zA-Z0-9._+-]+@[a-zA-Z0-9-]+\.[a-zA-Z]{2,6}" title="das scheint keine korrekt E-Mail-Adresse zu sein">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-75">
+        <input type="text" id="betreff" placeholder="Betrifft.." name="_subject">
+      </div>
+    </div>
+    <div class="row">
       <div class="col-75">
         <textarea id="subject" placeholder="Schreibe etwas.." style="height:200px" required name="text"></textarea>
       </div>
