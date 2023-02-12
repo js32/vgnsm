@@ -83,7 +83,7 @@ IP-Adressen werden für weniger als 30 Tage geloggt. Es werden keine anderen per
 
 #### Kontaktformular
 
-Wenn du das Kontaktformular nutzt, werden deine Daten per E-Mail an mich gesandt und gespeichert. Ich gebe die Daten nicht weiter. Die Daten verbleiben bei mir, bis ich sie lösche – du kannst jederzeit das Löschen verlangen, indem du mich kontakierst.
+Wenn du das Kontaktformular nutzt, werden deine Daten per E-Mail an mich gesandt und bei mir gespeichert. E-Mails werden unverschlüsselt übertragen und können theoretisch von jedem vermittelnden Server automatisiert gescannt und gelesne werden. Ich gebe die Daten nicht weiter. Die Daten verbleiben bei mir, bis ich sie lösche – du kannst jederzeit das Löschen verlangen, indem du mich kontakierst.
 
 <!-- Diese Internetseite nutzt form.taxi, einen Webdienst der Webseite https://form.taxi (nachfolgend "form.taxi"). Um die Funktionalität des Formulars zur Verfügung zu stellen, sende ich die angegebenen Daten an form.taxi. Diese Daten werden dort verarbeitet und gespeichert. Außerdem werden von form.taxi unter anderem weitere Daten wie Ihre IP-Adresse,  Typ des Browsers, die Domain der Webseite, das Datum und die Zeit des Zugriffs erhoben, um die gewünschte Funktionalität des Formulars bereitzustellen. Rechtsgrundlage für die Nutzung von form.taxi ist Art. 6 Abs. 1 S. 1 lit. f DS-GVO (berechtigtes Interesse). Die Datenverarbeitung und Speicherung erfolgt innerhalb der Europäischen Union. Weitere Informationen findest du in der Datenschutzerklärung von form.taxi: https://form.taxi/de/privacy. -->
 
