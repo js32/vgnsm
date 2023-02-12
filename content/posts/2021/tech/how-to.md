@@ -2,7 +2,7 @@
 title: "Womit ist diese Seite gebaut?"
 date: 2021-03-07T16:20:28+01:00
 draft: false
-tags: ["tech", "hugo", "git"]
+tags: ["tech", "hugo", "git", "tutorial"]
 keywords:
   [
     "github",
