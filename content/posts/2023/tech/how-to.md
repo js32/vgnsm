@@ -377,7 +377,7 @@ Wenn ihr nun auf mailygo.eure-domain.de/eurewebsite surft, sollte wieder das bek
 
 Das Repository enthält eine [Beispiel-Datei](https://codeberg.org/mzch/mailygo/src/branch/main/form.html) für ein Kontaktformular, das ihr beliebig anpassen könnt:
 
-```html
+```
 <form action="//localhost:8080" method="post">
   <!-- <input type="hidden" name="_to" value="test@example.com" /> -->
   <input type="hidden" name="_formName" value="Test Form" />
