@@ -15,11 +15,11 @@ keywords:
     "SSG",
     "Static Site Generator",
   ]
-description: "Tutorial: Wie Kontaktformulare DSGVO-konform per E-Mail zu versenden"
+description: "Erfahre, wie du Kontaktformulare DSGVO-konform mit MailyGo versendest."
 slug: "kontaktform-submissions-mit-mailygo"
 sitemap_exclude: false
 noindex: false
-rss_unlisted: false
+rss_unlisted:
 ---
 
 ## Fragestellung {id="fragestellung"}

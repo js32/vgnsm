@@ -9,7 +9,7 @@ description: "Artikel über die FAQ: aber was ist mit … Proteinen?"
 slug: "woher-bekommt-ihr-eure-proteine"
 sitemap_exclude: false
 noindex: false
-rss_unlisted: false
+rss_unlisted:
 aliases:
   - /woher-bekommt-ihr-euere-proteine
 ---

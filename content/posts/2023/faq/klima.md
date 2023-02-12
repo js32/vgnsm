@@ -8,7 +8,7 @@ description: "In diesem Artikel untersuchen wir, wie Veganismus das Klima schüt
 slug: "veganismus-schuetzt-das-klima"
 sitemap_exclude: false
 noindex: false
-rss_unlisted: false
+rss_unlisted:
 ---
 
 Veganismus ist eine Lebensweise, die immer mehr an Popularität gewinnt. Die Menschen werden sich immer mehr bewusst, dass ihre Ernährungsgewohnheiten Auswirkungen auf die Umwelt haben. In diesem Artikel untersuchen wir, wie Veganismus das Klima schützt und welchen Beitrag eine vegane Ernährung zum Klimaschutz leisten kann.
