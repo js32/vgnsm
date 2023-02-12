@@ -40,7 +40,7 @@ Stellt sich raus: ließe sich! Wie der Zufall so will, bin ich beim Recherchiere
 
 ## Umsetzung {id="Umsetzung"}
 
-Im folgenden beschriebe ich euch, wie ihr MailyGo installiert und startet. Außerdem beschreibe ich mein Setup, bei dem ich MailyGo mehrmals mit unterschiedlichen Benutzern per systemd-Unit starte und unter verschiedenen Domain-Unterverzeichnissen zur Verfügung stelle, damit ich mehrerer Formulare auf unterschiedlichen Seiten realisiert bekomme.
+Im folgenden beschreibe ich euch, wie ihr MailyGo installiert und startet. Außerdem beschreibe ich mein Setup, bei dem ich MailyGo mehrmals mit unterschiedlichen Benutzern per systemd-Unit starte und unter verschiedenen Domain-Unterverzeichnissen zur Verfügung stelle, damit ich mehrerer Formulare auf unterschiedlichen Seiten realisiert bekomme.
 
 ### Inhalt
 
