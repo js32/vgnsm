@@ -422,7 +422,7 @@ EMAIL_TO=empfänger@mailserver.com
 ALLOWED_TO=empfänger@mailserver.com
 ```
 
-Das war's – mailygo läuft nun mit env-File unter dem User „eurewebsite“ und der Port 8000 wird mittels nginx unter einem UNterverzeichnis eurer Subdomain vermittelt.
+Das war's – mailygo läuft nun mit env-File unter dem User „eurewebsite“ und der Port 8000 wird mittels nginx unter einem Unterverzeichnis eurer Subdomain vermittelt.
 
 ## Mehrere Prozesse für unterschiedliche Domains {id="multi"}
 
