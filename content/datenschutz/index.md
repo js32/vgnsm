@@ -37,7 +37,7 @@ Andere Dienste, wie z.B. Youtube- oder Vimeo-Videos werden sofern möglich ohne 
 
 Die konkreten Einstellungen im Static Site Generator [hugo](https://gohugo.io/about/hugo-and-gdpr/) lauten:
 
-```ruby
+```toml
 [privacy]
   [privacy.disqus]
     disable = true
