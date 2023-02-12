@@ -15,7 +15,7 @@ type: "datenschutz"
 
 #### Datenschutz ist ein Menschenrecht – diese Seite respektiert deine Privatsphäre
 
-Da die Seite nicht kommerziell betrieben wird, würde ich gern auch mein Recht auf Privatsphäre hornorieren. Leider können die Posts nach § 5 TMG und § 55 RStV als redaktioneller Inhalt im Sinne des Rundfunkstaatsvertrages gesehen werden, daher folgt eine ladungsfähige Adresse:
+Da die Seite nicht kommerziell betrieben wird, würde ich gern auch mein Recht auf Privatsphäre honorieren. Leider können die Posts nach § 5 TMG und § 55 RStV als redaktioneller Inhalt im Sinne des Rundfunkstaatsvertrages gesehen werden, daher folgt eine ladungsfähige Adresse:
 
 > Jens Steger
 > c/o Gloria Kison /
@@ -23,7 +23,7 @@ Da die Seite nicht kommerziell betrieben wird, würde ich gern auch mein Recht a
 > Josefsstraße 36
 > 55118 Mainz
 
-Solltest du Wünsche, Anmerkungen oder Kritik loswerden wollen, so kannst du das per Mail an _infoATdieses-veganimusPUNKTde_ oder über das [Kontaktformular](/kontakt) tun.
+Solltest du Wünsche, Anmerkungen oder Kritik loswerden wollen, so kannst du das per Mail an _infoATdieses-veganismusPUNKTde_ oder über das [Kontaktformular](/kontakt) tun.
 
 #### Cookies & Tracking
 
@@ -83,7 +83,7 @@ IP-Adressen werden für weniger als 30 Tage geloggt. Es werden keine anderen per
 
 #### Kontaktformular
 
-Wenn du das Kontaktformular nutzt, werden deine Daten per E-Mail an mich gesandt und bei mir gespeichert. E-Mails werden unverschlüsselt übertragen und können theoretisch von jedem vermittelnden Server automatisiert gescannt und gelesne werden. Ich gebe die Daten nicht weiter. Die Daten verbleiben bei mir, bis ich sie lösche – du kannst jederzeit das Löschen verlangen, indem du mich kontakierst.
+Wenn du das Kontaktformular nutzt, werden deine Daten per E-Mail an mich gesandt und bei mir gespeichert. E-Mails werden unverschlüsselt übertragen und können theoretisch von jedem vermittelnden Server automatisiert gescannt und gelesen werden. Ich gebe die Daten nicht weiter. Die Daten verbleiben bei mir, bis ich sie lösche – du kannst jederzeit das Löschen verlangen, indem du mich kontaktierst.
 
 <!-- Diese Internetseite nutzt form.taxi, einen Webdienst der Webseite https://form.taxi (nachfolgend "form.taxi"). Um die Funktionalität des Formulars zur Verfügung zu stellen, sende ich die angegebenen Daten an form.taxi. Diese Daten werden dort verarbeitet und gespeichert. Außerdem werden von form.taxi unter anderem weitere Daten wie Ihre IP-Adresse,  Typ des Browsers, die Domain der Webseite, das Datum und die Zeit des Zugriffs erhoben, um die gewünschte Funktionalität des Formulars bereitzustellen. Rechtsgrundlage für die Nutzung von form.taxi ist Art. 6 Abs. 1 S. 1 lit. f DS-GVO (berechtigtes Interesse). Die Datenverarbeitung und Speicherung erfolgt innerhalb der Europäischen Union. Weitere Informationen findest du in der Datenschutzerklärung von form.taxi: https://form.taxi/de/privacy. -->
 
@@ -91,7 +91,7 @@ Wenn du das Kontaktformular nutzt, werden deine Daten per E-Mail an mich gesandt
 
 Alle Texte, Bilder und weitere hier veröffentlichte Informationen unterliegen meinem Urheberrecht, soweit nicht Urheberrechte Dritter bestehen. Meine Inhalte können gern vervielfältigt werden, du benötigst dafür keine Zustimmung von mir, sofern das Urheberrecht anderer nicht tangiert wird.
 
-Für verlinkte Inhalte übernehme ich keine Verantwortung, da es sich nicht um meine Inhalte handelt – natürlich habe ich die Links zum Zeitpunkt des Schreibens der Artikel auf illegeale und sonstige faschistoiden und menschenverachtenden Inhalte geprüft, spätere Änderungen kann ich jedoch nicht ausschließen. Sollte es dir oder mir auffallen, dass Rechtsverletzungen bestehen oder Links anstößig sind, werde ich die Links umgehend entfernen.
+Für verlinkte Inhalte übernehme ich keine Verantwortung, da es sich nicht um meine Inhalte handelt – natürlich habe ich die Links zum Zeitpunkt des Schreibens der Artikel auf illegale und sonstige faschistoiden und menschenverachtenden Inhalte geprüft, spätere Änderungen kann ich jedoch nicht ausschließen. Sollte es dir oder mir auffallen, dass Rechtsverletzungen bestehen oder Links anstößig sind, werde ich die Links umgehend entfernen.
 
 #### Und übrigens
 
