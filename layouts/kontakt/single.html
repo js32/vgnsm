@@ -10,24 +10,6 @@
                         <h2><a href='{{ .RelPermalink }}'>{{ .Title }}</a></h2>
                     </div>
                     <div class="post_content markdown">{{ .Content }}</div>
-
-                    <form method="post" action="https://mailings.kiste.limo/subscription/form" class="listmonk-form">
-                        <div>
-                            <h3>Subscribe</h3>
-                            <input type="hidden" name="nonce" />
-                            <p><input type="email" name="email" required placeholder="E-Mail" /></p>
-                            <p><input type="text" name="name" placeholder="Name (optional)" /></p>
-                          
-                            <p>
-                              <input id="ef367" type="checkbox" name="l" checked value="ef36764b-84eb-4130-91ce-dcfff4f2d79a" />
-                              <label for="ef367">website-formular</label>
-                            </p>
-                    
-                            <p><input type="submit" value="Abonnieren" /></p>
-                        </div>
-                    </form>
-
-
                     {{ partial "form.html" .}}
                     <div class="post_footer">
                         {{ with .Params.tags }}
