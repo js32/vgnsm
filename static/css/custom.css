@@ -313,3 +313,60 @@ h3:target {
   fill: currentColor;
   margin-left: 5px;
 }
+/* dark mode */
+@media (prefers-color-scheme: dark) {
+  .main,
+  .post {
+    background-color: #1f1f1f;
+  }
+  p,
+  .post .post_title a,
+  .site_title_container .site_title a {
+    color: #fff;
+  }
+
+  .post .post_title span {
+    color: #c5c5c5;
+  }
+
+  body {
+    background-color: #323030;
+    color: white;
+  }
+
+  .main {
+    -webkit-box-shadow: none;
+
+    box-shadow: none;
+  }
+
+  .header .site_title_container .site_title a {
+    color: #fff;
+  }
+
+  label {
+    color: rgb(152, 152, 152);
+  }
+
+  a:link,
+  a:visited {
+    color: #a19f9f;
+  }
+
+  .post .post_footer .meta .tags a:hover {
+    color: #faf8f8;
+  }
+
+  .markdown h1,
+  .markdown h2,
+  .markdown h3,
+  .markdown h4,
+  .markdown h5,
+  .markdown h6 {
+    color: #fff;
+  }
+
+  footer .powered_by p {
+    display: none;
+  }
+}
