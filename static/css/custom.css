@@ -313,6 +313,11 @@ h3:target {
   fill: currentColor;
   margin-left: 5px;
 }
+
+.pagination {
+  border-bottom: none;
+}
+
 /* dark mode */
 @media (prefers-color-scheme: dark) {
   .main,
