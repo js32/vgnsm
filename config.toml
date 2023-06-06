@@ -13,9 +13,6 @@ googleAnalytics = ""        # your google analytics id
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
 
-pygmentsUseClasses = true
-pygmentCodeFences = true
-pygmentscodefencesguesssyntax = true
 
 [author]                               # essential                    
   name = "Jens"
