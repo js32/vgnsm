@@ -374,4 +374,16 @@ h3:target {
   footer .powered_by p {
     display: none;
   }
+
+  input[type="text"], select, textarea {
+    color: white;
+    }
+
+    .nav_container .site_nav {
+
+    background-color: #1e1e1e;
+    -webkit-box-shadow: none;
+box-shadow: none;
+    }
+
 }
