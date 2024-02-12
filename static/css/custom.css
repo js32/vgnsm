@@ -132,7 +132,7 @@ reddot::after {
 /* #### Kontaktformular ### */
 
 /* Style inputs, select elements and textareas */
-input[type="text"],
+input[type='text'],
 select,
 textarea {
   width: 100%;
@@ -172,7 +172,7 @@ label {
   transition-duration: 500ms;
 }
 
-input[type="submit"]:hover {
+input[type='submit']:hover {
   background-color: #1f1f1f;
 }
 
@@ -201,7 +201,7 @@ input[type="submit"]:hover {
 
 /* Clear floats after the columns */
 .row:after {
-  content: "";
+  content: '';
   display: table;
   clear: both;
 }
@@ -321,6 +321,7 @@ h3:target {
 /* dark mode */
 @media (prefers-color-scheme: dark) {
   .main,
+  html,
   .post {
     background-color: #1f1f1f;
   }
@@ -334,7 +335,8 @@ h3:target {
     color: #c5c5c5;
   }
 
-  body {
+  body,
+  html {
     background-color: #323030;
     color: white;
   }
@@ -346,6 +348,14 @@ h3:target {
   }
 
   .header .site_title_container .site_title a {
+    color: #fff;
+  }
+
+  .list_with_title .listing .listing_post a:hover {
+    color: #e1e1e1;
+  }
+
+  .list_with_title .listing_title {
     color: #fff;
   }
 
@@ -375,15 +385,15 @@ h3:target {
     display: none;
   }
 
-  input[type="text"], select, textarea {
+  input[type='text'],
+  select,
+  textarea {
     color: white;
-    }
+  }
 
-    .nav_container .site_nav {
-
+  .nav_container .site_nav {
     background-color: #1e1e1e;
     -webkit-box-shadow: none;
-box-shadow: none;
-    }
-
+    box-shadow: none;
+  }
 }
