@@ -58,21 +58,26 @@
       media="screen"
       href="{{ .Site.BaseURL }}/css/normalize.css"
     />
-    <!-- <link rel="stylesheet" type="text/css" media="screen" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.0/animate.min.css" /> -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      media="screen"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
+
+
     <link rel="stylesheet" type="text/css" media="screen" href="{{
     "css/zozo.css" |absURL }}" />
-    <link
-			rel="stylesheet"
-			type="text/css"
-			media="screen"
-			href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
-		/>
+
+   <!--  purgeCSS 'ed, as described here: https://zwbetz.com/how-to-use-purgecss-with-hugo/#minimal-reproducible-example-->
+
+    {{ $css := resources.Get "/css/remixicon.css" | resources.PostCSS }}
+    {{ if hugo.IsProduction }}
+    {{ $css = $css | minify | fingerprint | resources.PostProcess }}
+    {{ end }}
+    <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+
+
+    {{ $css := resources.Get "/css/animate.css" | resources.PostCSS }}
+    {{ if hugo.IsProduction }}
+    {{ $css = $css | minify | fingerprint | resources.PostProcess }}
+    {{ end }}
+    <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+
     <link rel="stylesheet" type="text/css" media="screen" href="{{
     "css/highlight.css" | absURL }}" />
 
@@ -81,7 +86,6 @@
     absURL }}{{ . }}" /> {{ end }}
 
     <!-- Plausible Tracking -->
-
     <script
       defer
       data-domain="dieses-veganismus.de"
