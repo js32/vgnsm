@@ -63,8 +63,8 @@
     <link rel="stylesheet" type="text/css" media="screen" href="{{
     "css/zozo.css" | absURL }}" />
 
-    <link rel="stylesheet" type="text/css" media="screen" href="{{
-    "css/remixicon.css" | absURL }}" />
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="{{
+    "css/remixicon.css" | absURL }}" /> -->
 
     <link rel="stylesheet" type="text/css" media="screen" href="{{
     "css/animate.min.css" | absURL }}" />
@@ -79,13 +79,9 @@
     <link rel="stylesheet" type="text/css" media="screen" href="{{
     "css/highlight.css" | absURL }}" />
 
-    
     <!-- custom css -->
     {{ range .Site.Params.customCSS }} <link rel="stylesheet" href="{{ "css/" |
     absURL }}{{ . }}" /> {{ end }}
-
-
-
 
     <!-- Plausible Tracking -->
     <script
