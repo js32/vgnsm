@@ -63,16 +63,9 @@
     <link rel="stylesheet" type="text/css" media="screen" href="{{
     "css/zozo.css" | absURL }}" />
 
- <link rel="stylesheet" type="text/css" media="screen" href="{{
+    <link rel="stylesheet" type="text/css" media="screen" href="{{
     "css/remixicon.css" | absURL }}" />
 
-   <!--  purgeCSS 'ed, as described here: https://zwbetz.com/how-to-use-purgecss-with-hugo/#minimal-reproducible-example-->
-
-    {{ $css := resources.Get "/css/animate.css" | resources.PostCSS }}
-    {{ if hugo.IsProduction }}
-    {{ $css = $css | minify | fingerprint | resources.PostProcess }}
-    {{ end }}
-    <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
 
     <link rel="stylesheet" type="text/css" media="screen" href="{{
     "css/highlight.css" | absURL }}" />
@@ -80,6 +73,14 @@
     <!-- custom css -->
     {{ range .Site.Params.customCSS }} <link rel="stylesheet" href="{{ "css/" |
     absURL }}{{ . }}" /> {{ end }}
+
+   <!--  purgeCSS 'ed, as described here: https://zwbetz.com/how-to-use-purgecss-with-hugo/#minimal-reproducible-example-->
+   {{ $css := resources.Get "/css/animate.css" | resources.PostCSS }}
+   {{ if hugo.IsProduction }}
+   {{ $css = $css | minify | fingerprint | resources.PostProcess }}
+   {{ end }}
+   <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+
 
     <!-- Plausible Tracking -->
     <script
