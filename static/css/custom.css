@@ -416,7 +416,7 @@ h3:target {
   position: relative;
 }
 
-.tags .icon.baseline svg {
+.info .icon.baseline svg {
   top: 0.1em;
   right: .1em;
 }
