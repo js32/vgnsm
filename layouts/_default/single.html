@@ -1,11 +1,11 @@
 {{ partial "head.html" . }}
 
 <body>
-    <div class="main animate__animated animate__fadeInDown">
+    <div class="main animate__animated animate__fadeIn">
         {{ partial "nav.html" . }} {{ partial "header.html" . }}
         <div class="content">
             <div class="post_page">
-                <div class="post animate__animated animate__fadeInDown">
+                <div class="post animate__animated animate__fadeIn">
                     <div class="post_title post_detail_title">
                         <h2><a href='{{ .RelPermalink }}'>{{ .Title }}</a></h2>
                         <span class="date">{{ .Date.Format "02.01.2006" }} </br>Lesezeit: ~{{ math.Round (div (countwords .Content) 220.0) }} Minuten ({{ .Content | countwords }} Wörter)</span>
