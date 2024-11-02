@@ -69,25 +69,25 @@ Die Installation über Apt hat bei mir nicht funktioniert, weil keine aktuelle V
 Zunächst loggen wir uns auf dem Server mittels SSH ein:
 
 ```
-$ ssh benutzer@ip_deines_vservers
+ssh benutzer@ip_deines_vservers
 ```
 
 Wir wechseln ins Homeverzeichnis:
 
 ```
-$ cd ~
+cd ~
 ```
 
 und laden uns die neueste Version von Golang runter:
 
 ```
-$ curl -OL https://go.dev/dl/go1.20.linux-amd64.tar.gz
+curl -OL https://go.dev/dl/go1.20.linux-amd64.tar.gz
 ```
 
 und entpacken das Archiv in `/usr/local`:
 
 ```
-$ sudo tar -C /usr/local -xvf go1.20.linux-amd64.tar.gz
+sudo tar -C /usr/local -xvf go1.20.linux-amd64.tar.gz
 ```
 
 ### Pfade setzen
@@ -105,7 +105,7 @@ Hier setzen wir folgende Zeile am Ende der Datei ein:
 Jetzt müssen wir die aktualisierte .profile-Datei noch neu einlesen mit:
 
 ```
-$ source ~/.profile
+source ~/.profile
 ```
 
 Das war's – mit `$ go version` können wir prüfen, ob alles geklappt hat.
@@ -118,28 +118,38 @@ Tada:
 
 In meinem Setup nutze ich nicht die Originalversion von MailyGo, sondern einen etwas erweiterten [Fork](https://codeberg.org/mzch/mailygo) von Koichi Matsumoto.
 
+### Kurze, aktuelle Version
+
+```
+go install codeberg.org/js32/mailygo@v1.0.0
+```
+
+Die Binary liegt dann unter ~/go/bin/mailygo
+
+### lange, alte Version
+
 Ich bevorzuge manuell installierte Pakete in `/opt/` zu installieren, daher wechseln wir zunächst in dieses Verzeichnis:
 
 ```
-$ cd /opt/
+cd /opt/
 ```
 
 Jetzt klonen wir das Git-Verzeichnis mittels:
 
 ```
-$ git clone https://codeberg.org/mzch/mailygo.git
+git clone https://codeberg.org/mzch/mailygo.git
 ```
 
 und wechseln in das neue Verzeichnis:
 
 ```
-$ cd mailygo/
+cd mailygo/
 ```
 
 Ein:
 
 ```
-$ go build ./
+go build ./
 ```
 
 kompiliert uns die eigentliche Application `mailygo`. Ich belasse sie in diesem Verzeichnis und start sie im Folgenden über den vollen Pfad `/opt/mailygo/mailygo`.
@@ -176,7 +186,7 @@ Die komplette Readme-Datei findet ihr [hier](https://codeberg.org/mzch/mailygo/s
 Probieren wir das gleich mal aus. Da wir uns aktuell im richtigen Verzeichnis `/opt/mailygo/` befinden, können wir die binary mit folgendem Befehl starten (setzt dabei natürlich eure Daten für euren verwendeten Mail-Account ein):
 
 ```
-$ SMTP_HOST=mail.host.com PORT=587 SMTP_PASS=yourpassword SMTP_USER=user@host.com USE_STARTTLS=true EMAIL_FROM=user@host.com EMAIL_TO=otheruser@otherhost.com ALLOWED_TO=otheruser@otherhost.com PORT=8000 ./mailygo
+SMTP_HOST=mail.host.com PORT=587 SMTP_PASS=yourpassword SMTP_USER=user@host.com USE_STARTTLS=true EMAIL_FROM=user@host.com EMAIL_TO=otheruser@otherhost.com ALLOWED_TO=otheruser@otherhost.com PORT=8000 ./mailygo
 ```
 
 Obiger Befehl startet mailygo - der Dienst lauscht wie unter `PORT` angegeben auf Port 8000. Sofern ihr keine Firewall einsetzt (living on the edge!), ist der Dienst jetzt schon unter der öffentlichen IP eures Servers erreichbar.
@@ -184,7 +194,7 @@ Obiger Befehl startet mailygo - der Dienst lauscht wie unter `PORT` angegeben au
 Falls ihr doch eine Firewall laufen habt, was ich hoffe, müsst ihr den Port zunächst öffnen. Ich setze ufw ein, da geht das so:
 
 ```
-$ sudo ufw allow 8000
+sudo ufw allow 8000
 ```
 
 Prüfen wir das mal. Mit:
@@ -208,7 +218,7 @@ zurückwerfen sollte. Perfekt!
 Jetzt löschen wir wieder die Portfreigabe der Firewall, da wir einen Reverse Proxy (nginx) vor mailygo setzen, der den internen Port unter unserer Domain weiterleitet:
 
 ```
-$ sudo ufw delete allow 8000
+sudo ufw delete allow 8000
 ```
 
 ## Reverse Proxy mit nginx {id="nginx"}
@@ -222,7 +232,7 @@ Ihr erstellt euch also zunächst bei eurem Domain-Anbieter im DNS-Panel eine Sub
 Dann wechselt ihr auf eurem Sever in das Verzeichnis `/etc/nginx/sites-available/` und erzeugt gleichzeitig eine neue nginx-Konfiguration:
 
 ```
-$ cd /etc/nginx/sites-available/ && nano mailygo
+cd /etc/nginx/sites-available/ && nano mailygo
 ```
 
 Im neuen Editor-Fenster fügt ihr folgendes für eure neue Domain `mailygo.eure-domain.de` ein:
@@ -248,7 +258,7 @@ ln -s /etc/nginx/sites-available/mailygo /etc/nginx/sites-enabled/mailygo
 Startet den Service neu mit:
 
 ```
-$ sudo systemctl restart nginx
+sudo systemctl restart nginx
 ```
 
 ### SSL mit Certbot {id="certbot"}
@@ -256,7 +266,7 @@ $ sudo systemctl restart nginx
 Ich empfehle ja immer den Einsatz von letsencrypt für euer SSL. Wenn ihr das benutzen wollt, könnt ihr euch ein Zertifikat holen und das installieren:
 
 ```
-$ sudo certbot --nginx
+sudo certbot --nginx
 ```
 
 Danach sieht eure nginx-Konfig so aus:
@@ -295,7 +305,7 @@ server {
 Das war's zunächst für nginx. Startet den Service nochmals neu mit:
 
 ```
-$ sudo systemctl restart nginx
+sudo systemctl restart nginx
 ```
 
 ## Starten von mailygo mittels systemd {id="systemd"}
@@ -303,7 +313,7 @@ $ sudo systemctl restart nginx
 Damit wir mailygo automatisiert laufen lassen können, macht es Sinn, diese Aufgabe systemd zu übergeben. Aber zunächst erzeugen wir uns einen neuen Benutzer, unter dem mailygo für diese Webiste laufen soll:
 
 ```
-$ sudo useradd eurewebsite
+sudo useradd eurewebsite
 ```
 
 Ich wähle als Benutzername wiederum den Kurznamen für eure Website, den wir weiter oben in den nginx-Konfig schon verwendet haben, aber ihr könnt auch einfach „Thomas“ nehmen :D
@@ -311,7 +321,7 @@ Ich wähle als Benutzername wiederum den Kurznamen für eure Website, den wir we
 Jetzt erzeugen wir uns eine neue systemd-Unit.
 
 ```
-$ sudo nano /etc/systemd/system/mailygo.eure-domain.de
+sudo nano /etc/systemd/system/mailygo.eure-domain.de
 ```
 
 und fügen dort folgendes ein:
@@ -340,7 +350,7 @@ Bei User, Group und EnvironmentFile müsst ihr noch eure passenden Namen einsetz
 Zunächst wechseln wir wieder ins Verzeichnis der mailygo-Installation und erzeugen dort einen neuen Ordner `env`:
 
 ```
-$ cd /opt/mailygo/ && mkdir ./env
+cd /opt/mailygo/ && mkdir ./env
 ```
 
 Im neuen Oder `env` erstellen wir mit nano eine neue Datei `eurewebsite` mit folgendem Inhalt:
@@ -367,7 +377,7 @@ Schaut euch die [Readme](https://codeberg.org/mzch/mailygo/src/branch/main/READM
 Die Unit ist ready, sobald wir folgende beiden Befehle ausgeführt haben:
 
 ```
-$ sudo systemctl daemon-reload && sudo systemctl restart mailygo.eure-domain.de.service
+sudo systemctl daemon-reload && sudo systemctl restart mailygo.eure-domain.de.service
 
 ```
 
