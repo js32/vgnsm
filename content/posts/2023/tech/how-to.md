@@ -517,16 +517,16 @@ und voilà.
 
 ### Repository klonen und Image bauen {id="docker-build"}
 
-  ```
+```
   cd /opt/
   git clone https://codeberg.org/js32/mailygo.git
   cd mailygo/
 
   Das mitgelieferte Dockerfile nutzt einen zweistufigen Build: Zunächst wird die Go-Binary kompiliert, anschließend landet nur diese in einem schlanken Alpine-Image. Kein Go auf
   dem Server notwendig.
-    ```
-      ```
+```
 
+ ```
   env-Datei anlegen {id="docker-env"}
 
   Im Verzeichnis /opt/mailygo/ liegt eine .env.example-Datei als Vorlage. Kopiert sie und befüllt sie mit euren Daten:
@@ -556,9 +556,9 @@ und voilà.
 
   Der entscheidende Unterschied zur systemd-Variante: In ALLOWED_TO tragt ihr alle Empfängeradressen aller eurer Websites ein, kommagetrennt. Die Weiterleitung an die richtige
   Adresse regelt dann das Formular (siehe #docker-multi).
-    ```
-      ```
+```
 
+```
   Container starten {id="docker-start"}
 
   Das mitgelieferte docker-compose.yml baut das Image lokal und startet den Container:
@@ -587,10 +587,9 @@ und voilà.
 
   git pull
   docker compose up -d --build
-
   ```
 
-    ```
+ ```
   nginx konfigurieren {id="docker-nginx"}
 
   Für Docker empfiehlt sich, jede Domain direkt auf den root-Pfad zu mappen, statt Unterverzeichnisse zu verwenden. Erstellt oder erweitert eure nginx-Konfiguration in
@@ -614,9 +613,9 @@ und voilà.
   sudo systemctl restart nginx
 
   Wenn ihr jetzt <https://forms.eure-domain.de> aufruft, sollte wieder das vertraute MailyGo works! erscheinen.
-
   ```
-    ```
+  
+  ```
   Mehrere Domains mit einer Instanz {id="docker-multi"}
 
   Hier liegt der größte Unterschied zur systemd-Variante: Ihr müsst keine zweite mailygo-Instanz starten. Stattdessen verwendet ihr das versteckte Formularfeld _to, um den
