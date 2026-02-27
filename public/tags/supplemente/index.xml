@@ -2,20 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Supplemente on VGNSMS</title>
-    <link>http://localhost:50308/tags/supplemente/</link>
+    <link>http://localhost:1313/tags/supplemente/</link>
     <description>Recent content in Supplemente on VGNSMS</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
     <managingEditor>info@dieses-veganimus.de (Jens)</managingEditor>
     <webMaster>info@dieses-veganimus.de (Jens)</webMaster>
-    <lastBuildDate>Sun, 07 Mar 2021 20:24:28 +0800</lastBuildDate>
-    <atom:link href="http://localhost:50308/tags/supplemente/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Mar 2021 20:24:28 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/supplemente/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>FAQ: Ist Supplemente nehmen nicht unnatürlich?</title>
-      <link>http://localhost:50308/posts/2021/faq/supplemente-nehmen-unnat%C3%BCrlich/</link>
-      <pubDate>Sun, 07 Mar 2021 20:24:28 +0800</pubDate><author>info@dieses-veganimus.de (Jens)</author>
-      <guid>http://localhost:50308/posts/2021/faq/supplemente-nehmen-unnat%C3%BCrlich/</guid>
-      <description>Ein Totschlagargument, das oft in Gesprächen vorgebracht wird, ist der Hinweis auf die Unnatürlichkeit der Einnahme von Nahrungsergänzungsmitteln. Es wird darauf verwiesen, dass wir uns möglichst „natürlich“ ernähren sollten, ohne auf „künstliche“, „chemische“ „Pillen“ angewiesen sein zu müssen.</description>
+      <link>http://localhost:1313/posts/2021/faq/supplemente-nehmen-unnat%C3%BCrlich/</link>
+      <pubDate>Sun, 07 Mar 2021 20:24:28 +0800</pubDate>
+      <author>info@dieses-veganimus.de (Jens)</author>
+      <guid>http://localhost:1313/posts/2021/faq/supplemente-nehmen-unnat%C3%BCrlich/</guid>
+      <description>&lt;p&gt;Ein Totschlagargument, das oft in Gesprächen vorgebracht wird, ist der Hinweis auf die Unnatürlichkeit der Einnahme von Nahrungsergänzungsmitteln. Es wird darauf verwiesen, dass wir uns möglichst „natürlich“ ernähren sollten, ohne auf „künstliche“, „chemische“ „Pillen“ angewiesen sein zu müssen.&lt;/p&gt;</description>
     </item>
+    
   </channel>
 </rss>

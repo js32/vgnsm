@@ -2,41 +2,56 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ernährung on VGNSMS</title>
-    <link>http://localhost:50308/tags/ern%C3%A4hrung/</link>
+    <link>http://localhost:1313/tags/ern%C3%A4hrung/</link>
     <description>Recent content in Ernährung on VGNSMS</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
     <managingEditor>info@dieses-veganimus.de (Jens)</managingEditor>
     <webMaster>info@dieses-veganimus.de (Jens)</webMaster>
-    <lastBuildDate>Mon, 30 Jan 2023 20:24:28 +0800</lastBuildDate>
-    <atom:link href="http://localhost:50308/tags/ern%C3%A4hrung/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 Jan 2023 20:24:28 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/ern%C3%A4hrung/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Wie Veganismus das Klima schützt</title>
-      <link>http://localhost:50308/posts/2023/faq/veganismus-schuetzt-das-klima/</link>
-      <pubDate>Mon, 30 Jan 2023 20:24:28 +0800</pubDate><author>info@dieses-veganimus.de (Jens)</author>
-      <guid>http://localhost:50308/posts/2023/faq/veganismus-schuetzt-das-klima/</guid>
-      <description>Veganismus ist eine Lebensweise, die immer mehr an Popularität gewinnt. Die Menschen werden sich immer mehr bewusst, dass ihre Ernährungsgewohnheiten Auswirkungen auf die Umwelt haben. In diesem Artikel untersuchen wir, wie Veganismus das Klima schützt und welchen Beitrag eine vegane Ernährung zum Klimaschutz leisten kann.</description>
+      <link>http://localhost:1313/posts/2023/faq/veganismus-schuetzt-das-klima/</link>
+      <pubDate>Mon, 30 Jan 2023 20:24:28 +0800</pubDate>
+      <author>info@dieses-veganimus.de (Jens)</author>
+      <guid>http://localhost:1313/posts/2023/faq/veganismus-schuetzt-das-klima/</guid>
+      <description>&lt;p&gt;Veganismus ist eine Lebensweise, die immer mehr an Popularität gewinnt. Die Menschen werden sich immer mehr bewusst, dass ihre Ernährungsgewohnheiten Auswirkungen auf die Umwelt haben. In diesem Artikel untersuchen wir, wie Veganismus das Klima schützt und welchen Beitrag eine vegane Ernährung zum Klimaschutz leisten kann.&lt;/p&gt;</description>
     </item>
+    
     <item>
       <title>FAQ: Woher bekommt ihr denn eure Proteine? (whadabout protons?!)</title>
-      <link>http://localhost:50308/posts/2021/faq/woher-bekommt-ihr-eure-proteine/</link>
-      <pubDate>Sat, 17 Apr 2021 00:00:00 +0000</pubDate><author>info@dieses-veganimus.de (Jens)</author>
-      <guid>http://localhost:50308/posts/2021/faq/woher-bekommt-ihr-eure-proteine/</guid>
-      <description>Für viele scheint es unvorstellbar zu sein, dass es auch ohne Eier und Steak möglich ist, seinen Eiweiß-Bedarf zu decken.&#xA;Dass das mit einer pflanzlichen Ernährung problemlos möglich ist, soll folgender Gedanke zeigen:</description>
+      <link>http://localhost:1313/posts/2021/faq/woher-bekommt-ihr-eure-proteine/</link>
+      <pubDate>Sat, 17 Apr 2021 00:00:00 +0000</pubDate>
+      <author>info@dieses-veganimus.de (Jens)</author>
+      <guid>http://localhost:1313/posts/2021/faq/woher-bekommt-ihr-eure-proteine/</guid>
+      <description>&lt;p&gt;Für viele scheint es unvorstellbar zu sein, dass es auch ohne Eier und Steak möglich ist, seinen Eiweiß-Bedarf zu decken.&lt;/p&gt;
+&lt;p&gt;Dass das mit einer pflanzlichen Ernährung problemlos möglich ist, soll folgender Gedanke zeigen:&lt;/p&gt;</description>
     </item>
+    
     <item>
       <title>FAQ: Woher bekommt ihr euer Calcium?</title>
-      <link>http://localhost:50308/posts/2021/faq/woher-bekommt-ihr-euer-calcium/</link>
-      <pubDate>Tue, 23 Mar 2021 11:46:49 +0100</pubDate><author>info@dieses-veganimus.de (Jens)</author>
-      <guid>http://localhost:50308/posts/2021/faq/woher-bekommt-ihr-euer-calcium/</guid>
-      <description>TL; DR: Grundsätzlich lohnen sich hier zwei Fragen:&#xA;Wie kommt das Calcium in die Milch? Woher weiß jedes Kind, dass Milch so ein wichtiger Calcium-Lieferant ist? Ad 1 – Calcium ist ein Mineral.</description>
+      <link>http://localhost:1313/posts/2021/faq/woher-bekommt-ihr-euer-calcium/</link>
+      <pubDate>Tue, 23 Mar 2021 11:46:49 +0100</pubDate>
+      <author>info@dieses-veganimus.de (Jens)</author>
+      <guid>http://localhost:1313/posts/2021/faq/woher-bekommt-ihr-euer-calcium/</guid>
+      <description>&lt;h2 id=&#34;tl-dr&#34;&gt;TL; DR:&lt;/h2&gt;
+&lt;p&gt;Grundsätzlich lohnen sich hier zwei Fragen:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Wie kommt das Calcium in die Milch?&lt;/li&gt;
+&lt;li&gt;Woher weiß jedes Kind, dass Milch so ein wichtiger Calcium-Lieferant ist?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;ad-1&#34;&gt;Ad 1&lt;/h3&gt;
+&lt;p&gt;– Calcium ist ein Mineral. Wo kommen Minerale vor?&lt;/p&gt;</description>
     </item>
+    
     <item>
       <title>FAQ: Ist Supplemente nehmen nicht unnatürlich?</title>
-      <link>http://localhost:50308/posts/2021/faq/supplemente-nehmen-unnat%C3%BCrlich/</link>
-      <pubDate>Sun, 07 Mar 2021 20:24:28 +0800</pubDate><author>info@dieses-veganimus.de (Jens)</author>
-      <guid>http://localhost:50308/posts/2021/faq/supplemente-nehmen-unnat%C3%BCrlich/</guid>
-      <description>Ein Totschlagargument, das oft in Gesprächen vorgebracht wird, ist der Hinweis auf die Unnatürlichkeit der Einnahme von Nahrungsergänzungsmitteln. Es wird darauf verwiesen, dass wir uns möglichst „natürlich“ ernähren sollten, ohne auf „künstliche“, „chemische“ „Pillen“ angewiesen sein zu müssen.</description>
+      <link>http://localhost:1313/posts/2021/faq/supplemente-nehmen-unnat%C3%BCrlich/</link>
+      <pubDate>Sun, 07 Mar 2021 20:24:28 +0800</pubDate>
+      <author>info@dieses-veganimus.de (Jens)</author>
+      <guid>http://localhost:1313/posts/2021/faq/supplemente-nehmen-unnat%C3%BCrlich/</guid>
+      <description>&lt;p&gt;Ein Totschlagargument, das oft in Gesprächen vorgebracht wird, ist der Hinweis auf die Unnatürlichkeit der Einnahme von Nahrungsergänzungsmitteln. Es wird darauf verwiesen, dass wir uns möglichst „natürlich“ ernähren sollten, ohne auf „künstliche“, „chemische“ „Pillen“ angewiesen sein zu müssen.&lt;/p&gt;</description>
     </item>
+    
   </channel>
 </rss>

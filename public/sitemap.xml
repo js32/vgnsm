@@ -5,7 +5,7 @@
   
    
     <url>
-      <loc>http://localhost:50308/posts/2023/tech/kontaktform-submissions-mit-mailygo/</loc>
+      <loc>http://localhost:1313/posts/2023/tech/kontaktform-submissions-mit-mailygo/</loc>
       <lastmod>2023-02-12T13:10:28+01:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -14,22 +14,7 @@
   
    
     <url>
-      <loc>http://localhost:50308/posts/</loc>
-      <lastmod>2023-02-12T13:10:28+01:00</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  
-  
-   
-  
-   
-  
-   
-  
-   
-    <url>
-      <loc>http://localhost:50308/</loc>
+      <loc>http://localhost:1313/posts/</loc>
       <lastmod>2023-02-12T13:10:28+01:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -43,10 +28,25 @@
    
   
    
+    <url>
+      <loc>http://localhost:1313/</loc>
+      <lastmod>2023-02-12T13:10:28+01:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+  
+  
+   
+  
+   
+  
+   
+  
+   
   
    
     <url>
-      <loc>http://localhost:50308/posts/2023/faq/veganismus-schuetzt-das-klima/</loc>
+      <loc>http://localhost:1313/posts/2023/faq/veganismus-schuetzt-das-klima/</loc>
       <lastmod>2023-01-30T20:24:28+08:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -58,7 +58,7 @@
   
    
     <url>
-      <loc>http://localhost:50308/posts/2021/faq/woher-bekommt-ihr-eure-proteine/</loc>
+      <loc>http://localhost:1313/posts/2021/faq/woher-bekommt-ihr-eure-proteine/</loc>
       <lastmod>2021-04-17T00:00:00+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -67,9 +67,10 @@
   
    
   
+  
    
     <url>
-      <loc>http://localhost:50308/posts/2021/faq/woher-bekommt-ihr-euer-calcium/</loc>
+      <loc>http://localhost:1313/posts/2021/faq/woher-bekommt-ihr-euer-calcium/</loc>
       <lastmod>2021-03-23T11:46:49+01:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -79,7 +80,7 @@
   
    
     <url>
-      <loc>http://localhost:50308/impressum-datenschutz/</loc>
+      <loc>http://localhost:1313/impressum-datenschutz/</loc>
       <lastmod>2021-03-08T10:19:29+01:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -90,7 +91,7 @@
   
    
     <url>
-      <loc>http://localhost:50308/posts/2021/tech/how-its-built/</loc>
+      <loc>http://localhost:1313/posts/2021/tech/how-its-built/</loc>
       <lastmod>2021-03-07T16:20:28+01:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -99,7 +100,7 @@
   
    
     <url>
-      <loc>http://localhost:50308/posts/2021/faq/supplemente-nehmen-unnat%C3%BCrlich/</loc>
+      <loc>http://localhost:1313/posts/2021/faq/supplemente-nehmen-unnat%C3%BCrlich/</loc>
       <lastmod>2021-03-07T20:24:28+08:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -114,12 +115,10 @@
   
    
   
-   
-  
   
    
     <url>
-      <loc>http://localhost:50308/posts/2021/motivation/</loc>
+      <loc>http://localhost:1313/posts/2021/motivation/</loc>
       <lastmod>2021-02-27T20:24:28+08:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -127,8 +126,10 @@
   
   
    
+  
+   
     <url>
-      <loc>http://localhost:50308/suche/</loc>
+      <loc>http://localhost:1313/suche/</loc>
       <lastmod>2020-10-29T00:00:00+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>

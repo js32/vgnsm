@@ -2,27 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tutorial on VGNSMS</title>
-    <link>http://localhost:50308/tags/tutorial/</link>
+    <link>http://localhost:1313/tags/tutorial/</link>
     <description>Recent content in Tutorial on VGNSMS</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
     <managingEditor>info@dieses-veganimus.de (Jens)</managingEditor>
     <webMaster>info@dieses-veganimus.de (Jens)</webMaster>
-    <lastBuildDate>Sun, 12 Feb 2023 13:10:28 +0100</lastBuildDate>
-    <atom:link href="http://localhost:50308/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Feb 2023 13:10:28 +0100</lastBuildDate><atom:link href="http://localhost:1313/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kontaktformulare versenden mit MailyGo bei Hugo (Static) Sites</title>
-      <link>http://localhost:50308/posts/2023/tech/kontaktform-submissions-mit-mailygo/</link>
-      <pubDate>Sun, 12 Feb 2023 13:10:28 +0100</pubDate><author>info@dieses-veganimus.de (Jens)</author>
-      <guid>http://localhost:50308/posts/2023/tech/kontaktform-submissions-mit-mailygo/</guid>
-      <description>Fragestellung Wie Kontaktformulare datenschutzkonform per E-Mail übermitteln?&#xA;Problem Statisch gehostete Seiten unterstützen in der Regel keine serverseitigen Sprachen, wie PHP, mit denen sich ein Mailer für Kontaktformulare realisieren ließe (like so).</description>
+      <link>http://localhost:1313/posts/2023/tech/kontaktform-submissions-mit-mailygo/</link>
+      <pubDate>Sun, 12 Feb 2023 13:10:28 +0100</pubDate>
+      <author>info@dieses-veganimus.de (Jens)</author>
+      <guid>http://localhost:1313/posts/2023/tech/kontaktform-submissions-mit-mailygo/</guid>
+      <description>&lt;h2 id=&#34;fragestellung&#34;&gt;Fragestellung&lt;/h2&gt;
+&lt;p&gt;Wie Kontaktformulare datenschutzkonform per E-Mail übermitteln?&lt;/p&gt;
+&lt;h2 id=&#34;problem&#34;&gt;Problem&lt;/h2&gt;
+&lt;p&gt;Statisch gehostete Seiten unterstützen in der Regel keine serverseitigen Sprachen, wie PHP, mit denen sich ein Mailer für Kontaktformulare realisieren ließe (like 
+&lt;a href=&#34;https://stackoverflow.com/questions/18379238/send-email-with-php-from-html-form-on-submit-with-the-same-script&#34;  target=&#34;_blank&#34; rel=&#34;nofollow noopener noreferrer&#34; &gt;so&lt;/a&gt;).&lt;/p&gt;</description>
     </item>
+    
     <item>
       <title>Womit ist diese Seite gebaut?</title>
-      <link>http://localhost:50308/posts/2021/tech/how-its-built/</link>
-      <pubDate>Sun, 07 Mar 2021 16:20:28 +0100</pubDate><author>info@dieses-veganimus.de (Jens)</author>
-      <guid>http://localhost:50308/posts/2021/tech/how-its-built/</guid>
-      <description>Dieser Blog liegt in einem öffentlichen Repository auf GitHub – warum nicht den ganzen Code zugänglich machen, wenn die Website sowieso öffentlich ist.&#xA;Als Static Site Generator benutze ich hugo und als Theme kommt varkais „Zozo“ Theme zum Einsatz.</description>
+      <link>http://localhost:1313/posts/2021/tech/how-its-built/</link>
+      <pubDate>Sun, 07 Mar 2021 16:20:28 +0100</pubDate>
+      <author>info@dieses-veganimus.de (Jens)</author>
+      <guid>http://localhost:1313/posts/2021/tech/how-its-built/</guid>
+      <description>&lt;p&gt;Dieser Blog liegt in einem 
+&lt;a href=&#34;https://github.com/js32/vgnsm&#34;  target=&#34;_blank&#34; rel=&#34;nofollow noopener noreferrer&#34; &gt;öffentlichen Repository auf GitHub&lt;/a&gt; – warum nicht den ganzen Code zugänglich machen, wenn die Website sowieso öffentlich ist.&lt;/p&gt;
+&lt;p&gt;Als Static Site Generator benutze ich 
+&lt;a href=&#34;https://gohugo.io&#34;  target=&#34;_blank&#34; rel=&#34;nofollow noopener noreferrer&#34; &gt;hugo&lt;/a&gt; und als Theme kommt 
+&lt;a href=&#34;https://github.com/varkai/hugo-theme-zozo&#34;  target=&#34;_blank&#34; rel=&#34;nofollow noopener noreferrer&#34; &gt;varkais „Zozo“ Theme&lt;/a&gt; zum Einsatz. Hugo ist auf allen großen Plattformen verfügbar, ich nutze selbst einen Mac.&lt;/p&gt;</description>
     </item>
+    
   </channel>
 </rss>
