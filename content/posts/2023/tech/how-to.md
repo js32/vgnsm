@@ -526,9 +526,9 @@ und voilà.
   dem Server notwendig.
 ```
 
- ```
-  env-Datei anlegen {id="docker-env"}
+### env-Datei anlegen {id="docker-env"}
 
+ ```
   Im Verzeichnis /opt/mailygo/ liegt eine .env.example-Datei als Vorlage. Kopiert sie und befüllt sie mit euren Daten:
 
   cp .env.example .env
@@ -558,9 +558,9 @@ und voilà.
   Adresse regelt dann das Formular (siehe #docker-multi).
 ```
 
-```
-  Container starten {id="docker-start"}
+### Container starten {id="docker-start"}
 
+```
   Das mitgelieferte docker-compose.yml baut das Image lokal und startet den Container:
 
   services:
@@ -587,10 +587,12 @@ und voilà.
 
   git pull
   docker compose up -d --build
-  ```
+```
+
+### nginx konfigurieren {id="docker-nginx"}
 
  ```
-  nginx konfigurieren {id="docker-nginx"}
+
 
   Für Docker empfiehlt sich, jede Domain direkt auf den root-Pfad zu mappen, statt Unterverzeichnisse zu verwenden. Erstellt oder erweitert eure nginx-Konfiguration in
   /etc/nginx/sites-available/mailygo:
@@ -614,9 +616,11 @@ und voilà.
 
   Wenn ihr jetzt <https://forms.eure-domain.de> aufruft, sollte wieder das vertraute MailyGo works! erscheinen.
   ```
-  
+
+### Mehrere Domains mit einer Instanz {id="docker-multi"}
+
   ```
-  Mehrere Domains mit einer Instanz {id="docker-multi"}
+
 
   Hier liegt der größte Unterschied zur systemd-Variante: Ihr müsst keine zweite mailygo-Instanz starten. Stattdessen verwendet ihr das versteckte Formularfeld _to, um den
   Empfänger pro Website festzulegen:
