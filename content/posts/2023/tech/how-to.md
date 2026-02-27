@@ -36,7 +36,7 @@ Ich ziehe es jedoch vor, bei übermittelten Daten so wenige Mittelsmenschen wie 
 
 ## Lösung {id="loesung"}
 
-Stellt sich raus: ließe sich! Wie der Zufall so will, bin ich beim Recherchieren nach Lösungen auf [MailyGo](https://codeberg.org/jlelse/MailyGo) von Jan-Lukas Else gestoßen. Es handelt sich um eine Go-binary, die als Endpunkt für POST-Requests aus Formularen dient. Das Programm versendet übermittelte Daten per Mail, ohne dass die Daten noch irgendwo zwischengespeichert werden – perfekt für meine Anforderungen.
+Stellt sich raus: ließe sich! Wie der Zufall so will, bin ich beim Recherchieren nach Lösungen auf MailyGo von Jan-Lukas Else gestoßen. Es handelt sich um eine Go-binary, die als Endpunkt für POST-Requests aus Formularen dient. Das Programm versendet übermittelte Daten per Mail, ohne dass die Daten noch irgendwo zwischengespeichert werden – perfekt für meine Anforderungen.
 
 ## Umsetzung {id="Umsetzung"}
 
@@ -119,7 +119,7 @@ Tada:
 
 ## Installation von MailyGo {id="mailygoinstallation"}
 
-In meinem Setup nutze ich nicht die Originalversion von MailyGo, sondern einen etwas erweiterten [Fork](https://codeberg.org/mzch/mailygo) von Koichi Matsumoto.
+In meinem Setup nutze ich nicht die Originalversion von MailyGo, sondern einen etwas erweiterten [Fork](https://codeberg.org/js32/mailygo) von Koichi Matsumoto und mir.
 
 ### Kurze, aktuelle Version
 

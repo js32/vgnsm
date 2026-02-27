@@ -175,7 +175,7 @@
                 <div class="post animated fadeIn">
                     <div class="post_title post_detail_title">
                         <h2><a href='/posts/2023/tech/kontaktform-submissions-mit-mailygo/'>Kontaktformulare versenden mit MailyGo bei Hugo (Static) Sites</a></h2>
-                        <span class="date">12.02.2023 </br>Lesezeit: ~10 Minuten (2115 Wörter)</span>
+                        <span class="date">12.02.2023 </br>Lesezeit: ~12 Minuten (2604 Wörter)</span>
                     </div>
                     <div class="post_content markdown"><h2 id="fragestellung">Fragestellung</h2>
 <p>Wie Kontaktformulare datenschutzkonform per E-Mail übermitteln?</p>
@@ -193,6 +193,8 @@
 <a href="https://codeberg.org/jlelse/MailyGo"  target="_blank" rel="nofollow noopener noreferrer" >MailyGo</a> von Jan-Lukas Else gestoßen. Es handelt sich um eine Go-binary, die als Endpunkt für POST-Requests aus Formularen dient. Das Programm versendet übermittelte Daten per Mail, ohne dass die Daten noch irgendwo zwischengespeichert werden – perfekt für meine Anforderungen.</p>
 <h2 id="Umsetzung">Umsetzung</h2>
 <p>Im folgenden beschreibe ich euch, wie ihr MailyGo installiert und startet. Außerdem beschreibe ich mein Setup, bei dem ich MailyGo mehrmals mit unterschiedlichen Benutzern per systemd-Unit starte und unter verschiedenen Domain-Unterverzeichnissen zur Verfügung stelle, damit ich mehrerer Formulare auf unterschiedlichen Seiten realisiert bekomme.</p>
+<p>Ganz unten gibt es eine aktualisierte, deitlich einfachere Version mittels 
+<a href="#docker" >Docker</a>.</p>
 <h3 id="inhalt">Inhalt</h3>
 <ul>
 <li>
@@ -215,6 +217,8 @@
 <a href="#form" >Das Kontaktformular</a></li>
 <li>
 <a href="#multi" >Mehrere Prozesse für unterschiedliche Domains</a></li>
+<li>
+<a href="#docker" >Docker</a></li>
 </ul>
 <h2 id="voraussetzungen">Voraussetzungen</h2>
 <ul>
@@ -591,6 +595,153 @@ server {
 <p>zu</p>
 <p><code>&lt;form action=&quot;https://mailygo.eure-domain.de/eureanderewebsite&quot; method=&quot;post&quot;&gt;</code></p>
 <p>und voilà.</p>
+<h2 id="docker">Alternative: Docker-Deployment</h2>
+<p>Wer Go nicht manuell installieren und keine systemd-Units verwalten möchte, kann mailygo auch per Docker betreiben. Das hat noch einen weiteren Vorteil: <strong>Eine einzige Instanz
+genügt für beliebig viele Websites</strong> – kein separater Prozess und kein separater Port pro Site.</p>
+<h3 id="inhalt-1">Inhalt</h3>
+<ul>
+<li>
+<a href="#docker-voraussetzungen" >Voraussetzungen</a></li>
+<li>
+<a href="#docker-build" >Repository klonen und Image bauen</a></li>
+<li>
+<a href="#docker-env" >env-Datei anlegen</a></li>
+<li>
+<a href="#docker-start" >Container starten</a></li>
+<li>
+<a href="#docker-nginx" >nginx konfigurieren</a></li>
+<li>
+<a href="#docker-multi" >Mehrere Domains mit einer Instanz</a></li>
+</ul>
+<h3 id="docker-voraussetzungen">Voraussetzungen</h3>
+<ul>
+<li>Docker und Docker Compose auf dem Server installiert</li>
+<li>nginx läuft bereits (wie oben beschrieben)</li>
+<li>eine oder mehrere (Sub-)Domains, die ihr kontrolliert</li>
+</ul>
+<h3 id="docker-build">Repository klonen und Image bauen</h3>
+<pre tabindex="0"><code>  cd /opt/
+  git clone https://codeberg.org/js32/mailygo.git
+  cd mailygo/
+
+  Das mitgelieferte Dockerfile nutzt einen zweistufigen Build: Zunächst wird die Go-Binary kompiliert, anschließend landet nur diese in einem schlanken Alpine-Image. Kein Go auf
+  dem Server notwendig.
+</code></pre><h3 id="docker-env">env-Datei anlegen</h3>
+<pre tabindex="0"><code> Im Verzeichnis /opt/mailygo/ liegt eine .env.example-Datei als Vorlage. Kopiert sie und befüllt sie mit euren Daten:
+
+ cp .env.example .env
+ nano .env
+
+ Eine ausgefüllte .env sieht etwa so aus:
+
+ PORT=8080
+
+ EMAIL_TO=kontakt@meinewebsite.de
+ ALLOWED_TO=kontakt@meinewebsite.de,info@anderewebsite.de
+
+ EMAIL_FROM=forms@meinserver.de
+
+ SMTP_HOST=mail.meinserver.de
+ SMTP_PORT=587
+ SMTP_USER=forms@meinserver.de
+ SMTP_PASS=geheimespasswort
+ USE_STARTTLS=true
+
+ TOKEN=zufaellige-zeichenkette-hier
+ HONEYPOTS=_t_email
+ SPAMLIST=gambling,casino
+ DENYLIST=submit
+
+ Der entscheidende Unterschied zur systemd-Variante: In ALLOWED_TO tragt ihr alle Empfängeradressen aller eurer Websites ein, kommagetrennt. Die Weiterleitung an die richtige
+ Adresse regelt dann das Formular (siehe #docker-multi).
+</code></pre><h3 id="docker-start">Container starten</h3>
+<pre tabindex="0"><code>  Das mitgelieferte docker-compose.yml baut das Image lokal und startet den Container:
+
+  services:
+    mailygo:
+      build: .
+      image: mailygo:latest
+      restart: always
+      env_file: .env
+      ports:
+        - &#34;127.0.0.1:8080:8080&#34;
+
+  Der Port ist bewusst nur an 127.0.0.1 gebunden – von außen nicht direkt erreichbar, nginx leitet weiter.
+
+  Starten:
+
+  docker compose up -d
+
+  Prüfen, ob alles läuft:
+
+  docker compose ps
+  docker compose logs
+
+  Updates sind denkbar einfach:
+
+  git pull
+  docker compose up -d --build
+</code></pre><h3 id="docker-nginx">nginx konfigurieren</h3>
+<pre tabindex="0"><code>
+
+ Für Docker empfiehlt sich, jede Domain direkt auf den root-Pfad zu mappen, statt Unterverzeichnisse zu verwenden. Erstellt oder erweitert eure nginx-Konfiguration in
+ /etc/nginx/sites-available/mailygo:
+
+ server {
+     server_name forms.eure-domain.de;
+
+     location / {
+         proxy_pass http://127.0.0.1:8080;
+         proxy_set_header Host $host;
+         proxy_set_header X-Real-IP $remote_addr;
+         proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+         proxy_set_header X-Forwarded-Proto $scheme;
+     }
+ }
+
+ SSL mit Certbot holen und nginx neustarten:
+
+ sudo certbot --nginx
+ sudo systemctl restart nginx
+
+ Wenn ihr jetzt &lt;https://forms.eure-domain.de&gt; aufruft, sollte wieder das vertraute MailyGo works! erscheinen.
+</code></pre><h3 id="docker-multi">Mehrere Domains mit einer Instanz</h3>
+<pre tabindex="0"><code>
+
+Hier liegt der größte Unterschied zur systemd-Variante: Ihr müsst keine zweite mailygo-Instanz starten. Stattdessen verwendet ihr das versteckte Formularfeld _to, um den
+Empfänger pro Website festzulegen:
+
+Website 1:
+
+&lt;form action=&#34;https://forms.eure-domain.de&#34; method=&#34;post&#34;&gt;
+  &lt;input type=&#34;hidden&#34; name=&#34;_to&#34; value=&#34;kontakt@meinewebsite.de&#34; /&gt;
+  &lt;input type=&#34;hidden&#34; name=&#34;_token&#34; value=&#34;zufaellige-zeichenkette-hier&#34; /&gt;
+  &lt;!-- weitere Felder ... --&gt;
+&lt;/form&gt;
+
+Website 2:
+
+&lt;form action=&#34;https://forms.eure-domain.de&#34; method=&#34;post&#34;&gt;
+  &lt;input type=&#34;hidden&#34; name=&#34;_to&#34; value=&#34;info@anderewebsite.de&#34; /&gt;
+  &lt;input type=&#34;hidden&#34; name=&#34;_token&#34; value=&#34;zufaellige-zeichenkette-hier&#34; /&gt;
+  &lt;!-- weitere Felder ... --&gt;
+&lt;/form&gt;
+
+Voraussetzung: Die jeweilige Adresse muss in ALLOWED_TO eurer .env eingetragen sein. Ist das nicht der Fall, lehnt mailygo die Übermittlung ab.
+
+Für eine weitere nginx-Domain legt ihr einfach einen weiteren server-Block an – alle zeigen auf denselben Port 8080:
+
+server {
+    server_name forms.andere-domain.de;
+    location / {
+        proxy_pass http://127.0.0.1:8080;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+}
+</code></pre><p>Fertig – ein Prozess, beliebig viele Domains. Subba!</p>
 </div>
                     <div class="post_footer">
                         
