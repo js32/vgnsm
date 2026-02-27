@@ -517,7 +517,7 @@ und voilà.
 
 ### Repository klonen und Image bauen {id="docker-build"}
 
-  ```bash
+  ```
   cd /opt/
   git clone https://codeberg.org/js32/mailygo.git
   cd mailygo/
@@ -643,5 +643,6 @@ und voilà.
           proxy_set_header X-Forwarded-Proto $scheme;
       }
   }
+  ```
 
   Fertig – ein Prozess, beliebig viele Domains. Subba!
