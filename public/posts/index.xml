@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on VGNSMS</title>
+    <link>http://localhost:50308/posts/</link>
+    <description>Recent content in Posts on VGNSMS</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <managingEditor>info@dieses-veganimus.de (Jens)</managingEditor>
+    <webMaster>info@dieses-veganimus.de (Jens)</webMaster>
+    <lastBuildDate>Sun, 12 Feb 2023 13:10:28 +0100</lastBuildDate>
+    <atom:link href="http://localhost:50308/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kontaktformulare versenden mit MailyGo bei Hugo (Static) Sites</title>
+      <link>http://localhost:50308/posts/2023/tech/kontaktform-submissions-mit-mailygo/</link>
+      <pubDate>Sun, 12 Feb 2023 13:10:28 +0100</pubDate><author>info@dieses-veganimus.de (Jens)</author>
+      <guid>http://localhost:50308/posts/2023/tech/kontaktform-submissions-mit-mailygo/</guid>
+      <description>Fragestellung Wie Kontaktformulare datenschutzkonform per E-Mail übermitteln?&#xA;Problem Statisch gehostete Seiten unterstützen in der Regel keine serverseitigen Sprachen, wie PHP, mit denen sich ein Mailer für Kontaktformulare realisieren ließe (like so).</description>
+    </item>
+    <item>
+      <title>Wie Veganismus das Klima schützt</title>
+      <link>http://localhost:50308/posts/2023/faq/veganismus-schuetzt-das-klima/</link>
+      <pubDate>Mon, 30 Jan 2023 20:24:28 +0800</pubDate><author>info@dieses-veganimus.de (Jens)</author>
+      <guid>http://localhost:50308/posts/2023/faq/veganismus-schuetzt-das-klima/</guid>
+      <description>Veganismus ist eine Lebensweise, die immer mehr an Popularität gewinnt. Die Menschen werden sich immer mehr bewusst, dass ihre Ernährungsgewohnheiten Auswirkungen auf die Umwelt haben. In diesem Artikel untersuchen wir, wie Veganismus das Klima schützt und welchen Beitrag eine vegane Ernährung zum Klimaschutz leisten kann.</description>
+    </item>
+    <item>
+      <title>FAQ: Woher bekommt ihr denn eure Proteine? (whadabout protons?!)</title>
+      <link>http://localhost:50308/posts/2021/faq/woher-bekommt-ihr-eure-proteine/</link>
+      <pubDate>Sat, 17 Apr 2021 00:00:00 +0000</pubDate><author>info@dieses-veganimus.de (Jens)</author>
+      <guid>http://localhost:50308/posts/2021/faq/woher-bekommt-ihr-eure-proteine/</guid>
+      <description>Für viele scheint es unvorstellbar zu sein, dass es auch ohne Eier und Steak möglich ist, seinen Eiweiß-Bedarf zu decken.&#xA;Dass das mit einer pflanzlichen Ernährung problemlos möglich ist, soll folgender Gedanke zeigen:</description>
+    </item>
+    <item>
+      <title>FAQ: Woher bekommt ihr euer Calcium?</title>
+      <link>http://localhost:50308/posts/2021/faq/woher-bekommt-ihr-euer-calcium/</link>
+      <pubDate>Tue, 23 Mar 2021 11:46:49 +0100</pubDate><author>info@dieses-veganimus.de (Jens)</author>
+      <guid>http://localhost:50308/posts/2021/faq/woher-bekommt-ihr-euer-calcium/</guid>
+      <description>TL; DR: Grundsätzlich lohnen sich hier zwei Fragen:&#xA;Wie kommt das Calcium in die Milch? Woher weiß jedes Kind, dass Milch so ein wichtiger Calcium-Lieferant ist? Ad 1 – Calcium ist ein Mineral.</description>
+    </item>
+    <item>
+      <title>Womit ist diese Seite gebaut?</title>
+      <link>http://localhost:50308/posts/2021/tech/how-its-built/</link>
+      <pubDate>Sun, 07 Mar 2021 16:20:28 +0100</pubDate><author>info@dieses-veganimus.de (Jens)</author>
+      <guid>http://localhost:50308/posts/2021/tech/how-its-built/</guid>
+      <description>Dieser Blog liegt in einem öffentlichen Repository auf GitHub – warum nicht den ganzen Code zugänglich machen, wenn die Website sowieso öffentlich ist.&#xA;Als Static Site Generator benutze ich hugo und als Theme kommt varkais „Zozo“ Theme zum Einsatz.</description>
+    </item>
+    <item>
+      <title>FAQ: Ist Supplemente nehmen nicht unnatürlich?</title>
+      <link>http://localhost:50308/posts/2021/faq/supplemente-nehmen-unnat%C3%BCrlich/</link>
+      <pubDate>Sun, 07 Mar 2021 20:24:28 +0800</pubDate><author>info@dieses-veganimus.de (Jens)</author>
+      <guid>http://localhost:50308/posts/2021/faq/supplemente-nehmen-unnat%C3%BCrlich/</guid>
+      <description>Ein Totschlagargument, das oft in Gesprächen vorgebracht wird, ist der Hinweis auf die Unnatürlichkeit der Einnahme von Nahrungsergänzungsmitteln. Es wird darauf verwiesen, dass wir uns möglichst „natürlich“ ernähren sollten, ohne auf „künstliche“, „chemische“ „Pillen“ angewiesen sein zu müssen.</description>
+    </item>
+    <item>
+      <title>Motivation</title>
+      <link>http://localhost:50308/posts/2021/motivation/</link>
+      <pubDate>Sat, 27 Feb 2021 20:24:28 +0800</pubDate><author>info@dieses-veganimus.de (Jens)</author>
+      <guid>http://localhost:50308/posts/2021/motivation/</guid>
+      <description>Ich bin Jens, lebe und arbeite mit meiner Freundin in Mainz. Ex-Philosoph, technikaffin, Psychonaut, Veganer.&#xA;Zum ersten Mal in Kontakt mit dem Problem der Massentierhaltung kam ich vor 26 Jahren in der Schule durch eine Dokumentation, die ein Lehrer in einer Vertretungsstunde abspielte.</description>
+    </item>
+  </channel>
+</rss>

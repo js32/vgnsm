@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="de" >
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=50308&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="author"
+      content="Jens"
+    />
+      
+    <title>Kontaktformulare versenden mit MailyGo bei Hugo (Static) Sites ｜ VGNSMS</title>
+    
+    <link rel="canonical" href="http://localhost:50308/posts/2023/tech/kontaktform-submissions-mit-mailygo/" />
+    
+    
+    <meta name="robots" content="all,follow" />
+    <meta name="googlebot" content="index,follow,snippet,archive" />
+     
+    <meta name="description" content="Erfahre, wie du Kontaktformulare DSGVO-konform mit MailyGo versendest." />
+      
+    <meta
+      name="keywords"
+      content="formspree, static site generator, hugo, forms, mailygo, self hosted, JAMstack, SSG, Static Site Generator"
+    />
+      <link
+    rel="shortcut icon" href="http://localhost:50308/images/favicon.ico" />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="http://localhost:50308//css/normalize.css"
+    />
+
+
+    <link rel="stylesheet" type="text/css" media="screen" href="http://localhost:50308/css/zozo.css" />
+
+    
+
+    <link rel="stylesheet" type="text/css" media="screen" href="http://localhost:50308/css/animate.min.css" />
+    
+   
+   
+
+    <link rel="stylesheet" type="text/css" media="screen" href="http://localhost:50308/css/highlight.css" />
+
+    
+     <link rel="stylesheet" href="http://localhost:50308/css/custom.css" /> 
+
+    
+    <script
+      defer
+      data-domain="dieses-veganismus.de"
+      src="/js/script.js"
+    ></script>
+
+  </head>
+</html>
+
+
+<body>
+    <div class="main animated fadeIn">
+        <div class="nav_container animated fadeIn">
+    <div class="site_nav" id="site_nav">
+        <ul>
+            
+            <li>
+                <a href="/about/">Über</a>
+            </li>
+            
+            <li>
+                <a href="/posts/">Alle Posts</a>
+            </li>
+            
+            <li>
+                <a href="/tags/">Kategorien</a>
+            </li>
+            
+        </ul>
+    </div>
+    <div class="menu_icon">
+        <a id="menu_icon"><i class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M3 4H21V6H3V4ZM9 11H21V13H9V11ZM3 18H21V20H3V18Z"></path></svg></i></a>
+    </div>
+</div>
+ <div class="header animated fadeIn">
+  <div class="site_title_container">
+    <div class="site_title">
+      <h1>
+        <a href="http://localhost:50308/">
+          <reddot data-end=".">VGNSMS</reddot>
+        </a>
+      </h1>
+    </div>
+    <svg style="display: none">
+      <defs>
+        <svg id="icon-rss" viewBox="0 0 24 24">
+          <g>
+            <path fill="none" d="M0 0h24v24H0z" />
+            <path
+              d="M3 3c9.941 0 18 8.059 18 18h-3c0-8.284-6.716-15-15-15V3zm0 7c6.075 0 11 4.925 11 11h-3a8 8 0 0 0-8-8v-3zm0 7a4 4 0 0 1 4 4H3v-4z"
+            />
+          </g>
+        </svg>
+        <svg id="icon-mail" viewBox="0 0 24 24">
+          <g>
+            <path fill="none" d="M0 0h24v24H0z" />
+            <path
+              d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm9.06 8.683L5.648 6.238 4.353 7.762l7.72 6.555 7.581-6.56-1.308-1.513-6.285 5.439z"
+            />
+          </g>
+        </svg>
+        <svg id="icon-github" viewBox="0 0 24 24">
+          <g>
+            <path fill="none" d="M0 0h24v24H0z" />
+            <path
+              d="M12 2C6.475 2 2 6.475 2 12a9.994 9.994 0 0 0 6.838 9.488c.5.087.687-.213.687-.476 0-.237-.013-1.024-.013-1.862-2.512.463-3.162-.612-3.362-1.175-.113-.288-.6-1.175-1.025-1.413-.35-.187-.85-.65-.013-.662.788-.013 1.35.725 1.538 1.025.9 1.512 2.338 1.087 2.912.825.088-.65.35-1.087.638-1.337-2.225-.25-4.55-1.113-4.55-4.938 0-1.088.387-1.987 1.025-2.688-.1-.25-.45-1.275.1-2.65 0 0 .837-.262 2.75 1.026a9.28 9.28 0 0 1 2.5-.338c.85 0 1.7.112 2.5.337 1.912-1.3 2.75-1.024 2.75-1.024.55 1.375.2 2.4.1 2.65.637.7 1.025 1.587 1.025 2.687 0 3.838-2.337 4.688-4.562 4.938.362.312.675.912.675 1.85 0 1.337-.013 2.412-.013 2.75 0 .262.188.574.688.474A10.016 10.016 0 0 0 22 12c0-5.525-4.475-10-10-10z"
+            />
+          </g>
+        </svg>
+        <svg id="icon-search-2" viewBox="0 0 24 24">
+          <g>
+            <path fill="none" d="M0 0h24v24H0z" />
+            <path
+              d="M11 2c4.968 0 9 4.032 9 9s-4.032 9-9 9-9-4.032-9-9 4.032-9 9-9zm8.485 16.071l2.829 2.828-1.415 1.415-2.828-2.829 1.414-1.414z"
+            />
+          </g>
+        </svg>
+      </defs>
+    </svg>
+    <div class="description">
+      <p class="sub_title">
+        Der; Subst. mask.
+      </p>
+      <div class="my_socials">
+         
+        <a href="https://github.com/js32" title="github">
+          
+          <svg class="svg-icon">
+            <use xlink:href="#icon-github"></use>
+          </svg>
+        </a>
+          
+        <a href="/kontakt" title="mail">
+          
+          <svg class="svg-icon">
+            <use xlink:href="#icon-mail"></use>
+          </svg>
+        </a>
+          
+        <a href="/suche" title="search-2">
+          
+          <svg class="svg-icon">
+            <use xlink:href="#icon-search-2"></use>
+          </svg>
+        </a>
+         
+        <a
+          href=""
+          type="application/rss+xml"
+          title="rss"
+        >
+          
+          <svg class="svg-icon">
+            <use xlink:href="#icon-rss"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+        <div class="content">
+            <div class="post_page">
+                <div class="post animated fadeIn">
+                    <div class="post_title post_detail_title">
+                        <h2><a href='/posts/2023/tech/kontaktform-submissions-mit-mailygo/'>Kontaktformulare versenden mit MailyGo bei Hugo (Static) Sites</a></h2>
+                        <span class="date">12.02.2023 </br>Lesezeit: ~10 Minuten (2115 Wörter)</span>
+                    </div>
+                    <div class="post_content markdown"><h2 id="fragestellung">Fragestellung</h2>
+<p>Wie Kontaktformulare datenschutzkonform per E-Mail übermitteln?</p>
+<h2 id="problem">Problem</h2>
+<p>Statisch gehostete Seiten unterstützen in der Regel keine serverseitigen Sprachen, wie PHP, mit denen sich ein Mailer für Kontaktformulare realisieren ließe (like 
+<a href="https://stackoverflow.com/questions/18379238/send-email-with-php-from-html-form-on-submit-with-the-same-script"  target="_blank" rel="nofollow noopener noreferrer" >so</a>).</p>
+<p>Daher sind wir auf Dienste, wie z.B. formspree.io (eine gute Liste gibt es 
+<a href="https://css-tricks.com/a-comparison-of-static-form-providers/"  target="_blank" rel="nofollow noopener noreferrer" >hier</a>), angewiesen. Die meisten dieser Dienste sind allerdings nicht DSGVO-konform, da die Daten in unsichere Drittstaaten (looking at you, US of A) übertragen werden. Ich selbst nutze Netlify zum Hosten dieser Seite und habe auch in der Vergangenheit deren an sich ganz tollen und für meine Zwecke kostenlosen 
+<a href="https://www.netlify.com/products/forms/"  target="_blank" rel="nofollow noopener noreferrer" >Dienst für Kontaktformulare</a> eingesetzt. Netlify sitzt leider aber auch außerhalb der EU und hat daher mit den Formularübermittlungen besser nichts zu schaffen. Bliebe noch der in Österreich sitzende Dienst 
+<a href="https://form.taxi/de"  target="_blank" rel="nofollow noopener noreferrer" >form.taxi</a>, der für maximal 40 übermittelte Formulare auch kostenlos ist. Mir ist form.taxi sehr sympathisch und ich komme eventuell für Kundenprojekte darauf zurück.</p>
+<p>Ich ziehe es jedoch vor, bei übermittelten Daten so wenige Mittelsmenschen wie möglich zu haben und da ich sowieso einen VServer bei 
+<a href="https://contabo.com/de/vps/"  target="_blank" rel="nofollow noopener noreferrer" >Contabo</a> angemietet habe, war die Überlegung, ob sich das auch darüber realisieren ließe.</p>
+<h2 id="loesung">Lösung</h2>
+<p>Stellt sich raus: ließe sich! Wie der Zufall so will, bin ich beim Recherchieren nach Lösungen auf 
+<a href="https://codeberg.org/jlelse/MailyGo"  target="_blank" rel="nofollow noopener noreferrer" >MailyGo</a> von Jan-Lukas Else gestoßen. Es handelt sich um eine Go-binary, die als Endpunkt für POST-Requests aus Formularen dient. Das Programm versendet übermittelte Daten per Mail, ohne dass die Daten noch irgendwo zwischengespeichert werden – perfekt für meine Anforderungen.</p>
+<h2 id="Umsetzung">Umsetzung</h2>
+<p>Im folgenden beschreibe ich euch, wie ihr MailyGo installiert und startet. Außerdem beschreibe ich mein Setup, bei dem ich MailyGo mehrmals mit unterschiedlichen Benutzern per systemd-Unit starte und unter verschiedenen Domain-Unterverzeichnissen zur Verfügung stelle, damit ich mehrerer Formulare auf unterschiedlichen Seiten realisiert bekomme.</p>
+<h3 id="inhalt">Inhalt</h3>
+<ul>
+<li>
+<a href="#voraussetzungen" >Voraussetzungen</a></li>
+<li>
+<a href="#golanginstallation" >Installation von Golang</a></li>
+<li>
+<a href="#mailygoinstallation" >Installation von MailyGo</a></li>
+<li>
+<a href="#test" >Test</a></li>
+<li>
+<a href="#nginx" >Reverse Proxy mit nginx</a></li>
+<li>
+<a href="#certbot" >SSL mit Certbot</a></li>
+<li>
+<a href="#systemd" >Starten von mailygo mittels systemd</a></li>
+<li>
+<a href="#env" >Environment Variables über env-Datei</a></li>
+<li>
+<a href="#form" >Das Kontaktformular</a></li>
+<li>
+<a href="#multi" >Mehrere Prozesse für unterschiedliche Domains</a></li>
+</ul>
+<h2 id="voraussetzungen">Voraussetzungen</h2>
+<ul>
+<li>eine freie (Sub-)Domain, die ihr kontrolliert und bei der ihr DNS-Einträge setzen könnt</li>
+<li>einen Linux-VServer mit Root-Zugriff, bei mir eine Ubuntu 20.04.5 LTS Installation</li>
+<li>Einen E-Mail-Account, idealerweise richtet ihr euch einen ein, der nur zum Versand der Kontaktformulare dient</li>
+<li>eine Website mit Kontaktformular ;)</li>
+</ul>
+<h2 id="golanginstallation">Installation von Golang</h2>
+<p>Die Installation über Apt hat bei mir nicht funktioniert, weil keine aktuelle Version von Golang zur Verfügung stand und MailyGo damit nicht lief, daher folgt die manuelle Installation – ich folge im Wesentlichen einem Tutorial von 
+<a href="https://www.digitalocean.com/community/tutorials/how-to-install-go-on-ubuntu-20-04"  target="_blank" rel="nofollow noopener noreferrer" >Digitalocean</a>.</p>
+<p>Zunächst loggen wir uns auf dem Server mittels SSH ein:</p>
+<pre tabindex="0"><code>ssh benutzer@ip_deines_vservers
+</code></pre><p>Wir wechseln ins Homeverzeichnis:</p>
+<pre tabindex="0"><code>cd ~
+</code></pre><p>und laden uns die neueste Version von Golang runter:</p>
+<pre tabindex="0"><code>curl -OL https://go.dev/dl/go1.20.linux-amd64.tar.gz
+</code></pre><p>und entpacken das Archiv in <code>/usr/local</code>:</p>
+<pre tabindex="0"><code>sudo tar -C /usr/local -xvf go1.20.linux-amd64.tar.gz
+</code></pre><h3 id="pfade-setzen">Pfade setzen</h3>
+<p>Damit go gefunden werden kann, geben wir noch den Pfad der binary bekannt und fügen ihn dafür in unsere <code>.profile</code>-Datei hinzu:</p>
+<pre tabindex="0"><code>sudo nano ~/.profile
+</code></pre><p>Hier setzen wir folgende Zeile am Ende der Datei ein:</p>
+<p><code>export PATH=$PATH:/usr/local/go/bin</code> und schließen/speichern mit Ctrl+x, y.</p>
+<p>Jetzt müssen wir die aktualisierte .profile-Datei noch neu einlesen mit:</p>
+<pre tabindex="0"><code>source ~/.profile
+</code></pre><p>Das war&rsquo;s – mit <code>$ go version</code> können wir prüfen, ob alles geklappt hat.</p>
+<p>Tada:</p>
+<p><code>go version go1.20 linux/amd64</code></p>
+<h2 id="mailygoinstallation">Installation von MailyGo</h2>
+<p>In meinem Setup nutze ich nicht die Originalversion von MailyGo, sondern einen etwas erweiterten 
+<a href="https://codeberg.org/mzch/mailygo"  target="_blank" rel="nofollow noopener noreferrer" >Fork</a> von Koichi Matsumoto.</p>
+<h3 id="kurze-aktuelle-version">Kurze, aktuelle Version</h3>
+<pre tabindex="0"><code>go install codeberg.org/js32/mailygo@v1.0.0
+</code></pre><p>Die Binary liegt dann unter ~/go/bin/mailygo</p>
+<h3 id="lange-alte-version">lange, alte Version</h3>
+<p>Ich bevorzuge manuell installierte Pakete in <code>/opt/</code> zu installieren, daher wechseln wir zunächst in dieses Verzeichnis:</p>
+<pre tabindex="0"><code>cd /opt/
+</code></pre><p>Jetzt klonen wir das Git-Verzeichnis mittels:</p>
+<pre tabindex="0"><code>git clone https://codeberg.org/mzch/mailygo.git
+</code></pre><p>und wechseln in das neue Verzeichnis:</p>
+<pre tabindex="0"><code>cd mailygo/
+</code></pre><p>Ein:</p>
+<pre tabindex="0"><code>go build ./
+</code></pre><p>kompiliert uns die eigentliche Application <code>mailygo</code>. Ich belasse sie in diesem Verzeichnis und start sie im Folgenden über den vollen Pfad <code>/opt/mailygo/mailygo</code>.</p>
+<h3 id="test">Erster Test</h3>
+<p>mailygo müsst ihr bei jedem Start <strong>environment variables</strong> mitgeben, derer da wären:</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Default value</th>
+<th>Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><code>SMTP_USER</code></strong></td>
+<td>required</td>
+<td>-</td>
+<td>The SMTP user</td>
+</tr>
+<tr>
+<td><strong><code>SMTP_PASS</code></strong></td>
+<td>required</td>
+<td>-</td>
+<td>The SMTP password</td>
+</tr>
+<tr>
+<td><strong><code>SMTP_HOST</code></strong></td>
+<td>required</td>
+<td>-</td>
+<td>The SMTP host</td>
+</tr>
+<tr>
+<td><strong><code>SMTP_PORT</code></strong></td>
+<td>optional</td>
+<td>587</td>
+<td>The SMTP port</td>
+</tr>
+<tr>
+<td><strong><code>USE_STARTTLS</code></strong></td>
+<td>optional</td>
+<td><code>true</code></td>
+<td>SMTP connection with STARTTLS</td>
+</tr>
+<tr>
+<td><strong><code>SMTP_HELO</code></strong></td>
+<td>optional</td>
+<td><code>localhost</code></td>
+<td>SMTP HELO hostname</td>
+</tr>
+<tr>
+<td><strong><code>EMAIL_FROM</code></strong></td>
+<td>required</td>
+<td>-</td>
+<td>The sender mail address</td>
+</tr>
+<tr>
+<td><strong><code>EMAIL_TO</code></strong></td>
+<td>required</td>
+<td>-</td>
+<td>Default recipient</td>
+</tr>
+<tr>
+<td><strong><code>ALLOWED_TO</code></strong></td>
+<td>required</td>
+<td>-</td>
+<td>All allowed recipients (separated by <code>,</code>)</td>
+</tr>
+<tr>
+<td><strong><code>PORT</code></strong></td>
+<td>optional</td>
+<td><code>8080</code></td>
+<td>The port on which the server should listen</td>
+</tr>
+<tr>
+<td><strong><code>HONEYPOTS</code></strong></td>
+<td>optional</td>
+<td><code>_t_email</code></td>
+<td>Honeypot form fields (separated by <code>,</code>)</td>
+</tr>
+<tr>
+<td><strong><code>GOOGLE_API_KEY</code></strong></td>
+<td>optional</td>
+<td>-</td>
+<td>Google API Key for the 
+<a href="https://developers.google.com/safe-browsing/v4/"  target="_blank" rel="nofollow noopener noreferrer" >Google Safe Browsing API</a></td>
+</tr>
+<tr>
+<td><strong><code>SPAMLIST</code></strong></td>
+<td>optional</td>
+<td><code>gambling,casino</code></td>
+<td>List of spam words</td>
+</tr>
+<tr>
+<td><strong><code>DENYLIST</code></strong></td>
+<td>optional</td>
+<td><code>submit</code></td>
+<td>List of fields names to deny</td>
+</tr>
+<tr>
+<td><strong><code>TOKEN</code></strong></td>
+<td>optional</td>
+<td>-</td>
+<td>A token to identify the origin of the submission</td>
+</tr>
+<tr>
+<td><strong><code>MESSAGE_HEADER</code></strong></td>
+<td>optional</td>
+<td>-</td>
+<td>Text to appear at the beginning of the email message, before the list of fields</td>
+</tr>
+<tr>
+<td><strong><code>MESSAGE_FOOTER</code></strong></td>
+<td>optional</td>
+<td>-</td>
+<td>Text to appear at the end of the email message, after the list of fields</td>
+</tr>
+<tr>
+<td><strong><code>MESSAGE_SUBMITTER</code></strong></td>
+<td>optional</td>
+<td><code>false</code></td>
+<td>If set to <code>true</code> and the form submitter provide an email address, a copy of the message is sent to him</td>
+</tr>
+<tr>
+<td><strong><code>MESSAGE_SUBMITTER_HEADER</code></strong></td>
+<td>optional</td>
+<td>-</td>
+<td>Text to appear at the beginning of the email message sent to submitter, before the list of fields</td>
+</tr>
+<tr>
+<td><strong><code>MESSAGE_SUBMITTER_FOOTER</code></strong></td>
+<td>optional</td>
+<td>-</td>
+<td>Text to appear at the end of the email message sent to submitter, after the list of fields</td>
+</tr>
+</tbody>
+</table>
+<p>Die komplette Readme-Datei findet ihr 
+<a href="https://codeberg.org/mzch/mailygo/src/branch/main/README.md"  target="_blank" rel="nofollow noopener noreferrer" >hier</a>.</p>
+<p>Probieren wir das gleich mal aus. Da wir uns aktuell im richtigen Verzeichnis <code>/opt/mailygo/</code> befinden, können wir die binary mit folgendem Befehl starten (setzt dabei natürlich eure Daten für euren verwendeten Mail-Account ein):</p>
+<pre tabindex="0"><code>SMTP_HOST=mail.host.com PORT=587 SMTP_PASS=yourpassword SMTP_USER=user@host.com USE_STARTTLS=true EMAIL_FROM=user@host.com EMAIL_TO=otheruser@otherhost.com ALLOWED_TO=otheruser@otherhost.com PORT=8000 ./mailygo
+</code></pre><p>Obiger Befehl startet mailygo - der Dienst lauscht wie unter <code>PORT</code> angegeben auf Port 8000. Sofern ihr keine Firewall einsetzt (living on the edge!), ist der Dienst jetzt schon unter der öffentlichen IP eures Servers erreichbar.</p>
+<p>Falls ihr doch eine Firewall laufen habt, was ich hoffe, müsst ihr den Port zunächst öffnen. Ich setze ufw ein, da geht das so:</p>
+<pre tabindex="0"><code>sudo ufw allow 8000
+</code></pre><p>Prüfen wir das mal. Mit:</p>
+<p><code>$ curl icanhazip.com</code> erfahren wir unsere Public IP-Adresse. Wenn wir diese im Browser, gefolgt von <code>:8000</code>, einsetzen, sollte er uns ein lakonisches <strong>MailyGo works!</strong> zurückmelden.</p>
+<p>Außerdem könnt ihr prüfen, ob mailygo ordentlich lauscht:</p>
+<pre tabindex="0"><code>lsof -i TCP| fgrep mailygo
+</code></pre><p>Was etwas wie</p>
+<pre tabindex="0"><code>mailygo   762851           euerUser    3u  IPv6 3049673      0t0  TCP *:8000 (LISTEN)
+</code></pre><p>zurückwerfen sollte. Perfekt!</p>
+<p>Jetzt löschen wir wieder die Portfreigabe der Firewall, da wir einen Reverse Proxy (nginx) vor mailygo setzen, der den internen Port unter unserer Domain weiterleitet:</p>
+<pre tabindex="0"><code>sudo ufw delete allow 8000
+</code></pre><h2 id="nginx">Reverse Proxy mit nginx</h2>
+<p>Damit wir in unserem Kontaktformular nicht die IP:Port-Kombination unserer mailygo-Installation angeben müssen und damit in den Genuss von SSL für unsere POST-Operation kommen, müssen wir einen virtuellen Proxy vor den Dienst setzen. Ich gehe hier davon aus, dass ihr nginx bereits laufen habt – sonst würde das den Rahmen sprengen.</p>
+<p>Ich habe mich dafür entschieden, jeweils Unterverzeichnisse meiner Domain für die unterschiedlichen mailygo-Dienste zu verwenden. So erspare ich mir, für jede neue Website eine eigene Subdomain anlegen zu müssen und kann stattdessen einen beliebigen Unterordner meiner Domain setzen. mailygo läuft dabei unter verschiedenen Benutzern und öffnet pro Instanz einen anderen Port, den ich dann dort zur Verfügung stelle. Das klingt jetzt vielleicht komplizierter, als es ist. Und das war auch genau das Problem bei meinen Google-Suchen. Ihr habt dafür jetzt diesen Post, falls ihr ein ähnliches Problem habt ;)</p>
+<p>Ihr erstellt euch also zunächst bei eurem Domain-Anbieter im DNS-Panel eine Subdomain (A-Record) für euren Dienst, der auf euren Server zeigt also etwas wie <code>mailygo.eure-domain.de</code>.</p>
+<p>Dann wechselt ihr auf eurem Sever in das Verzeichnis <code>/etc/nginx/sites-available/</code> und erzeugt gleichzeitig eine neue nginx-Konfiguration:</p>
+<pre tabindex="0"><code>cd /etc/nginx/sites-available/ &amp;&amp; nano mailygo
+</code></pre><p>Im neuen Editor-Fenster fügt ihr folgendes für eure neue Domain <code>mailygo.eure-domain.de</code> ein:</p>
+<pre tabindex="0"><code>server {
+    server_name mailygo.eure-domain.de;
+        location /eurewebsite {
+                proxy_pass http://localhost:8000;
+                proxy_set_header X-Forwarded-For $remote_addr;
+    }
+}
+</code></pre><p><code>eurewebsite</code> kann beliebig heißen, ich nehme dafür eine Kurzbezeichnung meiner Websites, hier wäre das <code>vgnsm</code>. Achtet drauf, dass ihr den richtigen Port in Zeile 4 eingebt (wir starten mailygo ja mit Port 8000).</p>
+<p>Jetzt erzeugen wir noch einen Symlink, damit die neue Konfig auch von nginx ausgeführt wird:</p>
+<pre tabindex="0"><code>ln -s /etc/nginx/sites-available/mailygo /etc/nginx/sites-enabled/mailygo
+</code></pre><p>Startet den Service neu mit:</p>
+<pre tabindex="0"><code>sudo systemctl restart nginx
+</code></pre><h3 id="certbot">SSL mit Certbot</h3>
+<p>Ich empfehle ja immer den Einsatz von letsencrypt für euer SSL. Wenn ihr das benutzen wollt, könnt ihr euch ein Zertifikat holen und das installieren:</p>
+<pre tabindex="0"><code>sudo certbot --nginx
+</code></pre><p>Danach sieht eure nginx-Konfig so aus:</p>
+<pre tabindex="0"><code>server {
+    server_name mailygo.eure-domain.de;
+        location /eurewebsite {
+                proxy_pass http://localhost:8000;
+                proxy_set_header X-Forwarded-For $remote_addr;
+    }
+
+
+    listen 443 ssl; # managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/mailygo.eure-domain.de/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/mailygo.eure-domain.de/privkey.pem; # managed by Certbot
+    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
+}
+
+server {
+
+    if ($host = mailygo.eure-domain.de) {
+        return 301 https://$host$request_uri;
+    } # managed by Certbot
+
+
+    server_name mailygo.eure-domain.de;
+    listen 80;
+    return 404; # managed by Certbot
+
+}
+</code></pre><p>Das war&rsquo;s zunächst für nginx. Startet den Service nochmals neu mit:</p>
+<pre tabindex="0"><code>sudo systemctl restart nginx
+</code></pre><h2 id="systemd">Starten von mailygo mittels systemd</h2>
+<p>Damit wir mailygo automatisiert laufen lassen können, macht es Sinn, diese Aufgabe systemd zu übergeben. Aber zunächst erzeugen wir uns einen neuen Benutzer, unter dem mailygo für diese Webiste laufen soll:</p>
+<pre tabindex="0"><code>sudo useradd eurewebsite
+</code></pre><p>Ich wähle als Benutzername wiederum den Kurznamen für eure Website, den wir weiter oben in den nginx-Konfig schon verwendet haben, aber ihr könnt auch einfach „Thomas“ nehmen :D</p>
+<p>Jetzt erzeugen wir uns eine neue systemd-Unit.</p>
+<pre tabindex="0"><code>sudo nano /etc/systemd/system/mailygo.eure-domain.de
+</code></pre><p>und fügen dort folgendes ein:</p>
+<pre tabindex="0"><code>[Unit]
+Description = runs mailygo for mailygo.eure-domain.de
+
+[Service]
+Type = simple
+User = eurewebsite
+Group = eurewebsite
+ExecStart = /opt/mailygo/mailygo
+Restart=always
+StandardOutput=syslog
+EnvironmentFile=/opt/mailygo/env/eurewebsite
+
+[Install]
+WantedBy=multi-user.target
+</code></pre><p>Bei User, Group und EnvironmentFile müsst ihr noch eure passenden Namen einsetzen. Das EnvironmentFile (env) dient uns dazu, die Environment Variables übersichtlich beim Startbefehl mitgeben zu können. Auch diese Datei können wir pro laufenden Dienst hinterlegen und entsprechend anpassen.</p>
+<h2 id="env">Environment Variables über env-Datei</h2>
+<p>Zunächst wechseln wir wieder ins Verzeichnis der mailygo-Installation und erzeugen dort einen neuen Ordner <code>env</code>:</p>
+<pre tabindex="0"><code>cd /opt/mailygo/ &amp;&amp; mkdir ./env
+</code></pre><p>Im neuen Oder <code>env</code> erstellen wir mit nano eine neue Datei <code>eurewebsite</code> mit folgendem Inhalt:</p>
+<pre tabindex="0"><code>SMTP_HOST=euer_Mailserver
+USE_STARTTLS=true (oder false)
+PORT=587 (euer Port)
+SMTP_USER=Benutzername
+SMTP_PASS=2Passwort
+EMAIL_FROM=absender@mailserver.com
+EMAIL_TO=empfänger@mailserver.com
+ALLOWED_TO=empfänger@mailserver.com
+PORT=8000 (Port, auf dem mailygo lauschen soll)
+MESSAGE_HEADER=&#34;Ein Besucher hat folgende Nachricht hinterlassen&#34;
+MESSAGE_FOOTER=&#34;Diese Mail wurde mittels mailygo gesandt&#34;
+TOKEN=qdhiofh4t5d2lkehwc323 (Beliebige Zeichenkette)
+SPAMLIST=gambling,casino,lottery
+HONEYPOTS=_t_email
+</code></pre><p>Schaut euch die 
+<a href="https://codeberg.org/mzch/mailygo/src/branch/main/README.md"  target="_blank" rel="nofollow noopener noreferrer" >Readme</a> zur Erläuterung an.</p>
+<p>Die Unit ist ready, sobald wir folgende beiden Befehle ausgeführt haben:</p>
+<pre tabindex="0"><code>sudo systemctl daemon-reload &amp;&amp; sudo systemctl restart mailygo.eure-domain.de.service
+</code></pre><p>Wenn ihr nun auf mailygo.eure-domain.de/eurewebsite surft, sollte wieder das bekannte lakonische „MailyGo works!“ zurückkommen. Super!</p>
+<h2 id="form">Das Kontaktformular</h2>
+<p>Das Repository enthält eine 
+<a href="https://codeberg.org/mzch/mailygo/src/branch/main/form.html"  target="_blank" rel="nofollow noopener noreferrer" >Beispiel-Datei</a> für ein Kontaktformular, das ihr beliebig anpassen könnt:</p>
+<pre tabindex="0"><code>&lt;form action=&#34;//localhost:8080&#34; method=&#34;post&#34;&gt;
+  &lt;!-- &lt;input type=&#34;hidden&#34; name=&#34;_to&#34; value=&#34;test@example.com&#34; /&gt; --&gt;
+  &lt;input type=&#34;hidden&#34; name=&#34;_formName&#34; value=&#34;Test Form&#34; /&gt;
+  &lt;input type=&#34;hidden&#34; name=&#34;_redirectTo&#34; value=&#34;https://example.com&#34; /&gt;
+  &lt;input type=&#34;hidden&#34; name=&#34;_token&#34; value=&#34;a3B2c1&#34; /&gt;
+  &lt;label for=&#34;TEmail&#34; style=&#34;display: none;&#34;&gt;Test&lt;/label&gt;
+  &lt;input id=&#34;TEmail&#34; type=&#34;email&#34; name=&#34;_t_email&#34; style=&#34;display: none;&#34; /&gt;
+  &lt;label for=&#34;Email&#34;&gt;Email&lt;/label&gt;
+  &lt;br /&gt;
+  &lt;input id=&#34;Email&#34; type=&#34;email&#34; name=&#34;_replyTo&#34; required /&gt;
+  &lt;br /&gt;
+  &lt;label for=&#34;Name&#34;&gt;Name&lt;/label&gt;
+  &lt;br /&gt;
+  &lt;input id=&#34;Name&#34; type=&#34;text&#34; name=&#34;_name&#34; required /&gt;
+  &lt;br /&gt;
+  &lt;label for=&#34;Subject&#34;&gt;Subject&lt;/label&gt;
+  &lt;br /&gt;
+  &lt;input id=&#34;Subject&#34; type=&#34;text&#34; name=&#34;_subject&#34; required /&gt;
+  &lt;br /&gt;
+  &lt;label for=&#34;Message&#34;&gt;Message&lt;/label&gt;
+  &lt;br /&gt;
+  &lt;textarea id=&#34;Message&#34; name=&#34;_message&#34;&gt;&lt;/textarea&gt;
+  &lt;br /&gt;
+  &lt;label for=&#34;Website&#34;&gt;Website&lt;/label&gt;
+  &lt;br /&gt;
+  &lt;input id=&#34;Website&#34; type=&#34;text&#34; name=&#34;Website&#34; required /&gt;
+  &lt;br /&gt;
+  &lt;input type=&#34;submit&#34; value=&#34;Send&#34; /&gt;
+&lt;/form&gt;
+</code></pre><p>Ihr müsst nur die erste Zeile wie folgt anpassen:</p>
+<pre tabindex="0"><code>&lt;form action=&#34;https://mailygo.eure-domain.de/eurewebsite&#34; method=&#34;post&#34;&gt;
+</code></pre><p>Die zweite Zeile <code>&lt;input type=&quot;hidden&quot; name=&quot;_to&quot; value=&quot;test@example.com&quot; /&gt;</code> habe ich bei meinen Formularen rausgeschmissen, damit meine Mail-Adresse nicht von Spambots gefressen wird. Wir haben den Empfänger ja in unserem env-File bereits hinterlegt:</p>
+<pre tabindex="0"><code>EMAIL_TO=empfänger@mailserver.com
+ALLOWED_TO=empfänger@mailserver.com
+</code></pre><p>Das war&rsquo;s – mailygo läuft nun mit env-File unter dem User „eurewebsite“ und der Port 8000 wird mittels nginx unter einem Unterverzeichnis eurer Subdomain vermittelt.</p>
+<h2 id="multi">Mehrere Prozesse für unterschiedliche Domains</h2>
+<p>Wir haben jetzt die Voraussetzungen geschaffen, mailygo für verschiedene Domains/Websites zur Verfügung zu stellen.</p>
+<p>Um eine zweite Instanz von mailygo laufen zu lassen, müssen wir nur einen weiteren Benutzer erzeugen (siehe „Starten von mailygo mittels systemd“) und für diesen eine neue Unit anlegen mit den entsprechenden Einträgen für User, Group und EnvironmentFile.</p>
+<p>Der neue env-File muss einen anderen Port enthalten, zum Beispiel 8001, sonst kann mailygo nicht noch einmal gestartet werden, da der Port schon belegt ist.</p>
+<p>Anschließend wechseln wir wieder in unserer nginx-Konfig und fügen dort einen neuen Eintrag für das neue Unterverzeichnis <code>eureanderewebsite</code> (Zeilen 8 und 10) ein:</p>
+<pre tabindex="0"><code>server {
+    server_name mailygo.eure-domain.de;
+        location /eurewebsite {
+                proxy_pass http://localhost:8000;
+                proxy_set_header X-Forwarded-For $remote_addr;
+    }
+&lt;!-- zweiter Eintrag für weiteren mailygo-Prozess! --&gt;
+        location /eureanderewebsite {
+&lt;!-- neuer Port 8001! --&gt;
+                proxy_pass http://localhost:8001;
+                proxy_set_header X-Forwarded-For $remote_addr;
+    }
+
+
+    listen 443 ssl; # managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/mailygo.eure-domain.de/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/mailygo.eure-domain.de/privkey.pem; # managed by Certbot
+    include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
+
+}
+
+server {
+
+    if ($host = mailygo.eure-domain.de) {
+        return 301 https://$host$request_uri;
+    } # managed by Certbot
+
+
+    server_name mailygo.eure-domain.de;
+    listen 80;
+    return 404; # managed by Certbot
+
+}
+</code></pre><p>In eurem Formular auf der anderen Website ändert ihr wieder die Zeile:</p>
+<p><code>&lt;form action=&quot;//localhost:8080&quot; method=&quot;post&quot;&gt;</code></p>
+<p>zu</p>
+<p><code>&lt;form action=&quot;https://mailygo.eure-domain.de/eureanderewebsite&quot; method=&quot;post&quot;&gt;</code></p>
+<p>und voilà.</p>
+</div>
+                    <div class="post_footer">
+                        
+                        <div class="meta">
+                            <div class="info">
+                                <span class="field tags">
+                                    <i class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M20.0834 15.1999L21.2855 15.9212C21.5223 16.0633 21.599 16.3704 21.457 16.6072C21.4147 16.6776 21.3559 16.7365 21.2855 16.7787L12.5145 22.0412C12.1979 22.2313 11.8022 22.2313 11.4856 22.0412L2.71463 16.7787C2.47784 16.6366 2.40106 16.3295 2.54313 16.0927C2.58536 16.0223 2.64425 15.9634 2.71463 15.9212L3.91672 15.1999L12.0001 20.0499L20.0834 15.1999ZM20.0834 10.4999L21.2855 11.2212C21.5223 11.3633 21.599 11.6704 21.457 11.9072C21.4147 11.9776 21.3559 12.0365 21.2855 12.0787L12.0001 17.6499L2.71463 12.0787C2.47784 11.9366 2.40106 11.6295 2.54313 11.3927C2.58536 11.3223 2.64425 11.2634 2.71463 11.2212L3.91672 10.4999L12.0001 15.3499L20.0834 10.4999ZM12.5145 1.30864L21.2855 6.5712C21.5223 6.71327 21.599 7.0204 21.457 7.25719C21.4147 7.32757 21.3559 7.38647 21.2855 7.42869L12.0001 12.9999L2.71463 7.42869C2.47784 7.28662 2.40106 6.97949 2.54313 6.7427C2.58536 6.67232 2.64425 6.61343 2.71463 6.5712L11.4856 1.30864C11.8022 1.11864 12.1979 1.11864 12.5145 1.30864ZM12.0001 3.33233L5.88735 6.99995L12.0001 10.6676L18.1128 6.99995L12.0001 3.33233Z"></path></svg></i>
+                                    
+                                    <a href="http://localhost:50308/tags/tech/">tech</a>
+                                    
+                                    <a href="http://localhost:50308/tags/hugo/">hugo</a>
+                                    
+                                    <a href="http://localhost:50308/tags/tutorial/">tutorial</a>
+                                    
+                                </span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                
+                <div class="doc_comments"></div>
+                
+            </div>
+        </div>
+    </div>
+    <a id="back_to_top"  href="#" class="back_to_top"><i class="icon baseline"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" fill="currentColor"><path d="M11.9999 10.8284L7.0502 15.7782L5.63599 14.364L11.9999 8L18.3639 14.364L16.9497 15.7782L11.9999 10.8284Z"></path></svg></i></a> 
+    <footer class="footer">
+    <div class="footer_slogan">
+        <span>Eine Seite für Betroffene</span>
+    </div>
+    <div class="powered_by">
+        <a href="/posts/2021/tech/how-its-built/">Womit ist diese Seite gebaut?</a> </br>
+        <a href="/impressum-datenschutz/">Impressum & Datenschutz</a> <br> <br>
+        <a href="https://512kb.club" target="_blank">Diese Seite ist stolzes Mitglied im 512KB Club</a>
+
+        <p style="color: #F7F7F7">Wenn ihr euch für verwandte Themen, wie z.B. Agroforst, Gewaltfreie Kommunikation,
+            Gemeinschafts- und Selbstentwicklung oder Ökologie allgemein interessiert, schaut mal auf der <a
+                style="text-decoration: none; color: #F7F7F7;" href="https://webinarwelt.siebenlinden.org"
+                target=_blank>Webinarwelt Sieben Linden</a> vorbei. Dort gibt es Online-Kurse von sehr qulifizierten und
+            erfahrenen Referent:innen zu allen möglichen Themen.</p>
+    </div>
+</footer>
+    
+<script src="http://localhost:50308/js/jquery-3.5.1.min.js"></script>
+<script src="http://localhost:50308/js/fancybox.min.js"></script>
+<link href="http://localhost:50308/css/fancybox.min.css" rel="stylesheet">
+<script src="http://localhost:50308/js/zozo.js"></script>
+
+
+
+
+</body>
+</html>
+

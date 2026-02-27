@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Propaganda on VGNSMS</title>
+    <link>http://localhost:50308/tags/propaganda/</link>
+    <description>Recent content in Propaganda on VGNSMS</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <managingEditor>info@dieses-veganimus.de (Jens)</managingEditor>
+    <webMaster>info@dieses-veganimus.de (Jens)</webMaster>
+    <lastBuildDate>Sat, 17 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:50308/tags/propaganda/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FAQ: Woher bekommt ihr denn eure Proteine? (whadabout protons?!)</title>
+      <link>http://localhost:50308/posts/2021/faq/woher-bekommt-ihr-eure-proteine/</link>
+      <pubDate>Sat, 17 Apr 2021 00:00:00 +0000</pubDate><author>info@dieses-veganimus.de (Jens)</author>
+      <guid>http://localhost:50308/posts/2021/faq/woher-bekommt-ihr-eure-proteine/</guid>
+      <description>Für viele scheint es unvorstellbar zu sein, dass es auch ohne Eier und Steak möglich ist, seinen Eiweiß-Bedarf zu decken.&#xA;Dass das mit einer pflanzlichen Ernährung problemlos möglich ist, soll folgender Gedanke zeigen:</description>
+    </item>
+    <item>
+      <title>FAQ: Woher bekommt ihr euer Calcium?</title>
+      <link>http://localhost:50308/posts/2021/faq/woher-bekommt-ihr-euer-calcium/</link>
+      <pubDate>Tue, 23 Mar 2021 11:46:49 +0100</pubDate><author>info@dieses-veganimus.de (Jens)</author>
+      <guid>http://localhost:50308/posts/2021/faq/woher-bekommt-ihr-euer-calcium/</guid>
+      <description>TL; DR: Grundsätzlich lohnen sich hier zwei Fragen:&#xA;Wie kommt das Calcium in die Milch? Woher weiß jedes Kind, dass Milch so ein wichtiger Calcium-Lieferant ist? Ad 1 – Calcium ist ein Mineral.</description>
+    </item>
+  </channel>
+</rss>
