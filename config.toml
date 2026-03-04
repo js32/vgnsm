@@ -5,7 +5,7 @@ title = "VGNSMS"                          # site title
 theme = "zozo"
 hasCJKLanguage = false                    # has chinese/japanese/korean ?  
 summaryLength = 30
-paginate = 4                              # shows the number of articles  
+pagination.pagerSize = 4                              # shows the number of articles  
 enableEmoji = true
 googleAnalytics = ""        # your google analytics id
 # disqusShortname = "@disqus_OlLLFboZ76"    # your disquss shortname
@@ -14,7 +14,7 @@ googleAnalytics = ""        # your google analytics id
 home = [ "HTML", "RSS", "JSON"]
 
 
-[author]                               # essential                    
+[params.author]                        # essential
   name = "Jens"
   email = "info@dieses-veganimus.de"
 
@@ -89,7 +89,7 @@ home = [ "HTML", "RSS", "JSON"]
   [privacy.instagram]
     disable = true
     simple = true
-  [privacy.twitter]
+  [privacy.x]
     disable = true
     enableDNT = true
     simple = true
